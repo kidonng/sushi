@@ -1,25 +1,25 @@
 {
-  "version": "202006032205",
-  "description": "Enhanced ruleset for V2Ray",
-  "homepage": "https://github.com/Loyalsoldier/v2ray-rules-dat",
-  "license": "GPL-3.0-or-later",
-  "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202006032205/rules.zip",
-  "hash": "902cd5df9f4c738129c65e9eee0612318255e61ff9bc77ee61960d9a835e6f96",
-  "depends": "v2ray",
-  "post_install": [
-    "Write-Host \"Creating hardlink for geoip.dat\"",
-    "New-Item -Force -ItemType HardLink -Path \"$(appdir v2ray $global)\\current\" -Name geoip.dat -Target \"$dir\\geoip.dat\" | Out-Null",
-    "Write-Host \"Creating hardlink for geosite.dat\"",
-    "New-Item -Force -ItemType HardLink -Path \"$(appdir v2ray $global)\\current\" -Name geosite.dat -Target \"$dir\\geosite.dat\" | Out-Null"
-  ],
-  "uninstaller": {
-    "script": [
-      "Remove-Item \"$(appdir v2ray $global)\\current\\geoip.dat\" -Force",
-      "Remove-Item \"$(appdir v2ray $global)\\current\\geosite.dat\" -Force"
-    ]
-  },
-  "checkver": "github",
-  "autoupdate": {
-    "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/$version/rules.zip"
-  }
+    "version": "202006042206",
+    "description": "Enhanced ruleset for V2Ray",
+    "homepage": "https://github.com/Loyalsoldier/v2ray-rules-dat",
+    "license": "GPL-3.0-or-later",
+    "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202006042206/rules.zip",
+    "hash": "17e55afd5893c5f958213625bc6e63d738081fe1554f02d9dcf56eabb9fc3bf6",
+    "depends": "v2ray",
+    "post_install": [
+        "Write-Host \"Creating hardlink for geoip.dat\"",
+        "New-Item -Force -ItemType HardLink -Path \"$(appdir v2ray $global)\\current\" -Name geoip.dat -Target \"$dir\\geoip.dat\" | Out-Null",
+        "Write-Host \"Creating hardlink for geosite.dat\"",
+        "New-Item -Force -ItemType HardLink -Path \"$(appdir v2ray $global)\\current\" -Name geosite.dat -Target \"$dir\\geosite.dat\" | Out-Null"
+    ],
+    "uninstaller": {
+        "script": [
+            "Remove-Item \"$(appdir v2ray $global)\\current\\geoip.dat\" -Force",
+            "Remove-Item \"$(appdir v2ray $global)\\current\\geosite.dat\" -Force"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/$version/rules.zip"
+    }
 }
