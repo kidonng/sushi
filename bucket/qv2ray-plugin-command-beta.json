@@ -1,0 +1,40 @@
+{
+  "version": "2.0.0-pre2",
+  "description": "Command plugin for Qv2ray (beta)",
+  "homepage": "https://github.com/Qv2ray/QvPlugin-Command",
+  "license": "GPL-3.0-or-later",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/Qv2ray/QvPlugin-Command/releases/download/v2.0.0-pre2/QvCommandPlugin.v2.0.0-pre2.Windows-x64.dll",
+      "hash": "cf3dc349d9142ac08adec10bcea7b8b5fd0e5134d8ea4298a09167eda437b864"
+    },
+    "32bit": {
+      "url": "https://github.com/Qv2ray/QvPlugin-Command/releases/download/v2.0.0-pre2/QvCommandPlugin.v2.0.0-pre2.Windows-x86.dll",
+      "hash": "7610871cb490da363e175f9d4f54dff03fc38c9ede1a268a17ee645ec47634c8"
+    }
+  },
+  "depends": "qv2ray-beta",
+  "post_install": [
+    "Write-Host \"Creating hardlink for command.dll\"",
+    "New-Item -Force -ItemType HardLink -Path \"$(appdir qv2ray-beta $global)\\current\\config\\plugins\" -Name command.dll -Target \"$dir\\*.dll\" | Out-Null"
+  ],
+  "uninstaller": {
+    "script": [
+      "Remove-Item \"$(appdir qv2ray-beta $global)\\current\\config\\plugins\\command.dll\" -Force"
+    ]
+  },
+  "checkver": {
+    "github": "https://github.com/Qv2ray/QvPlugin-Command",
+    "re": "v(\\d+\\.\\d+\\.\\d+\\.\\d+[a-zA-Z-\\d]*)"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/Qv2ray/QvPlugin-Command/releases/download/v$version/QvCommandPlugin.v$version.Windows-x64.dll"
+      },
+      "32bit": {
+        "url": "https://github.com/Qv2ray/QvPlugin-Command/releases/download/v$version/QvCommandPlugin.v$version.Windows-x86.dll"
+      }
+    }
+  }
+}
