@@ -24,8 +24,8 @@
     ]
   },
   "checkver": {
-    "github": "https://github.com/Qv2ray/QvPlugin-Command",
-    "re": "v(\\d+\\.\\d+\\.\\d+\\.\\d+[a-zA-Z-\\d]*)"
+    "url": "https://github.com/Qv2ray/QvPlugin-Command/releases",
+    "re": "/tree/([\\w.-]+)"
   },
   "autoupdate": {
     "architecture": {

@@ -35,8 +35,8 @@
   "shortcuts": [["qv2ray.exe", "Qv2ray"]],
   "persist": "config",
   "checkver": {
-    "github": "https://github.com/Qv2ray/Qv2ray",
-    "re": "v(\\d+\\.\\d+\\.\\d+\\.\\d+[a-zA-Z-\\d]*)"
+    "url": "https://github.com/Qv2ray/Qv2ray/releases",
+    "re": "/tree/([\\w.-]+)"
   },
   "autoupdate": {
     "architecture": {

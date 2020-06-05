@@ -24,8 +24,8 @@
     ]
   },
   "checkver": {
-    "github": "https://github.com/Qv2ray/QvPlugin-Trojan",
-    "re": "v(\\d+\\.\\d+\\.\\d+\\.\\d+[a-zA-Z-\\d]*)"
+    "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases",
+    "re": "/tree/([\\w.-]+)"
   },
   "autoupdate": {
     "architecture": {
