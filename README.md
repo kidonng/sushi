@@ -17,6 +17,10 @@ This [Scoop](https://scoop-docs.now.sh/) bucket provides [V2Ray](https://v2ray.c
 - [`qv2ray-plugin-ssr` / `qv2ray-plugin-ssr-beta`](https://github.com/Qv2ray/QvPlugin-SSR)
 - [`qv2ray-plugin-trojan` / `qv2ray-plugin-trojan-beta`](https://github.com/Qv2ray/QvPlugin-Trojan)
 
+### Misc
+
+- [`trojan-qt5`](https://github.com/Trojan-Qt5/Trojan-Qt5)
+
 ## Usage
 
 ```powershell

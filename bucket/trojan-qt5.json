@@ -1,0 +1,15 @@
+{
+  "version": "1.1.6",
+  "description": "A cross-platform Trojan GUI client",
+  "homepage": "https://github.com/Trojan-Qt5/Trojan-Qt5",
+  "license": "GPL-3.0-or-later",
+  "url": "https://github.com/Trojan-Qt5/Trojan-Qt5/releases/download/v1.1.6/Trojan-Qt5-Windows.zip",
+  "hash": "8490e01e4eca6b37752a83f8ca5e53a8f4cd41486c8b242110740d4c0cb7bc94",
+  "bin": "trojan-qt5.exe",
+  "shortcuts": [["trojan-qt5.exe", "Trojan-Qt5"]],
+  "persist": ["config.ini", "config.json", "pac"],
+  "checkver": "github",
+  "autoupdate": {
+    "url": "https://github.com/Trojan-Qt5/Trojan-Qt5/releases/download/v$version/Trojan-Qt5-Windows.zip"
+  }
+}
