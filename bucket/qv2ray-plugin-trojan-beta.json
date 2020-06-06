@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/download/v2.0.0-pre3/QvTrojanPlugin.v2.0.0-pre3.Windows-x64.dll",
-            "hash": "861e9ed698e1398782768621254d94a565135966c666d2604e09fc37e7dde73b"
+            "hash": "2e6b14b3f503803ea439ac8f92d6b3ecd9d07c8207ca8dff320e798186c3743f"
         },
         "32bit": {
             "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/download/v2.0.0-pre3/QvTrojanPlugin.v2.0.0-pre3.Windows-x86.dll",
-            "hash": "53ed1a9a15beec69fabbfa7ce7965242772572c82591026c41b65013d8c081a4"
+            "hash": "5a1a63d88969de84e579786ba571e2c1cc3572514578b2e0d7f2d2200d8a374e"
         }
     },
     "depends": "qv2ray-beta",
