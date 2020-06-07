@@ -1,16 +1,16 @@
 {
-    "version": "2.0.0-pre4",
+    "version": "2.0.0-pre5",
     "description": "ShadowSocksR plugin for Qv2ray (beta)",
     "homepage": "https://github.com/Qv2ray/QvPlugin-SSR",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/download/v2.0.0-pre4/QvSSRPlugin.v2.0.0-pre4.Windows-x64.dll",
-            "hash": "f43adece2cd8f81155ffb7a9fb683e542d817b28593c6d36ee2cc58c4afa5399"
+            "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/download/v2.0.0-pre5/QvSSRPlugin.v2.0.0-pre5.Windows-x64.dll",
+            "hash": "2c8409b1db722575258c11902296e43b3a3ffeb34aa55ae448d69843bac6b326"
         },
         "32bit": {
-            "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/download/v2.0.0-pre4/QvSSRPlugin.v2.0.0-pre4.Windows-x86.dll",
-            "hash": "2c4dacd070c0a2a82953f30192dd77cf28acf0d1a59713b3871be92499786326"
+            "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/download/v2.0.0-pre5/QvSSRPlugin.v2.0.0-pre5.Windows-x86.dll",
+            "hash": "9ea4036bd6d30774cbc436a7125ca8e2ece10a87669f94b65cfd3dec25ef5de7"
         }
     },
     "depends": "qv2ray-beta",
