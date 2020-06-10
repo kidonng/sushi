@@ -36,5 +36,6 @@
         "url": "https://github.com/Qv2ray/QvPlugin-Command/releases/download/v$version/QvCommandPlugin.v$version.Windows-x86.dll"
       }
     }
-  }
+  },
+  "notes": "Beta version plugin only works with Qv2ray beta."
 }

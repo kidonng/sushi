@@ -47,5 +47,6 @@
         "url": "https://github.com/Qv2ray/Qv2ray/releases/download/v$version/Qv2ray.v$version.Windows-x86.7z"
       }
     }
-  }
+  },
+  "notes": "Qv2ray beta version can only use beta version plugin."
 }
