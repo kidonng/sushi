@@ -16,6 +16,7 @@ This [Scoop](https://scoop-docs.now.sh/) bucket provides [V2Ray](https://v2ray.c
 - [`qv2ray-plugin-command` / `qv2ray-plugin-command-beta`](https://github.com/Qv2ray/QvPlugin-Command)
 - [`qv2ray-plugin-ssr` / `qv2ray-plugin-ssr-beta`](https://github.com/Qv2ray/QvPlugin-SSR)
 - [`qv2ray-plugin-trojan` / `qv2ray-plugin-trojan-beta`](https://github.com/Qv2ray/QvPlugin-Trojan)
+- [`qv2ray-plugin-naiveproxy`](https://github.com/Qv2ray/QvPlugin-NaiveProxy)
 
 ### Misc
 
