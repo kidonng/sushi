@@ -21,6 +21,7 @@ This [Scoop](https://scoop-docs.now.sh/) bucket provides [V2Ray](https://v2ray.c
 ### Misc
 
 - [`trojan-qt5`](https://github.com/Trojan-Qt5/Trojan-Qt5)*
+- [`naiveproxy`](https://github.com/klzgrad/naiveproxy)
 
 \* Need administrator permission to persist data
 
