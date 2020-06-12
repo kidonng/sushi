@@ -1,10 +1,10 @@
 {
-    "version": "202006111027",
+    "version": "202006120144",
     "description": "A list of domains, to be used as geosites for routing purpose in Project V.",
     "homepage": "https://github.com/v2ray/domain-list-community",
     "license": "MIT",
-    "url": "https://github.com/v2ray/domain-list-community/releases/download/202006111027/dlc.dat",
-    "hash": "c718127d05cdc912562d8e994b120091ffb171432fc5f0ea5384390b3bee9852",
+    "url": "https://github.com/v2ray/domain-list-community/releases/download/202006120144/dlc.dat",
+    "hash": "0225ff8558d0a9550c7f69533969acc34933ad768e482c82c8004cf2a70053fa",
     "depends": "v2ray",
     "post_install": [
         "Write-Host \"Creating hardlink for geosite.dat\"",
