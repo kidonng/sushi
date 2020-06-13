@@ -1,19 +1,22 @@
 {
-    "version": "0.0.9",
+    "version": "0.1.0-rc1",
     "description": "NaiveProxy plugin for Qv2ray",
     "homepage": "https://github.com/Qv2ray/QvPlugin-NaiveProxy",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/download/v0.0.9/QvPlugin-NaiveProxy.v0.0.9.Windows-x64.dll",
-            "hash": "f60d9e31ebcf22ce4e0335af70855d3bbc34bd83eb36185d2631cb3f5fddd814"
+            "url": "https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/download/v0.1.0-rc1/QvPlugin-NaiveProxy.v0.1.0-rc1.Windows-x64.dll",
+            "hash": "ebd5f53a33f47c961d09bed62f8fdfd6043c02572346cab4408fe32cbf606f08"
         },
         "32bit": {
-            "url": "https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/download/v0.0.9/QvPlugin-NaiveProxy.v0.0.9.Windows-x86.dll",
-            "hash": "22ca128e1bc04b222ee3dcb53abe72218ef3bc178a83860bc574b86f7916b3d9"
+            "url": "https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/download/v0.1.0-rc1/QvPlugin-NaiveProxy.v0.1.0-rc1.Windows-x86.dll",
+            "hash": "0c41b1116d9dec8fcc90020d0d6bc58aca4710e9d654fabad17dc21ae2283d04"
         }
     },
-    "depends": ["qv2ray-beta", "naiveproxy"],
+    "depends": [
+        "qv2ray-beta",
+        "naiveproxy"
+    ],
     "post_install": [
         "Write-Host \"Creating hardlink for naiveproxy.dll\"",
         "New-Item -Force -ItemType HardLink -Path \"$(appdir qv2ray-beta $global)\\current\\config\\plugins\" -Name naiveproxy.dll -Target \"$dir\\*.dll\" | Out-Null",
