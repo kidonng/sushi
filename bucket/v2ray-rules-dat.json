@@ -1,10 +1,10 @@
 {
-    "version": "202006152206",
+    "version": "202006162210",
     "description": "Enhanced ruleset for V2Ray",
     "homepage": "https://github.com/Loyalsoldier/v2ray-rules-dat",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202006152206/rules.zip",
-    "hash": "e7116b4ab8b4a768b04e1159078f88388aa9f3f36f5ea845650705cac8f17ce4",
+    "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202006162210/rules.zip",
+    "hash": "a4de68cbfd72bd95b56bc2b5d74a228ece8207d6c7aeafdd8a118c29a4813995",
     "depends": "v2ray",
     "post_install": [
         "Write-Host \"Creating hardlink for geoip.dat\"",
