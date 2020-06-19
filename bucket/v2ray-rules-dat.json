@@ -6,12 +6,16 @@
     "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202006182206/rules.zip",
     "hash": "f69fe3e2838d83ed4b4ea3d11a59518baf0deafdf482b5c458f74f720e9422d8",
     "depends": "v2ray",
-    "post_install": [
-        "Write-Host \"Creating hardlink for geoip.dat\"",
-        "New-Item -Force -ItemType HardLink -Path \"$(appdir v2ray $global)\\current\" -Name geoip.dat -Target \"$dir\\geoip.dat\" | Out-Null",
-        "Write-Host \"Creating hardlink for geosite.dat\"",
-        "New-Item -Force -ItemType HardLink -Path \"$(appdir v2ray $global)\\current\" -Name geosite.dat -Target \"$dir\\geosite.dat\" | Out-Null"
-    ],
+    "installer": {
+        "script": [
+            "function LinkFile([String] $file, [String] $source = $file) {",
+            "    Write-Host \"Creating hardlink for $file\"",
+            "    New-Item -Force -ItemType HardLink -Path \"$(appdir v2ray $global)\\current\" -Name $file -Target \"$dir\\$source\" | Out-Null",
+            "}",
+            "LinkFile 'geoip.dat'",
+            "LinkFile 'geosite.dat'"
+        ]
+    },
     "uninstaller": {
         "script": [
             "Remove-Item \"$(appdir v2ray $global)\\current\\geoip.dat\" -Force",

@@ -14,10 +14,15 @@
     }
   },
   "depends": "qv2ray-beta",
-  "post_install": [
-    "Write-Host \"Creating hardlink for ssr.dll\"",
-    "New-Item -Force -ItemType HardLink -Path \"$(appdir qv2ray-beta $global)\\current\\config\\plugins\" -Name ssr.dll -Target \"$dir\\*.dll\" | Out-Null"
-  ],
+  "installer": {
+    "script": [
+        "function LinkFile([String] $file, [String] $source = $file) {",
+        "    Write-Host \"Creating hardlink for $file\"",
+        "    New-Item -Force -ItemType HardLink -Path \"$(appdir qv2ray-beta $global)\\current\\config\\plugins\" -Name $file -Target \"$dir\\$source\" | Out-Null",
+        "}",
+        "LinkFile 'ssr.dll' '*.dll'"
+    ]
+  },
   "uninstaller": {
     "script": "Remove-Item \"$(appdir qv2ray-beta $global)\\current\\config\\plugins\\ssr.dll\" -Force"
   },
@@ -35,5 +40,5 @@
       }
     }
   },
-  "notes": "Beta version plugin only works with Qv2ray beta."
+  "notes": "-beta suffixed plugins only work with Qv2ray beta."
 }

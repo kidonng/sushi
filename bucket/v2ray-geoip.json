@@ -1,15 +1,20 @@
 {
     "version": "202006170003",
-    "description": "Automatically weekly release of geoip.dat for V2Ray.",
+    "description": "GeoIP data for V2Ray",
     "homepage": "https://github.com/v2ray/geoip",
     "license": "MIT",
     "url": "https://github.com/v2ray/geoip/releases/download/202006170003/geoip.dat",
     "hash": "9f0199c05a01c6f8dc59e900f3a38b9e446d250b0a574090880bd9271a05ea3a",
     "depends": "v2ray",
-    "post_install": [
-        "Write-Host \"Creating hardlink for geoip.dat\"",
-        "New-Item -Force -ItemType HardLink -Path \"$(appdir v2ray $global)\\current\" -Name geoip.dat -Target \"$dir\\geoip.dat\" | Out-Null"
-    ],
+    "installer": {
+        "script": [
+            "function LinkFile([String] $file, [String] $source = $file) {",
+            "    Write-Host \"Creating hardlink for $file\"",
+            "    New-Item -Force -ItemType HardLink -Path \"$(appdir v2ray $global)\\current\" -Name $file -Target \"$dir\\$source\" | Out-Null",
+            "}",
+            "LinkFile 'geoip.dat'"
+        ]
+    },
     "uninstaller": {
         "script": "Remove-Item \"$(appdir v2ray $global)\\current\\geoip.dat\" -Force"
     },

@@ -14,10 +14,15 @@
     }
   },
   "depends": "qv2ray",
-  "post_install": [
-    "Write-Host \"Creating hardlink for command.dll\"",
-    "New-Item -Force -ItemType HardLink -Path \"$(appdir qv2ray $global)\\current\\config\\plugins\" -Name command.dll -Target \"$dir\\*.dll\" | Out-Null"
-  ],
+  "installer": {
+    "script": [
+        "function LinkFile([String] $file, [String] $source = $file) {",
+        "    Write-Host \"Creating hardlink for $file\"",
+        "    New-Item -Force -ItemType HardLink -Path \"$(appdir qv2ray $global)\\current\\config\\plugins\" -Name $file -Target \"$dir\\$source\" | Out-Null",
+        "}",
+        "LinkFile 'command.dll' '*.dll'"
+    ]
+},
   "uninstaller": {
     "script": [
       "Remove-Item \"$(appdir qv2ray $global)\\current\\config\\plugins\\command.dll\" -Force"
