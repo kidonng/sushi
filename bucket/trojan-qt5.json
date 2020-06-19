@@ -1,33 +1,40 @@
 {
     "version": "1.2.0",
-    "description": "A cross-platform Trojan GUI client",
+    "description": "A cross-platform socks5/http/ss/ssr/vmess/trojan/snell GUI client based on Shadowsocks-qt5.",
     "homepage": "https://github.com/Trojan-Qt5/Trojan-Qt5",
     "license": "GPL-3.0-or-later",
     "url": "https://github.com/Trojan-Qt5/Trojan-Qt5/releases/download/v1.2.0/Trojan-Qt5-Windows.zip",
     "hash": "cab0e7e143f1fc595da617028c859c31012ea9ad6a6404f9529a2a0fc5f09260",
     "bin": "trojan-qt5.exe",
-    "shortcuts": [
-        [
-            "trojan-qt5.exe",
-            "Trojan-Qt5"
+    "shortcuts": [["trojan-qt5.exe", "Trojan-Qt5"]],
+    "installer": {
+        "script": [
+            "function CreateFile([String] $file, [String] $content = $null) {",
+            "    if (!(Test-Path \"$persist_dir\\$file\")) {",
+            "        New-Item -Force -Path \"$persist_dir\\$file\" -ItemType file -Value $content | Out-Null",
+            "    }",
+            "}",
+            "CreateFile 'config.ini'",
+            "CreateFile 'config.json'"
         ]
+    },
+    "uninstaller": {
+        "script": [
+            "function BackupFile([String] $file) {",
+            "    if (!(Test-Path \"$persist_dir\\$file\")) {",
+            "        Remove-Item \"$persist_dir\\$file\" -Force",
+            "    }",
+            "    Move-Item \"$dir\\$file\" \"$persist_dir\" -Force",
+            "}",
+            "BackupFile 'config.ini'",
+            "BackupFile 'config.json'"
+        ]
+    },
+    "persist": [
+        "pac",
+        "config.ini",
+        "config.json"
     ],
-    "pre_install": [
-        "if (!(is_admin)) {",
-        "    error \"Administrator rights are required to install $app.\"",
-        "    exit 1",
-        "}",
-        "function CreateFile([String] $file, [String] $content = $null) {",
-        "    if (!(Test-Path \"$persist_dir\\$file\")) {",
-        "        New-Item -Force -Path \"$persist_dir\\$file\" -ItemType file -Value $content | Out-Null",
-        "    }",
-        "    # Create symbolic link directly",
-        "    New-Item -ItemType SymbolicLink -Path \"$dir\\$file\" -Target \"$persist_dir\\$file\" | Out-Null",
-        "}",
-        "CreateFile 'config.ini'",
-        "CreateFile 'config.json'"
-    ],
-    "persist": "pac",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Trojan-Qt5/Trojan-Qt5/releases/download/v$version/Trojan-Qt5-Windows.zip"
