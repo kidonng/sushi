@@ -1,10 +1,10 @@
 {
-    "version": "202006170003",
+    "version": "202006240003",
     "description": "GeoIP data for V2Ray",
     "homepage": "https://github.com/v2ray/geoip",
     "license": "MIT",
-    "url": "https://github.com/v2ray/geoip/releases/download/202006170003/geoip.dat",
-    "hash": "9f0199c05a01c6f8dc59e900f3a38b9e446d250b0a574090880bd9271a05ea3a",
+    "url": "https://github.com/v2ray/geoip/releases/download/202006240003/geoip.dat",
+    "hash": "87cb646248ed886f674486db940595ac70ab01c1b6f83860b3dc68c8e50ef640",
     "depends": "v2ray",
     "installer": {
         "script": [
