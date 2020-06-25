@@ -1,0 +1,26 @@
+{
+    "version": "6.0.5.16",
+    "description": "A revolutionary search utility (beta).",
+    "homepage": "https://www.listary.com/beta",
+    "license": "Freeware",
+    "url": "https://www.listary.com/download/beta/listary6/ListaryInstaller.exe",
+    "hash": "5baf39cd63e1d07784f8614fe0ec79fbc1f5ba2f4f8a91d0f2b55b24d493a250",
+    "innosetup": true,
+    "shortcuts": [["Listary.exe", "Listary"]],
+    "installer": {
+        "script": [
+            "if (!(is_admin)) {",
+            "    error \"Administrator rights are required to install $app.\"",
+            "    exit 1",
+            "}",
+            "sc.exe create ListaryServiceV2 binPath=\"$dir\\Listary.Service.exe\" start=auto group=\"Extended Base\"",
+            "sc.exe start ListaryServiceV2"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "sc.exe stop ListaryServiceV2",
+            "sc.exe delete ListaryServiceV2"
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "version": "nightly",
+    "description": "Office Tool Plus is a tool for managing, downloading and installing Office.",
+    "homepage": "https://otp.landian.vip/",
+    "license": "Freeware",
+    "url": "https://download.coolhub.top/Office-Tool-v8.0.zip",
+    "extract_dir": "Office Tool",
+    "shortcuts": [["Office Tool Plus.exe", "Office Tool Plus"]],
+    "persist": "Office",
+    "notes": "Please install .NET Core Desktop Runtime (x86): https://dotnet.microsoft.com/download/dotnet-core/3.1"
+}
