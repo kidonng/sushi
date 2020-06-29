@@ -8,6 +8,9 @@
     "depends": "v2ray",
     "installer": {
         "script": [
+            "if (-not (Test-Path \"$persist_dir\\v2ray-domain-list-community\")) {",
+            "    Copy-Item \"$(appdir v2ray $global)\\current\\geosite.dat\" -Destination \"$dir\\geosite.dat.bak\"",
+            "}",
             "function LinkFile([String] $file, [String] $source = $file) {",
             "    Write-Host \"Creating hardlink for $file\"",
             "    New-Item -Force -ItemType HardLink -Path \"$(appdir v2ray $global)\\current\" -Name $file -Target \"$dir\\$source\" | Out-Null",
@@ -16,8 +19,9 @@
         ]
     },
     "uninstaller": {
-        "script": "Remove-Item \"$(appdir v2ray $global)\\current\\geosite.dat\" -Force"
+        "script": "Copy-Item \"$dir\\geosite.dat.bak\" -Destination \"$(appdir v2ray $global)\\current\\geosite.dat\" -Force"
     },
+    "persist": "geosite.dat.bak",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/v2ray/domain-list-community/releases/download/$version/dlc.dat"
