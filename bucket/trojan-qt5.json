@@ -1,12 +1,17 @@
 {
-    "version": "1.2.0",
+    "version": "1.3.0",
     "description": "A cross-platform socks5/http/ss/ssr/vmess/trojan/snell GUI client based on Shadowsocks-qt5.",
     "homepage": "https://github.com/Trojan-Qt5/Trojan-Qt5",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/Trojan-Qt5/Trojan-Qt5/releases/download/v1.2.0/Trojan-Qt5-Windows.zip",
-    "hash": "cab0e7e143f1fc595da617028c859c31012ea9ad6a6404f9529a2a0fc5f09260",
+    "url": "https://github.com/Trojan-Qt5/Trojan-Qt5/releases/download/v1.3.0/Trojan-Qt5-Windows.zip",
+    "hash": "7704945d620e2fd2142c9520dcbce91d487b18881782cfb50d9822a3d5d7b171",
     "bin": "trojan-qt5.exe",
-    "shortcuts": [["trojan-qt5.exe", "Trojan-Qt5"]],
+    "shortcuts": [
+        [
+            "trojan-qt5.exe",
+            "Trojan-Qt5"
+        ]
+    ],
     "installer": {
         "script": [
             "function CreateFile([String] $file, [String] $content = $null) {",
