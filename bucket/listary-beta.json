@@ -13,7 +13,7 @@
             "    error \"Administrator rights are required to install $app.\"",
             "    exit 1",
             "}",
-            "sc.exe create ListaryServiceV2 binPath=\"$dir\\Listary.Service.exe\" start=auto group=\"Extended Base\"",
+            "sc.exe create ListaryServiceV2 binPath=\"$dir\\Listary.Service.exe\" start=delayed-auto group=\"Extended Base\"",
             "sc.exe start ListaryServiceV2"
         ]
     },
