@@ -33,3 +33,4 @@ scoop bucket add sushi https://github.com/kidonng/sushi
 - [`scoop-completion`](https://github.com/Moeologist/scoop-completion)
 - [`trojan-qt5`](https://github.com/Trojan-Qt5/Trojan-Qt5)
 - ~~[`naiveproxy`](https://github.com/klzgrad/naiveproxy)~~ ([Moved to `main`](https://github.com/ScoopInstaller/Main/pull/1172))
+- [`youtube-dl-wpf`](https://github.com/database64128/youtube-dl-wpf)

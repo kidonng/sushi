@@ -1,0 +1,30 @@
+{
+    "version": "1.0",
+    "description": "A simple GUI wrapper for youtube-dl",
+    "homepage": "https://github.com/database64128/youtube-dl-wpf",
+    "license": "GPL-3.0-or-later",
+    "depends": "youtube-dl",
+    "suggest": {
+        "FFmpeg": ["ffmpeg", "ffmpeg-nightly"]
+    },
+    "url": "https://github.com/database64128/youtube-dl-wpf/releases/download/v1.0/youtube-dl-wpf-v1.0-20200704.7z",
+    "hash": "a45a6029a218b24af8c1fcb5c5bba89cb7be3eeef5175daaef3cf95583cca2b3",
+    "installer": {
+        "script": [
+            "$ffmpeg = ''",
+            "if (Test-Path (appdir ffmpeg $global)) {",
+            "    $ffmpeg = \"$(appdir ffmpeg $global)\\current\\bin\\ffmpeg.exe\"",
+            "} elseif (Test-Path (appdir ffmpeg-nightly $global)) {",
+            "    $ffmpeg = \"$(appdir ffmpeg-nightly $global)\\current\\bin\\ffmpeg.exe\"",
+            "}",
+            "@{",
+            "    'AutoUpdateDl' = $false",
+            "    'DlPath' = \"$(appdir 'youtube-dl' $global)\\current\\youtube-dl.exe\"",
+            "    'FfmpegPath' = $ffmpeg",
+            "} | ConvertTo-Json | Out-File \"$dir\\Settings.json\" -Encoding ascii"
+        ]
+    },
+    "shortcuts": [["youtube-dl-wpf.exe", "Cube YouTube Downloader"]],
+    "persist": "Settings.json",
+    "checkver": "github"
+}
