@@ -6,12 +6,7 @@
     "url": "https://github.com/Trojan-Qt5/Trojan-Qt5/releases/download/v1.3.1/Trojan-Qt5-Windows.zip",
     "hash": "3d5cbfbe2022c915e46030cca73868297aac141f8a8fc1407eff878efda49449",
     "bin": "trojan-qt5.exe",
-    "shortcuts": [
-        [
-            "trojan-qt5.exe",
-            "Trojan-Qt5"
-        ]
-    ],
+    "shortcuts": [["trojan-qt5.exe", "Trojan-Qt5"]],
     "installer": {
         "script": [
             "function CreateFile([String] $file, [String] $content = $null) {",
@@ -35,13 +30,12 @@
             "BackupFile 'config.json'"
         ]
     },
-    "persist": [
-        "pac",
-        "config.ini",
-        "config.json"
-    ],
+    "persist": ["pac", "config.ini", "config.json"],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Trojan-Qt5/Trojan-Qt5/releases/download/v$version/Trojan-Qt5-Windows.zip"
+        "url": "https://github.com/Trojan-Qt5/Trojan-Qt5/releases/download/v$version/Trojan-Qt5-Windows.zip",
+        "hash": {
+            "url": "https://github.com/Trojan-Qt5/Trojan-Qt5/releases/download/v$version/Trojan-Qt5-Windows.zip.hash"
+        }
     }
 }

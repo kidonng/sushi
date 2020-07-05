@@ -7,5 +7,5 @@
     "extract_dir": "Office Tool",
     "shortcuts": [["Office Tool Plus.exe", "Office Tool Plus"]],
     "persist": "Office",
-    "notes": "Please install .NET Core Desktop Runtime (x86): https://dotnet.microsoft.com/download/dotnet-core/3.1"
+    "notes": "Please install .NET Core Desktop Runtime 3.1 (x86): https://dotnet.microsoft.com/download/dotnet-core/3.1"
 }

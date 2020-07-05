@@ -26,5 +26,11 @@
     },
     "shortcuts": [["youtube-dl-wpf.exe", "Cube YouTube Downloader"]],
     "persist": "Settings.json",
-    "checkver": "github"
+    "checkver": {
+        "url": "https://github.com/database64128/youtube-dl-wpf/releases",
+        "re": "youtube-dl-wpf-v(?<version>[\\d.]+)-(?<date>\\d{8})"
+    },
+    "autoupdate": {
+        "url": "https://github.com/database64128/youtube-dl-wpf/releases/download/v$version/youtube-dl-wpf-v$version-$matchDate.7z"
+    }
 }
