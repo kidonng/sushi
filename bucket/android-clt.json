@@ -34,6 +34,10 @@
         "regex": "commandlinetools-win-(\\d+)"
     },
     "autoupdate": {
-        "url": "https://dl.google.com/android/repository/commandlinetools-win-$version_latest.zip"
+        "url": "https://dl.google.com/android/repository/commandlinetools-win-$version_latest.zip",
+        "hash": {
+            "url": "https://developer.android.com/studio",
+            "find": "commandlinetools-win(?:.*\\n){3}.*<td>($sha256)"
+        }
     }
 }

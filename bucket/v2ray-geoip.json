@@ -24,6 +24,9 @@
     "persist": "geoip.dat.bak",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/v2ray/geoip/releases/download/$version/geoip.dat"
+        "url": "https://github.com/v2ray/geoip/releases/download/$version/geoip.dat",
+        "hash": {
+            "url": "https://github.com/v2ray/geoip/releases/download/$version/geoip.dat.sha256sum"
+        }
     }
 }

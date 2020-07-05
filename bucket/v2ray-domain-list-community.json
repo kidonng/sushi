@@ -24,6 +24,9 @@
     "persist": "geosite.dat.bak",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/v2ray/domain-list-community/releases/download/$version/dlc.dat"
+        "url": "https://github.com/v2ray/domain-list-community/releases/download/$version/dlc.dat",
+        "hash": {
+            "url": "https://github.com/v2ray/domain-list-community/releases/download/$version/dlc.dat.sha256sum"
+        }
     }
 }

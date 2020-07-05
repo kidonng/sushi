@@ -47,6 +47,9 @@
             "32bit": {
                 "url": "https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/download/v$version/QvPlugin-NaiveProxy.v$version.Windows-x86.dll"
             }
+        },
+        "hash": {
+            "url": "https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/download/v$version/sha256.list"
         }
     },
     "notes": "NaiveProxy plugin only works with Qv2ray beta."

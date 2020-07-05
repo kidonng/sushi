@@ -13,14 +13,17 @@
             "    error \"Administrator rights are required to install $app.\"",
             "    exit 1",
             "}",
-            "sc.exe create ListaryServiceV2 binPath=\"$dir\\Listary.Service.exe\" start=delayed-auto group=\"Extended Base\"",
-            "sc.exe start ListaryServiceV2"
+            "New-Service -Name ListaryServiceV2 -BinaryPathName \"$dir\\Listary.Service.exe\" -StartupType AutomaticDelayedStart",
+            "Start-Service -Name ListaryServiceV2"
         ]
     },
     "uninstaller": {
         "script": [
-            "sc.exe stop ListaryServiceV2",
-            "sc.exe delete ListaryServiceV2"
+            "Stop-Service -Name ListaryServiceV2",
+            "Remove-Service -Name ListaryServiceV2",
+            "Stop-Process -Name Listary",
+            "Add-Type -AssemblyName Microsoft.VisualBasic",
+            "[Microsoft.VisualBasic.FileIO.FileSystem]::DeleteDirectory(\"$env:appdata\\Listary\",'OnlyErrorDialogs','SendToRecycleBin')"
         ]
     }
 }

@@ -35,6 +35,9 @@
             "32bit": {
                 "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/download/v$version/QvSSRPlugin.v$version.Windows-x86.dll"
             }
+        },
+        "hash": {
+            "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/download/v$version/sha256.list"
         }
     }
 }
