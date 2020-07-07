@@ -13,15 +13,20 @@
             "    error \"Administrator rights are required to install $app.\"",
             "    exit 1",
             "}",
-            "New-Service -Name ListaryServiceV2 -BinaryPathName \"$dir\\Listary.Service.exe\" -StartupType AutomaticDelayedStart",
-            "Start-Service -Name ListaryServiceV2"
+            "New-Service -Name ListaryServiceV2 -BinaryPathName \"$dir\\Listary.Service.exe\" -StartupType Automatic",
+            "$WshShell = New-Object -comObject WScript.Shell",
+            "$Shortcut = $WshShell.CreateShortcut(\"$env:appdata\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\Listary.lnk\")",
+            "$Shortcut.TargetPath = \"$dir\\Listary.exe\"",
+            "$Shortcut.Arguments = \"-startup\"",
+            "$Shortcut.Save()"
         ]
     },
     "uninstaller": {
         "script": [
+            "Stop-Process -Name Listary",
             "Stop-Service -Name ListaryServiceV2",
             "Remove-Service -Name ListaryServiceV2",
-            "Stop-Process -Name Listary",
+            "Remove-Item \"$env:appdata\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\Listary.lnk\"",
             "Add-Type -AssemblyName Microsoft.VisualBasic",
             "[Microsoft.VisualBasic.FileIO.FileSystem]::DeleteDirectory(\"$env:appdata\\Listary\",'OnlyErrorDialogs','SendToRecycleBin')"
         ]
