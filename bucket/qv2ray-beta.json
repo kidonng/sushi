@@ -23,7 +23,7 @@
         "    New-Item \"$dir\\config\" -ItemType Directory | Out-Null",
         "    $current = (appdir 'v2ray' $global) | Join-Path -ChildPath 'current'",
         "    @{",
-        "        'config_version' = 11",
+        "        'config_version' = 14",
         "        'kernelConfig' = @{",
         "            'v2CorePath_win'   = \"$current\\v2ray.exe\"",
         "            'v2AssetsPath_win' = \"$current\"",
