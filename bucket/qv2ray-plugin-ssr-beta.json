@@ -1,47 +1,47 @@
 {
-  "version": "2.0.0-pre5",
-  "description": "ShadowSocksR plugin for Qv2ray (beta)",
-  "homepage": "https://github.com/Qv2ray/QvPlugin-SSR",
-  "license": "GPL-3.0-or-later",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/download/v2.0.0-pre5/QvSSRPlugin.v2.0.0-pre5.Windows-x64.dll",
-      "hash": "2c8409b1db722575258c11902296e43b3a3ffeb34aa55ae448d69843bac6b326"
-    },
-    "32bit": {
-      "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/download/v2.0.0-pre5/QvSSRPlugin.v2.0.0-pre5.Windows-x86.dll",
-      "hash": "9ea4036bd6d30774cbc436a7125ca8e2ece10a87669f94b65cfd3dec25ef5de7"
-    }
-  },
-  "depends": "qv2ray-beta",
-  "installer": {
-    "script": [
-        "function LinkFile([String] $file, [String] $source = $file) {",
-        "    Write-Host \"Creating hardlink for $file\"",
-        "    New-Item -Force -ItemType HardLink -Path \"$(appdir qv2ray-beta $global)\\current\\config\\plugins\" -Name $file -Target \"$dir\\$source\" | Out-Null",
-        "}",
-        "LinkFile 'ssr.dll' '*.dll'"
-    ]
-  },
-  "uninstaller": {
-    "script": "Remove-Item \"$(appdir qv2ray-beta $global)\\current\\config\\plugins\\ssr.dll\" -Force"
-  },
-  "checkver": {
-    "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases",
-    "re": "/tree/v([\\w.-]+)"
-  },
-  "autoupdate": {
+    "version": "2.0.0",
+    "description": "ShadowSocksR plugin for Qv2ray (beta)",
+    "homepage": "https://github.com/Qv2ray/QvPlugin-SSR",
+    "license": "GPL-3.0-or-later",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/download/v$version/QvSSRPlugin.v$version.Windows-x64.dll"
-      },
-      "32bit": {
-        "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/download/v$version/QvSSRPlugin.v$version.Windows-x86.dll"
-      }
+        "64bit": {
+            "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/download/v2.0.0/QvSSRPlugin.v2.0.0.Windows-x64.dll",
+            "hash": "fe8eb6fc431dbc7dd1ab863bb823f8598d6e5a10ec64508006c2c734f8416939"
+        },
+        "32bit": {
+            "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/download/v2.0.0/QvSSRPlugin.v2.0.0.Windows-x86.dll",
+            "hash": "63fd019c9eadbfe171d96b46922bc5b04d689e6a971574155435efea5a2ba452"
+        }
     },
-    "hash": {
-        "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/download/v$version/sha256.list"
-    }
-  },
-  "notes": "-beta suffixed plugins only work with Qv2ray beta."
+    "depends": "qv2ray-beta",
+    "installer": {
+        "script": [
+            "function LinkFile([String] $file, [String] $source = $file) {",
+            "    Write-Host \"Creating hardlink for $file\"",
+            "    New-Item -Force -ItemType HardLink -Path \"$(appdir qv2ray-beta $global)\\current\\config\\plugins\" -Name $file -Target \"$dir\\$source\" | Out-Null",
+            "}",
+            "LinkFile 'ssr.dll' '*.dll'"
+        ]
+    },
+    "uninstaller": {
+        "script": "Remove-Item \"$(appdir qv2ray-beta $global)\\current\\config\\plugins\\ssr.dll\" -Force"
+    },
+    "checkver": {
+        "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases",
+        "re": "/tree/v([\\w.-]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/download/v$version/QvSSRPlugin.v$version.Windows-x64.dll"
+            },
+            "32bit": {
+                "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/download/v$version/QvSSRPlugin.v$version.Windows-x86.dll"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/download/v$version/sha256.list"
+        }
+    },
+    "notes": "-beta suffixed plugins only work with Qv2ray beta."
 }
