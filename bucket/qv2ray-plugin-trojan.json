@@ -1,16 +1,16 @@
 {
-    "version": "1.0.2",
+    "version": "2.0.0",
     "description": "Trojan plugin for Qv2ray",
     "homepage": "https://github.com/Qv2ray/QvPlugin-Trojan",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/download/v1.0.2/QvTrojanPlugin.v1.0.2.Windows-x64.dll",
-            "hash": "30a233e9013d44ebf54a6d7b46a5f099bcc24c8725f7414b719dddbbe1dfc10c"
+            "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/download/v2.0.0/QvTrojanPlugin.v2.0.0.Windows-x64.dll",
+            "hash": "a7bbea6c8923cd62a28fc52a85053f0ee4c70b42f29b046eb1bf5a81c65c8047"
         },
         "32bit": {
-            "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/download/v1.0.2/QvTrojanPlugin.v1.0.2.Windows-x86.dll",
-            "hash": "5ef3c73fab2d354972556e2255bee4ab26f32d957f6a3401a1c1da66882bec16"
+            "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/download/v2.0.0/QvTrojanPlugin.v2.0.0.Windows-x86.dll",
+            "hash": "de22e182050359a27eeee5edf47a32fe61681e32c4fdf77478252ed6add43798"
         }
     },
     "depends": "qv2ray",
