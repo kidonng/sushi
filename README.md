@@ -24,6 +24,12 @@ scoop bucket add sushi https://github.com/kidonng/sushi
 - [`qv2ray-plugin-trojan` / `qv2ray-plugin-trojan-beta`](https://github.com/Qv2ray/QvPlugin-Trojan)
 - [`qv2ray-plugin-naiveproxy`](https://github.com/Qv2ray/QvPlugin-NaiveProxy)
 
+### Fonts
+
+- [`jetbrains-mono`](https://github.com/JetBrains/JetBrainsMono)
+- [`source-han-sans-truetype`](https://github.com/be5invis/source-han-sans-ttf)
+- [`source-han-serif-truetype`](https://github.com/Pal3love/Source-Han-TrueType)
+
 ### Misc
 
 - [`android-cit`](https://developer.android.com/studio#command-tools) ([`extras` pending](https://github.com/lukesampson/scoop-extras/pull/4237))
