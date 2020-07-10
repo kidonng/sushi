@@ -6,13 +6,11 @@
         "identifier": "Freeware",
         "url": "https://developer.android.com/studio/terms.html"
     },
-    "depends": "adb",
     "url": "https://dl.google.com/android/repository/commandlinetools-win-6609375_latest.zip",
     "hash": "40bba20275180194bebf89bb58c74d712bb93cc401f36bd2f8f32383acf9826c",
     "post_install": [
         "if (Test-Path \"$(appdir adb $global)\") {",
-        "cmd /c mklink /j \"$dir\\platform-tools\" \"$(appdir adb $global)\\current\\platform-tools\" | out-null",
-        "attrib \"$(appdir adb $global)\\current\\platform-tools\" +R /L",
+        "    New-Item \"$dir\\platform-tools\" -ItemType Junction -Target \"$(appdir adb $global)\\current\\platform-tools\" | Out-Null",
         "}"
     ],
     "env_add_path": "tools\\bin",
@@ -20,7 +18,6 @@
         "ANDROID_SDK_ROOT": "$dir"
     },
     "persist": [
-        ".knownPackages",
         "build-tools",
         "emulator",
         "extras",
