@@ -13,7 +13,7 @@
             "hash": "de22e182050359a27eeee5edf47a32fe61681e32c4fdf77478252ed6add43798"
         }
     },
-    "depends": "qv2ray",
+    "depends": "extras/qv2ray",
     "installer": {
         "script": [
             "function LinkFile([String] $file, [String] $source = $file) {",
