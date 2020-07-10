@@ -28,7 +28,7 @@ scoop bucket add sushi https://github.com/kidonng/sushi
 
 - [`android-cit`](https://developer.android.com/studio#command-tools) ([`extras` pending](https://github.com/lukesampson/scoop-extras/pull/4237))
 - [`fontloadersub`](https://github.com/yzwduck/FontLoaderSub)
-- [`listary-beta`](https://www.listary.com/beta)
+- [`listary-beta-np`](https://www.listary.com/beta)
 - [`officetoolplus-beta`](https://otp.landian.vip/)
 - [`scoop-completion`](https://github.com/Moeologist/scoop-completion)
 - [`trojan-qt5`](https://github.com/Trojan-Qt5/Trojan-Qt5)
