@@ -23,6 +23,10 @@
     },
     "uninstaller": {
         "script": [
+            "if (!(is_admin)) {",
+            "    error \"Administrator rights are required to uninstall $app.\"",
+            "    exit 1",
+            "}",
             "Stop-Process -Name Listary",
             "Stop-Service -Name ListaryServiceV2",
             "Remove-Service -Name ListaryServiceV2",
