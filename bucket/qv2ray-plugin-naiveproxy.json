@@ -14,7 +14,7 @@
         }
     },
     "depends": [
-        "qv2ray-beta",
+        "extras/qv2ray",
         "naiveproxy"
     ],
     "installer": {
