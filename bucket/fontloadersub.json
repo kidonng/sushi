@@ -1,6 +1,6 @@
 {
     "version": "r6",
-    "description": "OpenType font loader for subtitles (ASS/SSA), inspired by CryptWizard's FontLoader",
+    "description": "OpenType font loader for subtitles (ASS/SSA)",
     "homepage": "https://github.com/yzwduck/FontLoaderSub",
     "license": "GPL-2.0-only",
     "url": "https://github.com/yzwduck/FontLoaderSub/releases/download/r6/FontLoaderSub-r6.7z",
