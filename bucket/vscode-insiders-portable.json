@@ -1,0 +1,50 @@
+{
+    "version": "1.48.0-e7920dc",
+    "description": "Visual Studio Code is a lightweight but powerful source code editor (Insiders, Portable Edition).",
+    "homepage": "https://code.visualstudio.com/insiders/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://code.visualstudio.com/License/"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://vscode.cdn.azure.cn/insider/e7920dce7bfd0b707ebfc0a5379c6edd2233e475/VSCode-win32-x64-1.48.0-insider.zip",
+            "hash": "63619ccf6fe38552db674917f340a3f29eeb0bdfbb8f78fd556eef9fe2f59849"
+        },
+        "32bit": {
+            "url": "https://vscode.cdn.azure.cn/insider/e7920dce7bfd0b707ebfc0a5379c6edd2233e475/VSCode-win32-ia32-1.48.0-insider.zip",
+            "hash": "ddad1b0462c7b9e1c9a307962232a4ead03795c94ebbb783f2b4c23773a3d25a"
+        }
+    },
+    "bin": [["bin\\code-insiders.cmd", "code-insiders"]],
+    "shortcuts": [["Code - Insiders.exe", "Visual Studio Code - Insiders"]],
+    "persist": "data",
+    "notes": [
+        "Visual Studio Code now supports Portable Mode! Please move the following directories:",
+        "From \"$env:USERPROFILE\\.vscode-insiders\\extensions\" to \"$env:SCOOP\\persist\\vscode-insiders-portable\\data\\extensions\"",
+        "From \"$env:APPDATA\\Code - Insiders\" to \"$env:SCOOP\\persist\\vscode-insiders-portable\\data\\user-data\""
+    ],
+    "checkver": {
+        "url": "https://scoop-sushi.vercel.app/api/vscode-insiders-portable.ts",
+        "re": "(?<version>[\\d.]+) (?<commit>(?<shortCommit>.{7}).+)",
+        "replace": "${version}-${shortCommit}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://vscode.cdn.azure.cn/insider/$matchCommit/VSCode-win32-x64-$matchHead-insider.zip",
+                "hash": {
+                    "url": "https://code.visualstudio.com/sha?build=insider",
+                    "jp": "$.[5].sha256hash"
+                }
+            },
+            "32bit": {
+                "url": "https://vscode.cdn.azure.cn/insider/$matchCommit/VSCode-win32-ia32-$matchHead-insider.zip",
+                "hash": {
+                    "url": "https://code.visualstudio.com/sha?build=insider",
+                    "jp": "$.[2].sha256hash"
+                }
+            }
+        }
+    }
+}
