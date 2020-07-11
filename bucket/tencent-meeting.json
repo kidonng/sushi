@@ -1,0 +1,29 @@
+{
+    "version": "1.6.7.453",
+    "description": "Video conferencing app by Tencent",
+    "homepage": "https://meeting.tencent.com/",
+    "license": {
+        "identifier": "EULA",
+        "url": "https://meeting.tencent.com/declare.html"
+    },
+    "url": "https://down.qq.com/download/TencentMeeting_0300000000_1.6.7.453.publish.exe#/dl.7z",
+    "hash": "md5:3fadbe01c943d12571cdf5175aacc9e4",
+    "shortcuts": [["wemeetapp.exe", "腾讯会议"]],
+    "extract_dir": "$_4_",
+    "installer": {
+        "script": [
+            "Expand-7zipArchive -Path \"$dir\\weMeet.*.zip\" -Removal",
+            "Remove-Item \"$dir\\WeMeetUninstall.exe\" -Force -Recurse"
+        ]
+    },
+    "checkver": {
+        "url": "https://scoop-sushi.vercel.app/api/tencent-meeting.ts",
+        "re": "(?<version>[\\d.]+) (?<url>.+)"
+    },
+    "autoupdate": {
+        "url": "$matchUrl",
+        "hash": {
+            "url": "https://scoop-sushi.vercel.app/api/tencent-meeting.ts?hash=1"
+        }
+    }
+}

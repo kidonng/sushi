@@ -1,0 +1,14 @@
+{
+    "name": "sushi",
+    "private": true,
+    "dependencies": {
+        "got": "^11.5.0"
+    },
+    "devDependencies": {
+        "@vercel/node": "^1.7.2"
+    },
+    "prettier": {
+        "semi": false,
+        "singleQuote": true
+    }
+}
