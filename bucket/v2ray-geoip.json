@@ -1,6 +1,6 @@
 {
     "version": "202007080004",
-    "description": "GeoIP data for V2Ray",
+    "description": "GeoIP data for V2Ray (official)",
     "homepage": "https://github.com/v2ray/geoip",
     "license": "MIT",
     "url": "https://github.com/v2ray/geoip/releases/download/202007080004/geoip.dat",
