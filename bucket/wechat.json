@@ -1,0 +1,27 @@
+{
+    "version": "2.9.5",
+    "description": "Instant messaging app by Tencent",
+    "homepage": "https://pc.weixin.qq.com/",
+    "license": {
+        "identifier": "EULA",
+        "url": "https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_agreement&s=default"
+    },
+    "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl.7z",
+    "hash": "df512197a1d0e471a1d64d692ec0c0d101a84f02d1c6382d70677653a135a77b",
+    "shortcuts": [["wechat.exe", "微信"]],
+    "installer": {
+        "script": [
+            "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+            "Remove-Item \"$dir\\`$_15_\" -Force -Recurse",
+            "Remove-Item \"$dir\\`$R5\" -Force -Recurse"
+        ]
+    },
+    "checkver": {
+        "url": "https://pc.weixin.qq.com/",
+        "re": "微信 PC 版 ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl.7z"
+    },
+    "notes": "We don't persist your WeChat data, they are still storaged in '%APPDATA%\\Tencent\\WeChat'."
+}
