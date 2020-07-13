@@ -41,6 +41,7 @@ scoop install sushi/<app>
 -   [tencent-meeting](https://meeting.tencent.com/)
 -   [trojan-qt5](https://github.com/Trojan-Qt5/Trojan-Qt5)
 -   [~~naiveproxy~~](https://github.com/klzgrad/naiveproxy) ([Moved to `main`](https://github.com/ScoopInstaller/Main/pull/1172))
+-   [varpanel](http://implbits.com/products/varpanel/)
 -   [vscode-insiders{,-portable}](https://code.visualstudio.com/insiders/)
 -   [wechat](https://pc.weixin.qq.com/)
 -   [youtube-dl-wpf](https://github.com/database64128/youtube-dl-wpf)\*
