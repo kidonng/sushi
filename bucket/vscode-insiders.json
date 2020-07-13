@@ -18,12 +18,6 @@
     },
     "bin": [["bin\\code-insiders.cmd", "code-insiders"]],
     "shortcuts": [["Code - Insiders.exe", "Visual Studio Code - Insiders"]],
-    "persist": "data",
-    "notes": [
-        "Visual Studio Code now supports Portable Mode! Please move the following directories:",
-        "From \"$env:USERPROFILE\\.vscode-insiders\\extensions\" to \"$env:SCOOP\\persist\\vscode-insiders-portable\\data\\extensions\"",
-        "From \"$env:APPDATA\\Code - Insiders\" to \"$env:SCOOP\\persist\\vscode-insiders-portable\\data\\user-data\""
-    ],
     "checkver": {
         "url": "https://scoop-sushi.vercel.app/api/vscode-insiders.ts",
         "re": "(?<version>[\\d.]+) (?<commit>(?<shortCommit>.{7}).+)",
