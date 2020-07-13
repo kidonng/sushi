@@ -39,5 +39,5 @@
         "url": "https://github.com/JetBrains/JetBrainsMono/releases/download/v$version/JetBrains.Mono.$version.zip",
         "extract_dir": "JetBrains Mono $version/ttf/Variable"
     },
-    "notes": "You may need to restart the system to use newly added fonts."
+    "notes": "You may need to restart the system to use recently installed fonts."
 }

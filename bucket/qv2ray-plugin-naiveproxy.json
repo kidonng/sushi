@@ -13,10 +13,7 @@
             "hash": "ecbc17f404f33963966d1bfde445d177e0426d887eb9512c05a8d91d90b4e2dc"
         }
     },
-    "depends": [
-        "extras/qv2ray",
-        "naiveproxy"
-    ],
+    "depends": ["extras/qv2ray", "naiveproxy"],
     "installer": {
         "script": [
             "function LinkFile([String] $file, [String] $source = $file) {",
@@ -51,6 +48,5 @@
         "hash": {
             "url": "https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/download/v$version/sha256.list"
         }
-    },
-    "notes": "NaiveProxy plugin only works with Qv2ray beta."
+    }
 }

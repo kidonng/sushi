@@ -2,6 +2,8 @@
 
 [@kidonng](https://github.com/kidonng)'s [Scoop](https://scoop-docs.now.sh/) bucket.
 
+This bucket strives to provide accurate version info, even for nightly applications.
+
 ## Usage
 
 ```powershell
@@ -10,6 +12,21 @@ scoop install sushi/<app>
 ```
 
 ## Manifests
+
+### Featured
+
+-   **android-clt**: The official Android command line tools
+-   **listary-beta**: A revolutionary search utility
+-   **openhashtab**: A shell extension for conveniently calculating and checking file hashes from file properties
+-   **tencent-meeting**: Video conferencing app by Tencent
+
+---
+
+**#** Require administrator rights (`scoop install sudo`)
+
+**\*** Non portable (store data outside of Scoop directory)
+
+🐟 Depends on `dorado` bucket (`scoop bucket add dorado https://github.com/chawyehsu/dorado`)
 
 ### [V2Ray](https://www.v2fly.org/) Rulesets
 
@@ -20,30 +37,34 @@ scoop install sushi/<app>
 ### [Qv2ray](https://qv2ray.github.io/)
 
 -   [qv2ray-beta](https://github.com/Qv2ray/Qv2ray)
--   [qv2ray-plugin-command{,-beta}](https://github.com/Qv2ray/QvPlugin-Command)
+-   [qv2ray-plugin-command / qv2ray-plugin-command-beta](https://github.com/Qv2ray/QvPlugin-Command)
 -   [qv2ray-plugin-naiveproxy](https://github.com/Qv2ray/QvPlugin-NaiveProxy)
--   [qv2ray-plugin-ssr{,-beta}](https://github.com/Qv2ray/QvPlugin-SSR)
--   [qv2ray-plugin-trojan{,-beta}](https://github.com/Qv2ray/QvPlugin-Trojan)
+-   [qv2ray-plugin-ssr / qv2ray-plugin-ssr-beta](https://github.com/Qv2ray/QvPlugin-SSR)
+-   [qv2ray-plugin-trojan / qv2ray-plugin-trojan-beta](https://github.com/Qv2ray/QvPlugin-Trojan)
+
+### Development
+
+-   [android-clt](https://developer.android.com/studio#command-tools) ([`extras` pending](https://github.com/lukesampson/scoop-extras/pull/4237))
+-   [vscode-insiders * / vscode-insiders-portable](https://code.visualstudio.com/insiders/)
 
 ### Fonts
+
+Fonts do **not** need administrator rights to **install**, but they are **needed** to **uninstall**.
 
 -   [jetbrains-mono](https://github.com/JetBrains/JetBrainsMono)
 -   [source-han-sans-truetype](https://github.com/be5invis/source-han-sans-ttf)
 -   [source-han-serif-truetype](https://github.com/Pal3love/Source-Han-TrueType)
 
-### Apps
+### Miscellaneous
 
--   [android-clt](https://developer.android.com/studio#command-tools) ([`extras` pending](https://github.com/lukesampson/scoop-extras/pull/4237))
 -   [fontloadersub](https://github.com/yzwduck/FontLoaderSub)
--   [listary-beta-np](https://www.listary.com/beta)
+-   [listary-beta](https://www.listary.com/beta) # *
 -   [officetoolplus-beta](https://otp.landian.vip/)
+-   [openhashtab](https://github.com/namazso/OpenHashTab) #
 -   [scoop-completion](https://github.com/Moeologist/scoop-completion)
--   [tencent-meeting](https://meeting.tencent.com/)
+-   [tencent-meeting](https://meeting.tencent.com/) *
 -   [trojan-qt5](https://github.com/Trojan-Qt5/Trojan-Qt5)
 -   [~~naiveproxy~~](https://github.com/klzgrad/naiveproxy) ([Moved to `main`](https://github.com/ScoopInstaller/Main/pull/1172))
 -   [varpanel](http://implbits.com/products/varpanel/)
--   [vscode-insiders{,-portable}](https://code.visualstudio.com/insiders/)
--   [wechat](https://pc.weixin.qq.com/)
--   [youtube-dl-wpf](https://github.com/database64128/youtube-dl-wpf)\*
-
-\* Depends on `dorado` bucket: `scoop bucket add dorado https://github.com/chawyehsu/dorado`
+-   [wechat](https://pc.weixin.qq.com/) *
+-   [youtube-dl-wpf](https://github.com/database64128/youtube-dl-wpf) 🐟

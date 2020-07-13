@@ -25,5 +25,6 @@
         "hash": {
             "url": "https://scoop-sushi.vercel.app/api/tencent-meeting.ts?hash=1"
         }
-    }
+    },
+    "notes": "Your data is stored in $env:appdata\\Tencent\\WeMeet."
 }
