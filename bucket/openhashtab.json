@@ -37,5 +37,6 @@
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/namazso/OpenHashTab/releases/download/v$version/OpenHashTab_setup.exe"
-    }
+    },
+    "notes": "Due to Scoop's limitations, innounp is listed as a dependency though it is only required for installation."
 }
