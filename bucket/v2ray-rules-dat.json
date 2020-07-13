@@ -26,15 +26,12 @@
             "Copy-Item \"$dir\\geosite.dat.bak\" -Destination \"$(appdir v2ray $global)\\current\\geosite.dat\" -Force"
         ]
     },
-    "persist": [
-        "geoip.dat.bak",
-        "geosite.dat.bak"
-    ],
+    "persist": ["geoip.dat.bak", "geosite.dat.bak"],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/$version/rules.zip",
         "hash": {
-            "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/$version/rules.zip.sha256sum"
+            "url": "$url.sha256sum"
         }
     }
 }

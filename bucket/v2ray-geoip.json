@@ -26,7 +26,7 @@
     "autoupdate": {
         "url": "https://github.com/v2ray/geoip/releases/download/$version/geoip.dat",
         "hash": {
-            "url": "https://github.com/v2ray/geoip/releases/download/$version/geoip.dat.sha256sum"
+            "url": "$url.sha256sum"
         }
     }
 }
