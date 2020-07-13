@@ -1,6 +1,6 @@
 {
     "version": "2.6.1",
-    "description": "Graphical frontend for v2ray",
+    "description": "Graphical frontend for v2ray (beta)",
     "homepage": "https://github.com/Qv2ray/Qv2ray",
     "license": "GPL-3.0-or-later",
     "depends": "v2ray",
@@ -32,12 +32,7 @@
         "}"
     ],
     "bin": "qv2ray.exe",
-    "shortcuts": [
-        [
-            "qv2ray.exe",
-            "Qv2ray (beta)"
-        ]
-    ],
+    "shortcuts": [["qv2ray.exe", "Qv2ray (beta)"]],
     "persist": "config",
     "checkver": {
         "url": "https://github.com/Qv2ray/Qv2ray/releases",
@@ -55,6 +50,5 @@
         "hash": {
             "url": "https://github.com/Qv2ray/Qv2ray/releases/download/v$version/sha256.list"
         }
-    },
-    "notes": "Qv2ray beta can only use -beta suffixed plugins."
+    }
 }

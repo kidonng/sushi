@@ -36,5 +36,6 @@
             "url": "https://developer.android.com/studio",
             "find": "commandlinetools-win(?:.*\\n){3}.*<td>($sha256)"
         }
-    }
+    },
+    "notes": "You need to launch sdkmanager with --sdk_root=$env:ANDROID_SDK_ROOT."
 }
