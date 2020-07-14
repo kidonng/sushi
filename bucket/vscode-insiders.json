@@ -1,5 +1,5 @@
 {
-    "version": "1.48.0-e7920dc",
+    "version": "1.48.0-3bc3f95",
     "description": "Visual Studio Code is a lightweight but powerful source code editor (Insiders, Portable Edition).",
     "homepage": "https://code.visualstudio.com/insiders/",
     "license": {
@@ -8,16 +8,26 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://vscode.cdn.azure.cn/insider/e7920dce7bfd0b707ebfc0a5379c6edd2233e475/VSCode-win32-x64-1.48.0-insider.zip",
-            "hash": "63619ccf6fe38552db674917f340a3f29eeb0bdfbb8f78fd556eef9fe2f59849"
+            "url": "https://vscode.cdn.azure.cn/insider/3bc3f95dbc0434fd88bc3ae99b8aca8b281fc622/VSCode-win32-x64-1.48.0-insider.zip",
+            "hash": "0fcb94d178def7700d4859c91ea4ce13a3b6d00bc8a32d4b96ae2e8ad5d2639e"
         },
         "32bit": {
-            "url": "https://vscode.cdn.azure.cn/insider/e7920dce7bfd0b707ebfc0a5379c6edd2233e475/VSCode-win32-ia32-1.48.0-insider.zip",
-            "hash": "ddad1b0462c7b9e1c9a307962232a4ead03795c94ebbb783f2b4c23773a3d25a"
+            "url": "https://vscode.cdn.azure.cn/insider/3bc3f95dbc0434fd88bc3ae99b8aca8b281fc622/VSCode-win32-ia32-1.48.0-insider.zip",
+            "hash": "c2446a487354b8bb7a9e54d62af9bb1baa7ef83fd813b65d711c7fe47e55cd3a"
         }
     },
-    "bin": [["bin\\code-insiders.cmd", "code-insiders"]],
-    "shortcuts": [["Code - Insiders.exe", "Visual Studio Code - Insiders"]],
+    "bin": [
+        [
+            "bin\\code-insiders.cmd",
+            "code-insiders"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "Code - Insiders.exe",
+            "Visual Studio Code - Insiders"
+        ]
+    ],
     "checkver": {
         "url": "https://scoop-sushi.vercel.app/api/vscode-insiders.ts",
         "re": "(?<version>[\\d.]+) (?<commit>(?<shortCommit>.{7}).+)",
