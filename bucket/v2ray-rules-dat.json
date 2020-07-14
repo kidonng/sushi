@@ -3,9 +3,9 @@
     "description": "Enhanced ruleset for V2Ray (unofficial)",
     "homepage": "https://github.com/Loyalsoldier/v2ray-rules-dat",
     "license": "GPL-3.0-or-later",
+    "depends": "v2ray",
     "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/202007132202/rules.zip",
     "hash": "d4fc23f5d92fbb8a150d4ef3e8b1ada2ef6f4e7274b3d4c3e27b33a149f9bc96",
-    "depends": "v2ray",
     "installer": {
         "script": [
             "if (-not (Test-Path \"$persist_dir\\v2ray-rules-dat\")) {",
@@ -26,10 +26,7 @@
             "Copy-Item \"$dir\\geosite.dat.bak\" -Destination \"$(appdir v2ray $global)\\current\\geosite.dat\" -Force"
         ]
     },
-    "persist": [
-        "geoip.dat.bak",
-        "geosite.dat.bak"
-    ],
+    "persist": ["geoip.dat.bak", "geosite.dat.bak"],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/download/$version/rules.zip",

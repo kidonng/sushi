@@ -3,6 +3,7 @@
     "description": "Command plugin for Qv2ray (beta)",
     "homepage": "https://github.com/Qv2ray/QvPlugin-Command",
     "license": "GPL-3.0-or-later",
+    "depends": "sushi/qv2ray-beta",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Qv2ray/QvPlugin-Command/releases/download/v2.0.0/QvCommandPlugin.v2.0.0.Windows-x64.dll",
@@ -13,7 +14,6 @@
             "hash": "43d6c1ff77afc86e9919fe0d8bdc48f43e28b45a37e12b2fa541bac80f1ff9d0"
         }
     },
-    "depends": "sushi/qv2ray-beta",
     "installer": {
         "script": [
             "function LinkFile([String] $file, [String] $source = $file) {",
@@ -28,7 +28,7 @@
     },
     "checkver": {
         "url": "https://github.com/Qv2ray/QvPlugin-Command/releases",
-        "re": "/tree/v([\\w.-]+)"
+        "regex": "/tree/v([\\w.-]+)"
     },
     "autoupdate": {
         "architecture": {

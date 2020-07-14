@@ -3,6 +3,7 @@
     "description": "The new Microsoft Edge browser",
     "homepage": "https://www.microsoft.com/edge",
     "license": "Freeware",
+    "notes": "Your data is stored $env:localappdata\\Microsoft\\Edge.",
     "architecture": {
         "64bit": {
             "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/stable/x64#/dl.7z",
@@ -22,7 +23,7 @@
     "shortcuts": [["msedge.exe", "Microsoft Edge"]],
     "checkver": {
         "url": "https://scoop-services.azurewebsites.net/checkver?app=microsoftedge",
-        "jp": "$.stable.x64.version"
+        "jsonpath": "$.stable.x64.version"
     },
     "autoupdate": {
         "architecture": {
@@ -33,6 +34,5 @@
                 "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/stable/x86#/dl.7z"
             }
         }
-    },
-    "notes": "Your data is stored $env:localappdata\\Microsoft\\Edge."
+    }
 }

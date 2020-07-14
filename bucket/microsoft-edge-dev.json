@@ -3,6 +3,7 @@
     "description": "The new Microsoft Edge browser (Dev Channel)",
     "homepage": "https://www.microsoftedgeinsider.com/",
     "license": "Freeware",
+    "notes": "Your data is stored $env:localappdata\\Microsoft\\Edge.",
     "architecture": {
         "64bit": {
             "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/dev/x64#/dl.7z",
@@ -22,7 +23,7 @@
     "shortcuts": [["msedge.exe", "Microsoft Edge Dev"]],
     "checkver": {
         "url": "https://scoop-services.azurewebsites.net/checkver?app=microsoftedge",
-        "jp": "$.dev.x64.version"
+        "jsonpath": "$.dev.x64.version"
     },
     "autoupdate": {
         "architecture": {
@@ -33,6 +34,5 @@
                 "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/dev/x86#/dl.7z"
             }
         }
-    },
-    "notes": "Your data is stored $env:localappdata\\Microsoft\\Edge."
+    }
 }

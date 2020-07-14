@@ -3,9 +3,9 @@
     "description": "Geosite and domain data for V2Ray (official)",
     "homepage": "https://github.com/v2ray/domain-list-community",
     "license": "MIT",
+    "depends": "v2ray",
     "url": "https://github.com/v2ray/domain-list-community/releases/download/20200714111014/dlc.dat",
     "hash": "9ba6943851a4505a230ff6149f02bbe43e49a73d7566e381bb91cf1bae856bd1",
-    "depends": "v2ray",
     "installer": {
         "script": [
             "if (-not (Test-Path \"$persist_dir\\v2ray-domain-list-community\")) {",

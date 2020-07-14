@@ -16,21 +16,11 @@
             "hash": "8f67b2994173cfd56c2fed601b5fb1644acbba632b5859111ef6dc84f397e572"
         }
     },
-    "bin": [
-        [
-            "bin\\code-insiders.cmd",
-            "code-insiders"
-        ]
-    ],
-    "shortcuts": [
-        [
-            "Code - Insiders.exe",
-            "Visual Studio Code - Insiders"
-        ]
-    ],
+    "bin": [["bin\\code-insiders.cmd", "code-insiders"]],
+    "shortcuts": [["Code - Insiders.exe", "Visual Studio Code - Insiders"]],
     "checkver": {
         "url": "https://scoop-sushi.vercel.app/api/vscode-insiders.ts",
-        "re": "(?<version>[\\d.]+) (?<commit>(?<shortCommit>.{7}).+)",
+        "regex": "(?<version>[\\d.]+) (?<commit>(?<shortCommit>.{7}).+)",
         "replace": "${version}-${shortCommit}"
     },
     "autoupdate": {
@@ -39,14 +29,14 @@
                 "url": "https://vscode.cdn.azure.cn/insider/$matchCommit/VSCode-win32-x64-$matchHead-insider.zip",
                 "hash": {
                     "url": "https://code.visualstudio.com/sha?build=insider",
-                    "jp": "$.products[5].sha256hash"
+                    "jsonpath": "$.products[5].sha256hash"
                 }
             },
             "32bit": {
                 "url": "https://vscode.cdn.azure.cn/insider/$matchCommit/VSCode-win32-ia32-$matchHead-insider.zip",
                 "hash": {
                     "url": "https://code.visualstudio.com/sha?build=insider",
-                    "jp": "$.products[2].sha256hash"
+                    "jsonpath": "$.products[2].sha256hash"
                 }
             }
         }

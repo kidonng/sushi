@@ -3,6 +3,7 @@
     "description": "NaiveProxy plugin for Qv2ray",
     "homepage": "https://github.com/Qv2ray/QvPlugin-NaiveProxy",
     "license": "GPL-3.0-or-later",
+    "depends": ["extras/qv2ray", "naiveproxy"],
     "architecture": {
         "64bit": {
             "url": "https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/download/v0.1.0-rc3/QvPlugin-NaiveProxy.v0.1.0-rc3.Windows-x64.dll",
@@ -13,7 +14,6 @@
             "hash": "ecbc17f404f33963966d1bfde445d177e0426d887eb9512c05a8d91d90b4e2dc"
         }
     },
-    "depends": ["extras/qv2ray", "naiveproxy"],
     "installer": {
         "script": [
             "function LinkFile([String] $file, [String] $source = $file) {",
@@ -34,7 +34,7 @@
     },
     "checkver": {
         "url": "https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases",
-        "re": "/tree/v([\\w.-]+)"
+        "regex": "/tree/v([\\w.-]+)"
     },
     "autoupdate": {
         "architecture": {
