@@ -45,14 +45,14 @@
                 "url": "https://vscode.cdn.azure.cn/insider/$matchCommit/VSCode-win32-x64-$matchHead-insider.zip",
                 "hash": {
                     "url": "https://code.visualstudio.com/sha?build=insider",
-                    "jp": "$.[5].sha256hash"
+                    "jp": "$.products[5].sha256hash"
                 }
             },
             "32bit": {
                 "url": "https://vscode.cdn.azure.cn/insider/$matchCommit/VSCode-win32-ia32-$matchHead-insider.zip",
                 "hash": {
                     "url": "https://code.visualstudio.com/sha?build=insider",
-                    "jp": "$.[2].sha256hash"
+                    "jp": "$.products[2].sha256hash"
                 }
             }
         }
