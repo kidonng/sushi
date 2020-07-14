@@ -1,0 +1,38 @@
+{
+    "version": "83.0.478.61",
+    "description": "The new Microsoft Edge browser",
+    "homepage": "https://www.microsoft.com/edge",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/stable/x64#/dl.7z",
+            "hash": "288F1C837A6B1AE3BD4D6D0AD1633E485363D4CDC0DE2C98070EFC19DBEDB53B"
+        },
+        "32bit": {
+            "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/stable/x86#/dl.7z",
+            "hash": "9219CDD9419090E35F81D5DCD9BA3E8B1EE8BFDDD75E514F13104B4060D9ECAC"
+        }
+    },
+    "installer": {
+        "script": [
+            "Expand-7zipArchive -Path \"$dir\\MSEDGE.7z\" -ExtractDir \"Chrome-bin\" -Removal",
+            "Move-Item \"$((Get-ChildItem -Directory $dir).FullName)/*\" -Destination $dir"
+        ]
+    },
+    "shortcuts": [["msedge.exe", "Microsoft Edge"]],
+    "checkver": {
+        "url": "https://scoop-services.azurewebsites.net/checkver?app=microsoftedge",
+        "jp": "$.stable.x64.version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/stable/x64#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/stable/x86#/dl.7z"
+            }
+        }
+    },
+    "notes": "Your data is stored $env:localappdata\\Microsoft\\Edge."
+}

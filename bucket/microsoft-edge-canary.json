@@ -1,0 +1,38 @@
+{
+    "version": "86.0.576.0",
+    "description": "The new Microsoft Edge browser (Canary Channel)",
+    "homepage": "https://www.microsoftedgeinsider.com/",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/canary/x64#/dl.7z",
+            "hash": "CC95B138C459DE83165AE370048114A5774608530D9C157889C574C88110E9F8"
+        },
+        "32bit": {
+            "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/canary/x86#/dl.7z",
+            "hash": "49F66923219E1EE5230D8931AE939DC2CAEDF401AC862BE0FE44598519EB9EC9"
+        }
+    },
+    "installer": {
+        "script": [
+            "Expand-7zipArchive -Path \"$dir\\MSEDGE.7z\" -ExtractDir \"Chrome-bin\" -Removal",
+            "Move-Item \"$((Get-ChildItem -Directory $dir).FullName)/*\" -Destination $dir"
+        ]
+    },
+    "shortcuts": [["msedge.exe", "Microsoft Edge Canary"]],
+    "checkver": {
+        "url": "https://scoop-services.azurewebsites.net/checkver?app=microsoftedge",
+        "jp": "$.canary.x64.version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/canary/x64#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/canary/x86#/dl.7z"
+            }
+        }
+    },
+    "notes": "Your data is stored $env:localappdata\\Microsoft\\Edge."
+}

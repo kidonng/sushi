@@ -2,7 +2,7 @@
 
 [@kidonng](https://github.com/kidonng)'s [Scoop](https://scoop-docs.now.sh/) bucket.
 
-This bucket strives to provide accurate version info, even for nightly applications.
+This bucket strives to provide accurate version/hash info, even for nightly applications.
 
 ## Usage
 
@@ -17,6 +17,7 @@ scoop install sushi/<app>
 
 -   **android-clt**: The official Android command line tools
 -   **listary-beta**: A revolutionary search utility
+-   **microsoft-edge**: The new Microsoft Edge browser
 -   **openhashtab**: A shell extension for conveniently calculating and checking file hashes from file properties
 -   **tencent-meeting**: Video conferencing app by Tencent
 
@@ -59,6 +60,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 
 -   [fontloadersub](https://github.com/yzwduck/FontLoaderSub)
 -   [listary-beta](https://www.listary.com/beta) # *
+-   [microsoft-edge / microsoft-edge-beta / microsoft-edge-dev / microsoft-edge-canary](https://www.microsoft.com/edge) *
 -   [officetoolplus-beta](https://otp.landian.vip/)
 -   [openhashtab](https://github.com/namazso/OpenHashTab) #
 -   [scoop-completion](https://github.com/Moeologist/scoop-completion)

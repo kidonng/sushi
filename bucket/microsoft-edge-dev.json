@@ -1,0 +1,38 @@
+{
+    "version": "85.0.552.1",
+    "description": "The new Microsoft Edge browser (Dev Channel)",
+    "homepage": "https://www.microsoftedgeinsider.com/",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/dev/x64#/dl.7z",
+            "hash": "d3e1418a39f55943ab3f1e905ce0d45f99762b93598929c9f3746c5aec20148a"
+        },
+        "32bit": {
+            "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/dev/x86#/dl.7z",
+            "hash": "c551bb972bc6766fb20ca8f4ff54e6566875963f3b845a1466d09e7483b7873d"
+        }
+    },
+    "installer": {
+        "script": [
+            "Expand-7zipArchive -Path \"$dir\\MSEDGE.7z\" -ExtractDir \"Chrome-bin\" -Removal",
+            "Move-Item \"$((Get-ChildItem -Directory $dir).FullName)/*\" -Destination $dir"
+        ]
+    },
+    "shortcuts": [["msedge.exe", "Microsoft Edge Dev"]],
+    "checkver": {
+        "url": "https://scoop-services.azurewebsites.net/checkver?app=microsoftedge",
+        "jp": "$.dev.x64.version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/dev/x64#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/dev/x86#/dl.7z"
+            }
+        }
+    },
+    "notes": "Your data is stored $env:localappdata\\Microsoft\\Edge."
+}
