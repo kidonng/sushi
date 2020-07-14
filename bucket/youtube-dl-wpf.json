@@ -3,7 +3,7 @@
     "description": "A simple GUI wrapper for youtube-dl",
     "homepage": "https://github.com/database64128/youtube-dl-wpf",
     "license": "GPL-3.0-or-later",
-    "depends": ["youtube-dl", "dorado/dotnet-desktop-runtime"],
+    "depends": ["youtube-dl", "sushi/dotnet-desktop-runtime"],
     "suggest": {
         "FFmpeg": ["ffmpeg", "ffmpeg-nightly"]
     },
@@ -28,7 +28,7 @@
     "persist": "Settings.json",
     "checkver": {
         "url": "https://github.com/database64128/youtube-dl-wpf/releases",
-        "re": "youtube-dl-wpf-v(?<version>[\\d.]+)-(?<date>\\d{8})"
+        "regex": "youtube-dl-wpf-v(?<version>[\\d.]+)-(?<date>\\d{8})"
     },
     "autoupdate": {
         "url": "https://github.com/database64128/youtube-dl-wpf/releases/download/v$version/youtube-dl-wpf-v$version-$matchDate.7z"

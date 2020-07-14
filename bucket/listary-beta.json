@@ -3,10 +3,10 @@
     "description": "A revolutionary search utility (beta)",
     "homepage": "https://www.listary.com/beta",
     "license": "Freeware",
+    "notes": "Your data is stored in $env:appdata\\Listary.",
     "url": "https://www.listary.com/download/beta/listary6/ListaryInstaller.exe",
     "hash": "5baf39cd63e1d07784f8614fe0ec79fbc1f5ba2f4f8a91d0f2b55b24d493a250",
     "innosetup": true,
-    "shortcuts": [["Listary.exe", "Listary"]],
     "installer": {
         "script": [
             "if (!(is_admin)) {",
@@ -33,5 +33,5 @@
             "Remove-Item \"$env:appdata\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\\Listary.lnk\""
         ]
     },
-    "notes": "Your data is stored in $env:appdata\\Listary."
+    "shortcuts": [["Listary.exe", "Listary"]]
 }

@@ -3,6 +3,7 @@
     "description": "ShadowSocksR plugin for Qv2ray (beta)",
     "homepage": "https://github.com/Qv2ray/QvPlugin-SSR",
     "license": "GPL-3.0-or-later",
+    "depends": "sushi/qv2ray-beta",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases/download/v2.0.0/QvSSRPlugin.v2.0.0.Windows-x64.dll",
@@ -13,7 +14,6 @@
             "hash": "63fd019c9eadbfe171d96b46922bc5b04d689e6a971574155435efea5a2ba452"
         }
     },
-    "depends": "sushi/qv2ray-beta",
     "installer": {
         "script": [
             "function LinkFile([String] $file, [String] $source = $file) {",
@@ -28,7 +28,7 @@
     },
     "checkver": {
         "url": "https://github.com/Qv2ray/QvPlugin-SSR/releases",
-        "re": "/tree/v([\\w.-]+)"
+        "regex": "/tree/v([\\w.-]+)"
     },
     "autoupdate": {
         "architecture": {

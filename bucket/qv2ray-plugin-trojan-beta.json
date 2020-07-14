@@ -3,6 +3,7 @@
     "description": "Trojan plugin for Qv2ray (beta)",
     "homepage": "https://github.com/Qv2ray/QvPlugin-Trojan",
     "license": "GPL-3.0-or-later",
+    "depends": "sushi/qv2ray-beta",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases/download/v2.0.0/QvTrojanPlugin.v2.0.0.Windows-x64.dll",
@@ -13,7 +14,6 @@
             "hash": "de22e182050359a27eeee5edf47a32fe61681e32c4fdf77478252ed6add43798"
         }
     },
-    "depends": "sushi/qv2ray-beta",
     "installer": {
         "script": [
             "function LinkFile([String] $file, [String] $source = $file) {",
@@ -28,7 +28,7 @@
     },
     "checkver": {
         "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases",
-        "re": "/tree/v([\\w.-]+)"
+        "regex": "/tree/v([\\w.-]+)"
     },
     "autoupdate": {
         "architecture": {

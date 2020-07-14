@@ -5,7 +5,6 @@
     "license": "GPL-3.0-or-later",
     "url": "https://github.com/Trojan-Qt5/Trojan-Qt5/releases/download/v1.4.0/Trojan-Qt5-Windows.7z",
     "hash": "307e478e70c4d3e668473bfd7ba095ea08712d7d21821f8004af86b9d065c4d5",
-    "shortcuts": [["trojan-qt5.exe", "Trojan-Qt5"]],
     "installer": {
         "script": [
             "function CreateFile([String] $file, [String] $content = $null) {",
@@ -29,6 +28,7 @@
             "BackupFile 'config.json'"
         ]
     },
+    "shortcuts": [["trojan-qt5.exe", "Trojan-Qt5"]],
     "persist": ["pac", "config.ini", "config.json"],
     "checkver": "github",
     "autoupdate": {

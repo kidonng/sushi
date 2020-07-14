@@ -3,9 +3,9 @@
     "description": "GeoIP data for V2Ray (official)",
     "homepage": "https://github.com/v2ray/geoip",
     "license": "MIT",
+    "depends": "v2ray",
     "url": "https://github.com/v2ray/geoip/releases/download/202007080004/geoip.dat",
     "hash": "fe84a87816b6cda5d5a72dfef8f41f996f968c62c4f697d7f1adc316067a98c8",
-    "depends": "v2ray",
     "installer": {
         "script": [
             "if (-not (Test-Path \"$persist_dir\\v2ray-geoip\")) {",

@@ -36,7 +36,7 @@
     "persist": "config",
     "checkver": {
         "url": "https://github.com/Qv2ray/Qv2ray/releases",
-        "re": "/tree/v([\\w.-]+)"
+        "regex": "/tree/v([\\w.-]+)"
     },
     "autoupdate": {
         "architecture": {

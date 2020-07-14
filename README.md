@@ -27,8 +27,6 @@ scoop install sushi/<app>
 
 **\*** Non portable (store data outside of Scoop directory)
 
-🐟 Depends on `dorado` bucket (`scoop bucket add dorado https://github.com/chawyehsu/dorado`)
-
 ### [V2Ray](https://www.v2fly.org/) Rulesets
 
 -   [v2ray-domain-list-community](https://github.com/v2ray/domain-list-community)
@@ -58,15 +56,15 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 
 ### Miscellaneous
 
+-   [dotnet-desktop-runtime](https://dotnet.microsoft.com/)
 -   [fontloadersub](https://github.com/yzwduck/FontLoaderSub)
 -   [listary-beta](https://www.listary.com/beta) # *
 -   [microsoft-edge / microsoft-edge-beta / microsoft-edge-dev / microsoft-edge-canary](https://www.microsoft.com/edge) *
 -   [officetoolplus-beta](https://otp.landian.vip/)
 -   [openhashtab](https://github.com/namazso/OpenHashTab) #
--   [scoop-completion](https://github.com/Moeologist/scoop-completion)
 -   [tencent-meeting](https://meeting.tencent.com/) *
 -   [trojan-qt5](https://github.com/Trojan-Qt5/Trojan-Qt5)
 -   [~~naiveproxy~~](https://github.com/klzgrad/naiveproxy) ([Moved to `main`](https://github.com/ScoopInstaller/Main/pull/1172))
 -   [varpanel](http://implbits.com/products/varpanel/)
 -   [wechat](https://pc.weixin.qq.com/) *
--   [youtube-dl-wpf](https://github.com/database64128/youtube-dl-wpf) 🐟
+-   [youtube-dl-wpf](https://github.com/database64128/youtube-dl-wpf)
