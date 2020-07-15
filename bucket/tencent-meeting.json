@@ -1,5 +1,5 @@
 {
-    "version": "1.6.7.453",
+    "version": "1.7.0.483",
     "description": "Video conferencing app by Tencent",
     "homepage": "https://meeting.tencent.com/",
     "license": {
@@ -7,8 +7,8 @@
         "url": "https://meeting.tencent.com/declare.html"
     },
     "notes": "Your data is stored in $env:appdata\\Tencent\\WeMeet.",
-    "url": "https://down.qq.com/download/TencentMeeting_0300000000_1.6.7.453.publish.exe#/dl.7z",
-    "hash": "md5:3fadbe01c943d12571cdf5175aacc9e4",
+    "url": "https://down.qq.com/download/TencentMeeting_0300000000_1.7.0.483.publish.exe",
+    "hash": "md5:ab55a8064eb9a14b6ff7104355c48614",
     "extract_dir": "$_4_",
     "installer": {
         "script": [
@@ -16,7 +16,12 @@
             "Remove-Item \"$dir\\WeMeetUninstall.exe\" -Force -Recurse"
         ]
     },
-    "shortcuts": [["wemeetapp.exe", "腾讯会议"]],
+    "shortcuts": [
+        [
+            "wemeetapp.exe",
+            "腾讯会议"
+        ]
+    ],
     "checkver": {
         "url": "https://scoop-sushi.vercel.app/api/tencent-meeting.ts",
         "regex": "(?<version>[\\d.]+) (?<url>.+)"
