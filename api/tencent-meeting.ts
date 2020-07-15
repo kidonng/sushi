@@ -14,5 +14,5 @@ export default async (
         )
         .json()
 
-    send(hash ? md5 : `${version} ${url}`)
+    send(hash ? md5 : `${version} ${url}#/dl.7z`)
 }
