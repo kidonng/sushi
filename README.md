@@ -27,12 +27,6 @@ scoop install sushi/<app>
 
 **\*** Non portable (store data outside of Scoop directory)
 
-### [V2Ray](https://www.v2fly.org/) Rulesets
-
--   [v2ray-domain-list-community](https://github.com/v2ray/domain-list-community)
--   [v2ray-geoip](https://github.com/v2ray/geoip)
--   [v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)
-
 ### [Qv2ray](https://qv2ray.github.io/)
 
 -   [qv2ray-beta](https://github.com/Qv2ray/Qv2ray)
@@ -40,6 +34,13 @@ scoop install sushi/<app>
 -   [qv2ray-plugin-naiveproxy](https://github.com/Qv2ray/QvPlugin-NaiveProxy)
 -   [qv2ray-plugin-ssr / qv2ray-plugin-ssr-beta](https://github.com/Qv2ray/QvPlugin-SSR)
 -   [qv2ray-plugin-trojan / qv2ray-plugin-trojan-beta](https://github.com/Qv2ray/QvPlugin-Trojan)
+-   [qv2ray-plugin-trojan-go](https://github.com/Qv2ray/QvPlugin-Trojan-Go)
+
+### [V2Ray](https://www.v2fly.org/) Rulesets
+
+-   [v2ray-domain-list-community](https://github.com/v2ray/domain-list-community)
+-   [v2ray-geoip](https://github.com/v2ray/geoip)
+-   [v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)
 
 ### Development
 
@@ -54,6 +55,11 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 -   [source-han-sans-truetype](https://github.com/be5invis/source-han-sans-ttf)
 -   [source-han-serif-truetype](https://github.com/Pal3love/Source-Han-TrueType)
 
+### Proxies
+
+-   [trojan-go](https://p4gefau1t.github.io/trojan-go/)
+-   [trojan-qt5](https://github.com/Trojan-Qt5/Trojan-Qt5)
+
 ### Miscellaneous
 
 -   [dotnet-desktop-runtime](https://dotnet.microsoft.com/)
@@ -63,7 +69,6 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 -   [officetoolplus-beta](https://otp.landian.vip/)
 -   [openhashtab](https://github.com/namazso/OpenHashTab) #
 -   [tencent-meeting](https://meeting.tencent.com/) *
--   [trojan-qt5](https://github.com/Trojan-Qt5/Trojan-Qt5)
 -   [~~naiveproxy~~](https://github.com/klzgrad/naiveproxy) ([Moved to `main`](https://github.com/ScoopInstaller/Main/pull/1172))
 -   [varpanel](http://implbits.com/products/varpanel/)
 -   [wechat](https://pc.weixin.qq.com/) *

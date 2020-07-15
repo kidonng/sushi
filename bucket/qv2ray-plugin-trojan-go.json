@@ -1,0 +1,54 @@
+{
+    "version": "0.9",
+    "description": "Trojan-Go plugin for Qv2ray",
+    "homepage": "https://github.com/Qv2ray/QvPlugin-Trojan-Go",
+    "license": "GPL-3.0-or-later",
+    "depends": ["extras/qv2ray", "sushi/trojan-go"],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/download/v0.9/QvTrojanGoPlugin.v0.9.Windows-x64.dll",
+            "hash": "f0e128af0049ebdd53f7c1bb576206f43cca003029aa97f47877235965af3c78"
+        },
+        "32bit": {
+            "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/download/v0.9/QvTrojanGoPlugin.v0.9.Windows-x86.dll",
+            "hash": "adff9008f4c790982be696df18d9497bb34b3dfac5893810dd053fd535a5e9f6"
+        }
+    },
+    "installer": {
+        "script": [
+            "function LinkFile([String] $file, [String] $source = $file) {",
+            "    Write-Host \"Creating hardlink for $file\"",
+            "    New-Item -Force -ItemType HardLink -Path \"$(appdir qv2ray $global)\\current\\config\\plugins\" -Name $file -Target \"$dir\\$source\" | Out-Null",
+            "}",
+            "LinkFile 'trojan-go.dll' '*.dll'",
+            "$config = \"$(appdir qv2ray $global)\\current\\config\\plugin_settings\\qvtrojango_plugin.conf\"",
+            "if (-not (Test-Path $config)) {",
+            "    New-Item \"$(appdir qv2ray $global)\\current\\config\\plugin_settings\" -ItemType Directory | Out-Null",
+            "    $trojanGoPath = $(appdir trojan-go $global).Replace('\\', '/')",
+            "    @{",
+            "        'kernelPath' = \"$trojanGoPath/current/trojan-go.exe\"",
+            "    } | ConvertTo-Json -Depth 20 | Out-File $config -Encoding ascii",
+            "}"
+        ]
+    },
+    "uninstaller": {
+        "script": "Remove-Item \"$(appdir qv2ray $global)\\current\\config\\plugins\\trojan-go.dll\" -Force"
+    },
+    "checkver": {
+        "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases",
+        "regex": "/tree/v([\\w.-]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/download/v$version/QvTrojanGoPlugin.v$version.Windows-x64.dll"
+            },
+            "32bit": {
+                "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/download/v$version/QvTrojanGoPlugin.v$version.Windows-x86.dll"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/download/v$version/sha256.list"
+        }
+    }
+}

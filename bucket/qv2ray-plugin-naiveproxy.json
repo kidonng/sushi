@@ -21,16 +21,18 @@
             "    New-Item -Force -ItemType HardLink -Path \"$(appdir qv2ray $global)\\current\\config\\plugins\" -Name $file -Target \"$dir\\$source\" | Out-Null",
             "}",
             "LinkFile 'naiveproxy.dll' '*.dll'",
-            "$config = \"$(appdir qv2ray-beta $global)\\current\\config\\plugin_settings\\qvplugin_naiveproxy.conf\"",
+            "$config = \"$(appdir qv2ray $global)\\current\\config\\plugin_settings\\qvplugin_naiveproxy.conf\"",
             "if (-not (Test-Path $config)) {",
+            "    New-Item \"$(appdir qv2ray $global)\\current\\config\\plugin_settings\" -ItemType Directory | Out-Null",
+            "    $naiveproxyPath = $(appdir naiveproxy $global).Replace('\\', '/')",
             "    @{",
-            "        'kernelPath' = \"$(appdir naiveproxy $global)\\current\\naive.exe\"",
+            "        'kernelPath' = \"$naiveproxyPath/current/naive.exe\"",
             "    } | ConvertTo-Json -Depth 20 | Out-File $config -Encoding ascii",
             "}"
         ]
     },
     "uninstaller": {
-        "script": "Remove-Item \"$(appdir qv2ray-beta $global)\\current\\config\\plugins\\naiveproxy.dll\" -Force"
+        "script": "Remove-Item \"$(appdir qv2ray $global)\\current\\config\\plugins\\naiveproxy.dll\" -Force"
     },
     "checkver": {
         "url": "https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases",
