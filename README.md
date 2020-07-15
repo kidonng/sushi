@@ -19,6 +19,7 @@ scoop install sushi/<app>
 -   **listary-beta**: A revolutionary search utility
 -   **microsoft-edge**: The new Microsoft Edge browser
 -   **openhashtab**: A shell extension for conveniently calculating and checking file hashes from file properties
+-   **proxychains**: Windows and Cygwin port of proxychains, based on MinHook and DLL Injection
 -   **tencent-meeting**: Video conferencing app by Tencent
 
 ---
@@ -57,6 +58,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 
 ### Proxies
 
+-   [proxychains](https://github.com/shunf4/proxychains-windows)
 -   [trojan-go](https://p4gefau1t.github.io/trojan-go/)
 -   [trojan-qt5](https://github.com/Trojan-Qt5/Trojan-Qt5)
 
