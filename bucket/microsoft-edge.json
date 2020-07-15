@@ -1,5 +1,5 @@
 {
-    "version": "83.0.478.61",
+    "version": "83.0.478.64",
     "description": "The new Microsoft Edge browser",
     "homepage": "https://www.microsoft.com/edge",
     "license": "Freeware",
@@ -7,11 +7,11 @@
     "architecture": {
         "64bit": {
             "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/stable/x64#/dl.7z",
-            "hash": "288F1C837A6B1AE3BD4D6D0AD1633E485363D4CDC0DE2C98070EFC19DBEDB53B"
+            "hash": "4081891d098831294938fac2b68af97156c18ba668be1acccec2864c8bde2cbf"
         },
         "32bit": {
             "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/stable/x86#/dl.7z",
-            "hash": "9219CDD9419090E35F81D5DCD9BA3E8B1EE8BFDDD75E514F13104B4060D9ECAC"
+            "hash": "52ecd1f398593425c3d514efa6f743c3bb725cc40dff3b8c9742cca8304802b5"
         }
     },
     "installer": {
@@ -20,7 +20,12 @@
             "Move-Item \"$((Get-ChildItem -Directory $dir).FullName)/*\" -Destination $dir"
         ]
     },
-    "shortcuts": [["msedge.exe", "Microsoft Edge"]],
+    "shortcuts": [
+        [
+            "msedge.exe",
+            "Microsoft Edge"
+        ]
+    ],
     "checkver": {
         "url": "https://scoop-services.azurewebsites.net/checkver?app=microsoftedge",
         "jsonpath": "$.stable.x64.version"
