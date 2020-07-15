@@ -1,5 +1,5 @@
 {
-    "version": "86.0.576.0",
+    "version": "86.0.577.0",
     "description": "The new Microsoft Edge browser (Canary Channel)",
     "homepage": "https://www.microsoftedgeinsider.com/",
     "license": "Freeware",
@@ -7,11 +7,11 @@
     "architecture": {
         "64bit": {
             "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/canary/x64#/dl.7z",
-            "hash": "CC95B138C459DE83165AE370048114A5774608530D9C157889C574C88110E9F8"
+            "hash": "8072a6ab1a3f017b684ce6df2093b05d2b1612b0f5a53b6fc6d8f14c355fab6e"
         },
         "32bit": {
             "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/canary/x86#/dl.7z",
-            "hash": "49F66923219E1EE5230D8931AE939DC2CAEDF401AC862BE0FE44598519EB9EC9"
+            "hash": "df0bc4239fcd7bb43af11949a37e1adfdf95490ffe3b6b78c8b7803535ac6871"
         }
     },
     "installer": {
@@ -20,7 +20,12 @@
             "Move-Item \"$((Get-ChildItem -Directory $dir).FullName)/*\" -Destination $dir"
         ]
     },
-    "shortcuts": [["msedge.exe", "Microsoft Edge Canary"]],
+    "shortcuts": [
+        [
+            "msedge.exe",
+            "Microsoft Edge Canary"
+        ]
+    ],
     "checkver": {
         "url": "https://scoop-services.azurewebsites.net/checkver?app=microsoftedge",
         "jsonpath": "$.canary.x64.version"
