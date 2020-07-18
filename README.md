@@ -70,6 +70,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 -   [microsoft-edge / microsoft-edge-beta / microsoft-edge-dev / microsoft-edge-canary](https://www.microsoft.com/edge) *
 -   [officetoolplus-beta](https://otp.landian.vip/)
 -   [openhashtab](https://github.com/namazso/OpenHashTab) #
+-   [sandboxie-plus](https://github.com/sandboxie-plus/Sandboxie)
 -   [tencent-meeting](https://meeting.tencent.com/) *
 -   [~~naiveproxy~~](https://github.com/klzgrad/naiveproxy) ([Moved to `main`](https://github.com/ScoopInstaller/Main/pull/1172))
 -   [varpanel](http://implbits.com/products/varpanel/)
