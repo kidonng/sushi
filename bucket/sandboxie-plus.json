@@ -1,25 +1,30 @@
 {
-    "version": "0.3",
+    "version": "0.3.5",
     "description": "Sandboxie community maintained version",
     "homepage": "https://github.com/sandboxie-plus/Sandboxie",
     "license": "GPL-3.0-or-later",
     "notes": "Sandboxie config is placed at \"$dir\\Sandbox.ini\".",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v0.3/SbiePlus64-v0.3.zip",
-            "hash": "812D5B98CE9E7731EAE2CE01180B01D3EA0AB5185B9553A437A1D9E6CBBA5810",
+            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v0.3.5/SbiePlus64-v0.3.5.zip",
+            "hash": "bbd48edb4524122d5c49783be98d5780ede7ddedd5b75981a56b10006abf613d",
             "extract_dir": "SbiePlus64"
         },
         "32bit": {
-            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v0.3/SbiePlus32-v0.3.zip",
-            "hash": "1D5582FAB9E6CB40AD5B83D4CC58C275BEE70DBDEA3A52D2B90B77ED335E5361",
+            "url": "https://github.com/sandboxie-plus/Sandboxie/releases/download/v0.3.5/SbiePlus32-v0.3.5.zip",
+            "hash": "c27e5f44d15c0eac1dc7fb5bc01c0e289907633f51ee32d7e76695d475e8cbcd",
             "extract_dir": "SbiePlus32"
         }
     },
     "installer": {
         "script": "Copy-Item \"$dir\\Templates.ini\" -Destination \"$dir\\Sandbox.ini\""
     },
-    "shortcuts": [["SandMan.exe", "Sandboxie Manager"]],
+    "shortcuts": [
+        [
+            "SandMan.exe",
+            "Sandboxie Manager"
+        ]
+    ],
     "persist": "Sandbox.ini",
     "checkver": "github",
     "autoupdate": {
