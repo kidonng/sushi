@@ -1,5 +1,5 @@
 {
-    "version": "2.6.1",
+    "version": "2.6.2",
     "description": "Graphical frontend for v2ray (beta)",
     "homepage": "https://github.com/Qv2ray/Qv2ray",
     "license": "GPL-3.0-or-later",
@@ -9,12 +9,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Qv2ray/Qv2ray/releases/download/v2.6.1/Qv2ray.v2.6.1.Windows-x64.7z",
-            "hash": "1d090291f37a00c06c8867da93bc1ca3acd2be8f13dd1ef5a621dda8e89ea5ac"
+            "url": "https://github.com/Qv2ray/Qv2ray/releases/download/v2.6.2/Qv2ray.v2.6.2.Windows-x64.7z",
+            "hash": "eddaf2ad9f969a002c0a73f077797a393b9284cc235f95950e8bbadf4a2e5d4e"
         },
         "32bit": {
-            "url": "https://github.com/Qv2ray/Qv2ray/releases/download/v2.6.1/Qv2ray.v2.6.1.Windows-x86.7z",
-            "hash": "425a3ff66620c12c1ceeefb5e2ecbc58e21314c1be85cff5d815b3ee3aa110cf"
+            "url": "https://github.com/Qv2ray/Qv2ray/releases/download/v2.6.2/Qv2ray.v2.6.2.Windows-x86.7z",
+            "hash": "108695205cb668b0a94ab0380eaf7db7cd2439af6fb9c5a73c95f5e27704df23"
         }
     },
     "extract_dir": "deployment",
@@ -32,7 +32,12 @@
         "}"
     ],
     "bin": "qv2ray.exe",
-    "shortcuts": [["qv2ray.exe", "Qv2ray (beta)"]],
+    "shortcuts": [
+        [
+            "qv2ray.exe",
+            "Qv2ray (beta)"
+        ]
+    ],
     "persist": "config",
     "checkver": {
         "url": "https://github.com/Qv2ray/Qv2ray/releases",
