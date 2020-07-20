@@ -49,6 +49,7 @@ If you favorite applications aren't included, feel free to [submit an issue](htt
 ### Development
 
 -   [android-clt](https://developer.android.com/studio#command-tools) ([`extras` pending](https://github.com/lukesampson/scoop-extras/pull/4237))
+-   [cpeditor / cpeditor-beta](https://github.com/cpeditor/cpeditor)
 -   [vscode-insiders * / vscode-insiders-portable](https://code.visualstudio.com/insiders/)
 
 ### Fonts
