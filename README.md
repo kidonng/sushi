@@ -49,8 +49,9 @@ If you favorite applications aren't included, feel free to [submit an issue](htt
 ### Development
 
 -   [android-clt](https://developer.android.com/studio#command-tools) ([`extras` pending](https://github.com/lukesampson/scoop-extras/pull/4237))
+-   [cf-tool](https://github.com/xalanq/cf-tool)
 -   [cpeditor / cpeditor-beta](https://github.com/cpeditor/cpeditor)
--   [vscode-insiders * / vscode-insiders-portable](https://code.visualstudio.com/insiders/)
+-   [vscode-insiders \* / vscode-insiders-portable](https://code.visualstudio.com/insiders/)
 
 ### Fonts
 
@@ -70,13 +71,13 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 
 -   [dotnet-desktop-runtime](https://dotnet.microsoft.com/)
 -   [fontloadersub](https://github.com/yzwduck/FontLoaderSub)
--   [listary-beta](https://www.listary.com/beta) # *
--   [microsoft-edge / microsoft-edge-beta / microsoft-edge-dev / microsoft-edge-canary](https://www.microsoft.com/edge) *
+-   [listary-beta](https://www.listary.com/beta) # \*
+-   [microsoft-edge / microsoft-edge-beta / microsoft-edge-dev / microsoft-edge-canary](https://www.microsoft.com/edge) \*
 -   [officetoolplus-beta](https://otp.landian.vip/)
 -   [openhashtab](https://github.com/namazso/OpenHashTab) #
 -   [sandboxie-plus](https://github.com/sandboxie-plus/Sandboxie)
--   [tencent-meeting](https://meeting.tencent.com/) *
+-   [tencent-meeting](https://meeting.tencent.com/) \*
 -   [~~naiveproxy~~](https://github.com/klzgrad/naiveproxy) ([Moved to `main`](https://github.com/ScoopInstaller/Main/pull/1172))
 -   [varpanel](http://implbits.com/products/varpanel/)
--   [wechat](https://pc.weixin.qq.com/) *
+-   [wechat](https://pc.weixin.qq.com/) \*
 -   [youtube-dl-wpf](https://github.com/database64128/youtube-dl-wpf)
