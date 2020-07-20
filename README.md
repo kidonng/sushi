@@ -1,17 +1,20 @@
 # 🍣 Sushi
 
-[@kidonng](https://github.com/kidonng)'s [Scoop](https://scoop-docs.now.sh/) bucket.
+Sushi is a tasty [Scoop](https://scoop-docs.now.sh/) bucket.
 
-This bucket strives to provide accurate version/hash info, even for nightly applications.
+We strive to provide up-to-date and accurate manifests, even for nightly applications.
 
 ## Usage
 
 ```powershell
 scoop bucket add sushi https://github.com/kidonng/sushi
+# Recommended, but you can omit the bucket name most of the time
 scoop install sushi/<app>
 ```
 
 ## Manifests
+
+If you favorite applications aren't included, feel free to [submit an issue](https://github.com/kidonng/sushi/issues/new) or make a pull request! Make sure to read the [contributing guide](CONTRIBUTING.md) first.
 
 ### Featured
 
