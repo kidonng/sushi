@@ -1,0 +1,17 @@
+{
+    "version": "0.6.4-prev",
+    "description": "A NaiveProxy Windows Client",
+    "homepage": "https://github.com/KevinZonda/NaiveSharp",
+    "license": "GPL-3.0-or-later",
+    "url": "https://github.com/KevinZonda/NaiveSharp/releases/download/0.6.4-prev/NaiveSharp.0.6.4.Preview.zip",
+    "hash": "F3281FAA94C1CE9EAB1424A852BDAD75B79004FA8F1EB414FC25D2BC752680C9",
+    "shortcuts": [["NaiveSharp.exe", "NaiveSharp"]],
+    "persist": "config",
+    "checkver": {
+        "github": "https://github.com/KevinZonda/NaiveSharp",
+        "regex": "/releases/tag/(?:v|V)?([\\w.-]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/KevinZonda/NaiveSharp/releases/download/$version/NaiveSharp.0.6.4.Preview.zip"
+    }
+}

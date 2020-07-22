@@ -64,7 +64,9 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 
 ### Proxies
 
+-   [naivesharp](https://github.com/KevinZonda/NaiveSharp)
 -   [proxychains](https://github.com/shunf4/proxychains-windows)
+-   [trojan-client-slim](https://github.com/KevinZonda/trojan-client-slim)
 -   [trojan-go](https://p4gefau1t.github.io/trojan-go/)
 -   [trojan-qt5](https://github.com/Trojan-Qt5/Trojan-Qt5)
 -   [v2ray-desktop](https://github.com/Dr-Incognito/V2Ray-Desktop)
