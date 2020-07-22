@@ -8,24 +8,13 @@
     "installer": {
         "script": [
             "function CreateFile([String] $file, [String] $content = $null) {",
-            "    if (!(Test-Path \"$persist_dir\\$file\")) {",
-            "        New-Item -Force -Path \"$persist_dir\\$file\" -ItemType file -Value $content | Out-Null",
+            "    if (-not (Test-Path \"$persist_dir\\$file\")) {",
+            "        Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+            "        Set-Content \"$dir\\$file\" $content -Encoding Ascii",
             "    }",
             "}",
             "CreateFile 'config.ini'",
             "CreateFile 'config.json'"
-        ]
-    },
-    "uninstaller": {
-        "script": [
-            "function BackupFile([String] $file) {",
-            "    if (!(Test-Path \"$persist_dir\\$file\")) {",
-            "        Remove-Item \"$persist_dir\\$file\" -Force",
-            "    }",
-            "    Move-Item \"$dir\\$file\" \"$persist_dir\" -Force",
-            "}",
-            "BackupFile 'config.ini'",
-            "BackupFile 'config.json'"
         ]
     },
     "shortcuts": [["trojan-qt5.exe", "Trojan-Qt5"]],
