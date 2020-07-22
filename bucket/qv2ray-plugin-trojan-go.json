@@ -37,10 +37,7 @@
     "uninstaller": {
         "script": "Remove-Item \"$(appdir qv2ray $global)\\current\\config\\plugins\\trojan-go.dll\" -Force"
     },
-    "checkver": {
-        "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases",
-        "regex": "/tree/v([\\w.-]+)"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {

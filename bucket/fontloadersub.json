@@ -14,7 +14,7 @@
     "shortcuts": [["FontLoaderSub.exe", "FontLoaderSub"]],
     "persist": ["fonts", "fc-subs.db"],
     "checkver": {
-        "url": "https://github.com/yzwduck/FontLoaderSub/releases/latest",
+        "github": "https://github.com/yzwduck/FontLoaderSub",
         "regex": "/releases/tag/(r\\d+)"
     },
     "autoupdate": {

@@ -28,7 +28,6 @@
         "sources"
     ],
     "checkver": {
-        "url": "https://developer.android.com/studio/",
         "regex": "commandlinetools-win-(\\d+)"
     },
     "autoupdate": {
