@@ -2,6 +2,7 @@
     "name": "sushi",
     "private": true,
     "dependencies": {
+        "dayjs": "^1.8.30",
         "got": "^11.5.0"
     },
     "devDependencies": {
