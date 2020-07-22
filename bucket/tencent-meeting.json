@@ -23,13 +23,13 @@
         ]
     ],
     "checkver": {
-        "url": "https://scoop-sushi.vercel.app/api/tencent-meeting.ts",
+        "url": "https://scoop-sushi.vercel.app/api/tencent-meeting",
         "regex": "(?<version>[\\d.]+) (?<url>.+)"
     },
     "autoupdate": {
         "url": "$matchUrl",
         "hash": {
-            "url": "https://scoop-sushi.vercel.app/api/tencent-meeting.ts?hash=1"
+            "url": "https://scoop-sushi.vercel.app/api/tencent-meeting?hash=1"
         }
     }
 }
