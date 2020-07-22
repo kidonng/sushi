@@ -16,7 +16,7 @@
     "bin": "trojan-go.exe",
     "checkver": {
         "url": "https://github.com/p4gefau1t/trojan-go/releases",
-        "regex": "/tree/v([\\w.-]+)"
+        "regex": "/releases/tag/(?:v|V)?([\\w.-]+)"
     },
     "autoupdate": {
         "architecture": {
