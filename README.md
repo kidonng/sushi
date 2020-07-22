@@ -27,15 +27,16 @@ If you favorite applications aren't included, feel free to [submit an issue](htt
 
 ---
 
-**#** Require administrator rights (`scoop install sudo`)
+\# Require administrator rights (`scoop install sudo`)
 
-**\*** Non portable (store data outside of Scoop directory)
+\* Non portable (store data outside of Scoop directory)
 
 ### [Qv2ray](https://qv2ray.github.io/)
 
 -   [qv2ray-beta](https://github.com/Qv2ray/Qv2ray)
 -   [qv2ray-plugin-command / qv2ray-plugin-command-beta](https://github.com/Qv2ray/QvPlugin-Command)
 -   [qv2ray-plugin-naiveproxy](https://github.com/Qv2ray/QvPlugin-NaiveProxy)
+-   [qv2ray-plugin-ss](https://github.com/Qv2ray/QvPlugin-SS)
 -   [qv2ray-plugin-ssr / qv2ray-plugin-ssr-beta](https://github.com/Qv2ray/QvPlugin-SSR)
 -   [qv2ray-plugin-trojan / qv2ray-plugin-trojan-beta](https://github.com/Qv2ray/QvPlugin-Trojan)
 -   [qv2ray-plugin-trojan-go](https://github.com/Qv2ray/QvPlugin-Trojan-Go)
