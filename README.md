@@ -67,6 +67,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 -   [proxychains](https://github.com/shunf4/proxychains-windows)
 -   [trojan-go](https://p4gefau1t.github.io/trojan-go/)
 -   [trojan-qt5](https://github.com/Trojan-Qt5/Trojan-Qt5)
+-   [v2ray-desktop](https://github.com/Dr-Incognito/V2Ray-Desktop)
 
 ### Miscellaneous
 
