@@ -29,7 +29,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://scoop-sushi.vercel.app/api/vscode-insiders.ts",
+        "url": "https://scoop-sushi.vercel.app/api/vscode-insiders",
         "regex": "(?<version>[\\d.]+) (?<commit>(?<shortCommit>.{7}).+)",
         "replace": "${version}-${shortCommit}"
     },
