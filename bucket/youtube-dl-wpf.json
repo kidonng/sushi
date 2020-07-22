@@ -13,8 +13,12 @@
             "ffmpeg-nightly"
         ]
     },
-    "url": "https://github.com/database64128/youtube-dl-wpf/releases/download/v1.1/youtube-dl-wpf-v1.1-20200715.7z",
-    "hash": "07cbf36aa6250df9a477b5a633f8dad1c39e3a7b3b5ab42a5f2d4780e4427a90",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/database64128/youtube-dl-wpf/releases/download/v1.1/youtube-dl-wpf-v1.1-20200715.7z",
+            "hash": "07cbf36aa6250df9a477b5a633f8dad1c39e3a7b3b5ab42a5f2d4780e4427a90",
+        }
+    },
     "installer": {
         "script": [
             "$ffmpeg = ''",
