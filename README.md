@@ -58,6 +58,7 @@ If you favorite applications aren't included, feel free to [submit an issue](htt
 
 Fonts do **not** need administrator rights to **install**, but they are **needed** to **uninstall**.
 
+-   [cascadia-code-pl](https://github.com/microsoft/cascadia-code)
 -   [jetbrains-mono](https://github.com/JetBrains/JetBrainsMono)
 -   [source-han-sans-truetype](https://github.com/be5invis/source-han-sans-ttf)
 -   [source-han-serif-truetype](https://github.com/Pal3love/Source-Han-TrueType)
