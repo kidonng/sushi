@@ -35,7 +35,8 @@
     ],
     "persist": "data",
     "checkver": {
-        "url": "https://scoop-sushi.vercel.app/api/vscode-insiders"
+        "url": "https://scoop-sushi.vercel.app/api/vscode-insiders",
+        "regex": "([\\d.-]+)"
     },
     "autoupdate": {
         "architecture": {
