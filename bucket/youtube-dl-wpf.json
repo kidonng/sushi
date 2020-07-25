@@ -42,7 +42,7 @@
     ],
     "persist": "Settings.json",
     "checkver": {
-        "url": "https://github.com/database64128/youtube-dl-wpf/releases",
+        "github": "https://github.com/database64128/youtube-dl-wpf",
         "regex": "youtube-dl-wpf-v(?<version>[\\d.]+)-(?<date>\\d{8})"
     },
     "autoupdate": {
