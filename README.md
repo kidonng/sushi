@@ -75,6 +75,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 ### Miscellaneous
 
 -   [dotnet-desktop-runtime](https://dotnet.microsoft.com/)
+-   [fluent-reader](https://github.com/yang991178/fluent-reade)
 -   [fontloadersub](https://github.com/yzwduck/FontLoaderSub)
 -   [listary-beta](https://www.listary.com/beta) # \*
 -   [microsoft-edge / microsoft-edge-beta / microsoft-edge-dev / microsoft-edge-canary](https://www.microsoft.com/edge) \*
