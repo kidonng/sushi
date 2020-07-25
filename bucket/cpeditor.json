@@ -1,13 +1,13 @@
 {
-    "version": "6.5.3",
+    "version": "6.5.4",
     "description": "The IDE for competitive programming",
     "homepage": "https://github.com/cpeditor/cpeditor",
     "license": "GPL-3.0-or-later",
     "notes": "Your data is stored in $env:localappdata\\CP Editor.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cpeditor/cpeditor/releases/download/6.5.3/cpeditor-6.5.3-x64-setup.exe",
-            "hash": "4ea0476c6ef04b1477981a2bd0f321a923e5dbdb5b5ef3572cf72cecff58b081"
+            "url": "https://github.com/cpeditor/cpeditor/releases/download/6.5.4/cpeditor-6.5.4-x64-setup.exe",
+            "hash": "a5879ccd37d532a923d7a0eda1a5baf10af0460cb30661d4a79f40b2dea30e52"
         }
     },
     "innosetup": true,
