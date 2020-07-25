@@ -1,6 +1,6 @@
 {
     "version": "2.001",
-    "description": "A typeface made for developers by JetBrains",
+    "description": "A typeface made for developers by JetBrains (Variable format)",
     "homepage": "https://github.com/JetBrains/JetBrainsMono",
     "license": "Apache-2.0",
     "notes": "You may need to restart the system to use recently installed fonts.",
