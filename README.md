@@ -34,16 +34,27 @@ If you favorite applications aren't included, feel free to [submit an issue](htt
 ### Development
 
 -   [android-clt](https://developer.android.com/studio#command-tools) ([`extras` pending](https://github.com/lukesampson/scoop-extras/pull/4237))
+
+    Prefer this over `extras/android-sdk` as the latter is no longer updating.
+
 -   [cf-tool](https://github.com/xalanq/cf-tool)
 -   [cpeditor / cpeditor-beta](https://github.com/cpeditor/cpeditor)
 -   [vscode-insiders \* / vscode-insiders-portable](https://code.visualstudio.com/insiders/)
+
+    Can be updated via Scoop, unlike `extras/vscode-insiders` and `extras/vscode-insiders-portable`
 
 ### Fonts
 
 Fonts do **not** need administrator rights to **install**, but they are **needed** to **uninstall**.
 
 -   [cascadia-code-pl](https://github.com/microsoft/cascadia-code)
+
+    Powerline version only, which is different from `nerd-fonts/Cascadia-Code`. Windows Terminal only bundles normal version.
+
 -   [jetbrains-mono](https://github.com/JetBrains/JetBrainsMono)
+
+    Variable format only, which is different from `nerd-fonts/JetBrains-Mono`
+
 -   [source-han-sans-truetype](https://github.com/be5invis/source-han-sans-ttf)
 -   [source-han-serif-truetype](https://github.com/Pal3love/Source-Han-TrueType)
 
@@ -75,10 +86,16 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 ### Miscellaneous
 
 -   [dotnet-desktop-runtime](https://dotnet.microsoft.com/)
--   [fluent-reader](https://github.com/yang991178/fluent-reade)
+
+    "Portable version", which is different from `extras/windowsdesktop-runtime`. Copied from [`dorado/dotnet-desktop-runtime`](https://github.com/chawyehsu/dorado/blob/master/bucket/dotnet-desktop-runtime.json).
+
+-   [fluent-reader](https://github.com/yang991178/fluent-reader) ([Available in `extras`](https://github.com/lukesampson/scoop-extras/pull/4450))
 -   [fontloadersub](https://github.com/yzwduck/FontLoaderSub)
 -   [listary-beta](https://www.listary.com/beta) # \*
 -   [microsoft-edge / microsoft-edge-beta / microsoft-edge-dev / microsoft-edge-canary](https://www.microsoft.com/edge) \*
+
+    Can be updated via Scoop, unlike `nonportable/microsoft-edge-beta-np` and `nonportable/microsoft-edge-dev-np`
+
 -   [officetoolplus-beta](https://otp.landian.vip/)
 -   [openhashtab](https://github.com/namazso/OpenHashTab) #
 -   [sandboxie-plus](https://github.com/sandboxie-plus/Sandboxie)
