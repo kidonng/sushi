@@ -31,22 +31,6 @@ If you favorite applications aren't included, feel free to [submit an issue](htt
 
 \* Non portable (store data outside of Scoop directory)
 
-### [Qv2ray](https://qv2ray.github.io/)
-
--   [qv2ray-beta](https://github.com/Qv2ray/Qv2ray)
--   [qv2ray-plugin-command / qv2ray-plugin-command-beta](https://github.com/Qv2ray/QvPlugin-Command)
--   [qv2ray-plugin-naiveproxy](https://github.com/Qv2ray/QvPlugin-NaiveProxy)
--   [qv2ray-plugin-ss](https://github.com/Qv2ray/QvPlugin-SS)
--   [qv2ray-plugin-ssr / qv2ray-plugin-ssr-beta](https://github.com/Qv2ray/QvPlugin-SSR)
--   [qv2ray-plugin-trojan / qv2ray-plugin-trojan-beta](https://github.com/Qv2ray/QvPlugin-Trojan)
--   [qv2ray-plugin-trojan-go](https://github.com/Qv2ray/QvPlugin-Trojan-Go)
-
-### [V2Ray](https://www.v2fly.org/) Rulesets
-
--   [v2ray-domain-list-community](https://github.com/v2ray/domain-list-community)
--   [v2ray-geoip](https://github.com/v2ray/geoip)
--   [v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)
-
 ### Development
 
 -   [android-clt](https://developer.android.com/studio#command-tools) ([`extras` pending](https://github.com/lukesampson/scoop-extras/pull/4237))
@@ -62,6 +46,22 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 -   [jetbrains-mono](https://github.com/JetBrains/JetBrainsMono)
 -   [source-han-sans-truetype](https://github.com/be5invis/source-han-sans-ttf)
 -   [source-han-serif-truetype](https://github.com/Pal3love/Source-Han-TrueType)
+
+### [Qv2ray](https://qv2ray.github.io/)
+
+-   [qv2ray-beta](https://github.com/Qv2ray/Qv2ray)
+-   [qv2ray-plugin-command / qv2ray-plugin-command-beta](https://github.com/Qv2ray/QvPlugin-Command)
+-   [qv2ray-plugin-naiveproxy](https://github.com/Qv2ray/QvPlugin-NaiveProxy)
+-   [qv2ray-plugin-ss](https://github.com/Qv2ray/QvPlugin-SS)
+-   [qv2ray-plugin-ssr / qv2ray-plugin-ssr-beta](https://github.com/Qv2ray/QvPlugin-SSR)
+-   [qv2ray-plugin-trojan / qv2ray-plugin-trojan-beta](https://github.com/Qv2ray/QvPlugin-Trojan)
+-   [qv2ray-plugin-trojan-go](https://github.com/Qv2ray/QvPlugin-Trojan-Go)
+
+### [V2Ray](https://www.v2fly.org/) Rulesets
+
+-   [v2ray-domain-list-community](https://github.com/v2ray/domain-list-community)
+-   [v2ray-geoip](https://github.com/v2ray/geoip)
+-   [v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)
 
 ### Proxies
 
@@ -86,4 +86,5 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 -   [~~naiveproxy~~](https://github.com/klzgrad/naiveproxy) ([Moved to `main`](https://github.com/ScoopInstaller/Main/pull/1172))
 -   [varpanel](http://implbits.com/products/varpanel/)
 -   [wechat](https://pc.weixin.qq.com/) \*
+-   [wnr](https://github.com/RoderickQiu/wnr) \*
 -   [youtube-dl-wpf](https://github.com/database64128/youtube-dl-wpf)
