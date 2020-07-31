@@ -22,7 +22,10 @@
         ]
     },
     "shortcuts": [["wnr.exe", "Work & Rest"]],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/RoderickQiu/wnr",
+        "regex": "/releases/tag/(?:v|V)?([\\w.-]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
