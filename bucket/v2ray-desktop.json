@@ -13,7 +13,7 @@
     "extract_dir": "V2Ray-Desktop",
     "shortcuts": [["V2Ray-Desktop.exe", "V2Ray Desktop"]],
     "checkver": {
-        "github": "https://github.com/Dr-Incognito/V2Ray-Desktop",
+        "url": "https://github.com/Dr-Incognito/V2Ray-Desktop/releases",
         "regex": "([\\d.-]+)-win64.zip"
     },
     "autoupdate": {
