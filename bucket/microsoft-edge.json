@@ -2,7 +2,10 @@
     "version": "84.0.522.49",
     "description": "The new Microsoft Edge browser",
     "homepage": "https://www.microsoft.com/edge",
-    "license": "Freeware",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://go.microsoft.com/fwlink/?LinkID=206977"
+    },
     "notes": "Your data is stored $env:localappdata\\Microsoft\\Edge.",
     "architecture": {
         "64bit": {

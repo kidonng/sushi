@@ -2,7 +2,10 @@
     "version": "0.8.1",
     "description": "A second brain, for you, forever.",
     "homepage": "https://obsidian.md/",
-    "license": "Freeware",
+    "license": {
+        "identifier": "EULA",
+        "url": "https://obsidian.md/eula"
+    },
     "notes": "Obsidian config is placed at \"$env:appdata\\obsidian\".",
     "architecture": {
         "64bit": {

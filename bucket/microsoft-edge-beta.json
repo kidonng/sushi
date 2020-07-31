@@ -2,7 +2,10 @@
     "version": "85.0.564.18",
     "description": "The new Microsoft Edge browser (Beta Channel)",
     "homepage": "https://www.microsoftedgeinsider.com/",
-    "license": "Freeware",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://go.microsoft.com/fwlink/?LinkID=206977"
+    },
     "notes": "Your data is stored $env:localappdata\\Microsoft\\Edge.",
     "architecture": {
         "64bit": {
