@@ -3,7 +3,6 @@
     "description": "A timer app with strong expansibility for computers",
     "homepage": "https://github.com/RoderickQiu/wnr",
     "license": "MPL-2.0",
-    "notes": "wnr config is placed at \"$env:appdata\\wnr\".",
     "architecture": {
         "64bit": {
             "url": "https://github.com/RoderickQiu/wnr/releases/download/v1.17.1/wnr-1.17.1-Setup-64.exe#/dl.7z",
@@ -16,12 +15,27 @@
     },
     "installer": {
         "script": [
-            "Expand-7zipArchive -Path (Join-Path $dir '$PLUGINSDIR\\*.7z') -DestinationPath $dir",
-            "Remove-Item -Path (Join-Path $dir '$PLUGINSDIR') -Recurse",
-            "Remove-Item \"$dir\\Uninstall wnr.exe\""
+            "function CreateFile([String] $file, [String] $content = $null) {",
+            "    if (-not (Test-Path \"$persist_dir\\$file\")) {",
+            "        Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+            "        Set-Content \"$dir\\$file\" $content",
+            "    }",
+            "}",
+            "CreateFile 'wnr-config.json'",
+            "CreateFile 'wnr-statistics.json'"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "function BackupFile([String] $file) {",
+            "    Copy-Item \"$dir\\$file\" \"$persist_dir\" -Force",
+            "}",
+            "BackupFile 'wnr-config.json'",
+            "BackupFile 'wnr-statistics.json'"
         ]
     },
     "shortcuts": [["wnr.exe", "Work & Rest"]],
+    "persist": ["wnr-config.json", "wnr-statistics.json"],
     "checkver": {
         "github": "https://github.com/RoderickQiu/wnr",
         "regex": "/releases/tag/(?:v|V)?([\\w.-]+)"
@@ -29,10 +43,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/RoderickQiu/wnr/releases/download/v$version/wnr-$version-Setup-64.exe#/dl.7z"
+                "url": "https://github.com/RoderickQiu/wnr/releases/download/v$version/wnr-$matchHead-Win-64.7z"
             },
             "32bit": {
-                "url": "https://github.com/RoderickQiu/wnr/releases/download/v$version/wnr-$version-Setup-32.exe#/dl.7z"
+                "url": "https://github.com/RoderickQiu/wnr/releases/download/v$version/wnr-$matchHead-Win-32.7z"
             }
         }
     }
