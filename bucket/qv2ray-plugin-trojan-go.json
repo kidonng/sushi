@@ -30,7 +30,7 @@
             "    $trojanGoPath = $(appdir trojan-go $global).Replace('\\', '/')",
             "    @{",
             "        'kernelPath' = \"$trojanGoPath/current/trojan-go.exe\"",
-            "    } | ConvertTo-Json -Depth 20 | Out-File $config -Encoding ascii",
+            "    } | ConvertTo-Json -Depth 20 | Out-File $config",
             "}"
         ]
     },

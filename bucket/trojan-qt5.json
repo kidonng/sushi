@@ -10,7 +10,7 @@
             "function CreateFile([String] $file, [String] $content = $null) {",
             "    if (-not (Test-Path \"$persist_dir\\$file\")) {",
             "        Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
-            "        Set-Content \"$dir\\$file\" $content -Encoding Ascii",
+            "        Set-Content \"$dir\\$file\" $content",
             "    }",
             "}",
             "CreateFile 'config.ini'",

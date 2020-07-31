@@ -28,7 +28,7 @@
         "            'v2CorePath_win'   = \"$current\\v2ray.exe\"",
         "            'v2AssetsPath_win' = \"$current\"",
         "        }",
-        "    } | ConvertTo-Json -Depth 20 | Out-File \"$dir\\config\\Qv2ray.conf\" -Encoding ascii",
+        "    } | ConvertTo-Json -Depth 20 | Out-File \"$dir\\config\\Qv2ray.conf\"",
         "}"
     ],
     "bin": "qv2ray.exe",

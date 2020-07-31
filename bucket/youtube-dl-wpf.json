@@ -31,7 +31,7 @@
             "    'AutoUpdateDl' = $false",
             "    'DlPath' = \"$(appdir 'youtube-dl' $global)\\current\\youtube-dl.exe\"",
             "    'FfmpegPath' = $ffmpeg",
-            "} | ConvertTo-Json | Out-File \"$dir\\Settings.json\" -Encoding ascii"
+            "} | ConvertTo-Json | Out-File \"$dir\\Settings.json\""
         ]
     },
     "shortcuts": [
