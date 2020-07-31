@@ -1,16 +1,16 @@
 {
-    "version": "1.17.1",
+    "version": "1.17.1-patch",
     "description": "A timer app with strong expansibility for computers",
     "homepage": "https://github.com/RoderickQiu/wnr",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/RoderickQiu/wnr/releases/download/v1.17.1/wnr-1.17.1-Setup-64.exe#/dl.7z",
-            "hash": "BE14DE68FDBFB3663F57B6B28E8B0CC90AE876DD06CA899839BEB9377FE21436"
+            "url": "https://github.com/RoderickQiu/wnr/releases/download/v1.17.1-patch/wnr-1.17.1-Win-64.7z",
+            "hash": "9159873fae588208021d33a9c60483a427fcaef647941b5d4cc91c6a525d16d4"
         },
         "32bit": {
-            "url": "https://github.com/RoderickQiu/wnr/releases/download/v1.17.1/wnr-1.17.1-Setup-32.exe#/dl.7z",
-            "hash": "9C437170019E8AFC82B64A5475E349602E03A9493DD6AC6CACF58FDFD75762DD"
+            "url": "https://github.com/RoderickQiu/wnr/releases/download/v1.17.1-patch/wnr-1.17.1-Win-32.7z",
+            "hash": "57488888b0685a5c98433ba83a540bb2d98c5175e049766dd523b69381758cf6"
         }
     },
     "installer": {
@@ -34,8 +34,16 @@
             "BackupFile 'wnr-statistics.json'"
         ]
     },
-    "shortcuts": [["wnr.exe", "Work & Rest"]],
-    "persist": ["wnr-config.json", "wnr-statistics.json"],
+    "shortcuts": [
+        [
+            "wnr.exe",
+            "Work & Rest"
+        ]
+    ],
+    "persist": [
+        "wnr-config.json",
+        "wnr-statistics.json"
+    ],
     "checkver": {
         "github": "https://github.com/RoderickQiu/wnr",
         "regex": "/releases/tag/(?:v|V)?([\\w.-]+)"
