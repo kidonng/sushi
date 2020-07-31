@@ -1,0 +1,31 @@
+{
+    "version": "0.8.1",
+    "description": "A second brain, for you, forever.",
+    "homepage": "https://obsidian.md/",
+    "license": "Freeware",
+    "notes": "Obsidian config is placed at \"$env:appdata\\obsidian\".",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v0.8.1/Obsidian.0.8.1.exe#/dl.7z",
+            "hash": "E9D96C41CDB54F146BCCA33BEE6D4421539906D34FEE247A19196A520994D84F"
+        }
+    },
+    "installer": {
+        "script": [
+            "Expand-7zipArchive -Path (Join-Path $dir '$PLUGINSDIR\\app-64.7z') -DestinationPath $dir",
+            "Remove-Item -Path (Join-Path $dir '$PLUGINSDIR') -Recurse",
+            "Remove-Item \"$dir\\Uninstall Obsidian.exe\""
+        ]
+    },
+    "shortcuts": [["Obsidian.exe", "Obsidian"]],
+    "checkver": {
+        "github": "https://github.com/obsidianmd/obsidian-releases"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v$version/Obsidian.$version.exe#/dl.7z"
+            }
+        }
+    }
+}

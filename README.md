@@ -96,6 +96,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 
     Can be updated via Scoop, unlike `nonportable/microsoft-edge-beta-np` and `nonportable/microsoft-edge-dev-np`
 
+-   [obsidian](https://obsidian.md/)
 -   [officetoolplus-beta](https://otp.landian.vip/)
 -   [openhashtab](https://github.com/namazso/OpenHashTab) #
 -   [sandboxie-plus](https://github.com/sandboxie-plus/Sandboxie)
