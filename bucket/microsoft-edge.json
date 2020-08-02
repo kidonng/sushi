@@ -1,5 +1,5 @@
 {
-    "version": "84.0.522.50",
+    "version": "84.0.522.52",
     "description": "The new Microsoft Edge browser",
     "homepage": "https://www.microsoft.com/edge",
     "license": {
@@ -10,7 +10,7 @@
     "architecture": {
         "64bit": {
             "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/stable/x64#/dl.7z",
-            "hash": "9c354533ac46c3faed76c90801c21eb78dead7150c00dc728603daef8da10b2f"
+            "hash": "9701dc076c6e1daeb86de43bedf58969e0c80b927c8d45496ecc63224567aa0e"
         },
         "32bit": {
             "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/stable/x86#/dl.7z",
