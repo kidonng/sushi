@@ -82,6 +82,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 -   [trojan-go](https://p4gefau1t.github.io/trojan-go/)
 -   [trojan-qt5](https://github.com/Trojan-Qt5/Trojan-Qt5)
 -   [v2ray-desktop](https://github.com/Dr-Incognito/V2Ray-Desktop)
+-   [v2ray-vless](https://github.com/rprx/v2ray-vless)
 
 ### Miscellaneous
 
