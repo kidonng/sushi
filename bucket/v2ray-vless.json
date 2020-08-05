@@ -15,7 +15,10 @@
         "v2ray.exe",
         "wv2ray.exe"
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/rprx/v2ray-vless",
+        "regex": "/releases/tag/(?:v|V)?([\\w.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
