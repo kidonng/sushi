@@ -100,6 +100,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 -   [obsidian](https://obsidian.md/)
 -   [officetoolplus-beta](https://otp.landian.vip/)
 -   [openhashtab](https://github.com/namazso/OpenHashTab) #
+-   [qtpass](https://github.com/IJHack/QtPass)
 -   [sandboxie-plus](https://github.com/sandboxie-plus/Sandboxie)
 -   [tencent-meeting](https://meeting.tencent.com/) \*
 -   [~~naiveproxy~~](https://github.com/klzgrad/naiveproxy) ([Moved to `main`](https://github.com/ScoopInstaller/Main/pull/1172))
