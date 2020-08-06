@@ -6,7 +6,7 @@
         "identifier": "EULA",
         "url": "https://obsidian.md/eula"
     },
-    "notes": "Obsidian config is placed at \"$env:appdata\\obsidian\".",
+    "notes": "Obsidian data is placed at \"$env:appdata\\obsidian\".",
     "architecture": {
         "64bit": {
             "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v0.8.1/Obsidian.0.8.1.exe#/dl.7z",

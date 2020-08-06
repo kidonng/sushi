@@ -37,8 +37,8 @@ If you favorite applications aren't included, feel free to [submit an issue](htt
 
     Prefer this over `extras/android-sdk` as the latter is no longer updating.
 
--   [cf-tool](https://github.com/xalanq/cf-tool)
--   [cpeditor / cpeditor-beta](https://github.com/cpeditor/cpeditor)
+-   [cf-tool](https://github.com/xalanq/cf-tool) \*
+-   [cpeditor \* / cpeditor-beta](https://github.com/cpeditor/cpeditor)
 -   [vscode-insiders \* / vscode-insiders-portable](https://code.visualstudio.com/insiders/)
 
     Can be updated via Scoop, unlike `extras/vscode-insiders` and `extras/vscode-insiders-portable`
@@ -81,7 +81,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 -   [trojan-client-slim](https://github.com/KevinZonda/trojan-client-slim)
 -   [trojan-go](https://p4gefau1t.github.io/trojan-go/)
 -   [trojan-qt5](https://github.com/Trojan-Qt5/Trojan-Qt5)
--   [v2ray-desktop](https://github.com/Dr-Incognito/V2Ray-Desktop)
+-   [v2ray-desktop](https://github.com/Dr-Incognito/V2Ray-Desktop) \*
 -   [v2ray-vless](https://github.com/rprx/v2ray-vless)
 
 ### Miscellaneous
@@ -90,15 +90,15 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 
     "Portable version", which is different from `extras/windowsdesktop-runtime`. Copied from [`dorado/dotnet-desktop-runtime`](https://github.com/chawyehsu/dorado/blob/master/bucket/dotnet-desktop-runtime.json).
 
--   [evernote](https://evernote.com/)
--   [fluent-reader](https://github.com/yang991178/fluent-reader) ([Available in `extras`](https://github.com/lukesampson/scoop-extras/pull/4450))
+-   [evernote](https://evernote.com/) \*
+-   [fluent-reader](https://github.com/yang991178/fluent-reader) \* ([Available in `extras`](https://github.com/lukesampson/scoop-extras/pull/4450))
 -   [fontloadersub](https://github.com/yzwduck/FontLoaderSub)
 -   [listary-beta](https://www.listary.com/beta) # \*
 -   [microsoft-edge / microsoft-edge-beta / microsoft-edge-dev / microsoft-edge-canary](https://www.microsoft.com/edge) \*
 
     Can be updated via Scoop, unlike `nonportable/microsoft-edge-beta-np` and `nonportable/microsoft-edge-dev-np`
 
--   [obsidian](https://obsidian.md/)
+-   [obsidian](https://obsidian.md/) \*
 -   [officetoolplus-beta](https://otp.landian.vip/)
 -   [openhashtab](https://github.com/namazso/OpenHashTab) #
 -   [qtpass](https://github.com/IJHack/QtPass)
