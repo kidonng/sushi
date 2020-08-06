@@ -1,0 +1,34 @@
+{
+    "version": "6.25.1.9091",
+    "description": "Note Taking App - Organize Your Notes with Evernote",
+    "homepage": "https://evernote.com/",
+    "license": {
+        "identifier": "EULA",
+        "url": "https://evernote.com/intl/en/legal/terms-of-service"
+    },
+    "notes": "Evernote data is placed at \"$env:USERPROFILE\\Evernote\".",
+    "url": "https://evernote.com/download/get.php?file=Win#/dl.exe",
+    "hash": "0CEDDB46FC74B0322681A225404AF75EC7F96C12AD112DDA6A3505606531BE20",
+    "installer": {
+        "script": [
+            "$installer = \"$dir\\dl.exe\"",
+            "$msi = \"$env:TMP\\Evernote.msi\"",
+            "Start-Process $installer",
+            "while (!(Test-Path $msi)) {",
+            "    Start-Sleep 1",
+            "}",
+            "Stop-Process -Name dl",
+            "Expand-MsiArchive $msi $dir",
+            "Move-Item \"$dir\\PFiles\\Evernote\\*\\*\" $dir -Force",
+            "Remove-Item $installer"
+        ]
+    },
+    "shortcuts": [["Evernote.exe", "Evernote"]],
+    "checkver": {
+        "url": "https://scoop-sushi.vercel.app/api/evernote",
+        "regex": "([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://evernote.com/download/get.php?file=Win#/dl.exe"
+    }
+}

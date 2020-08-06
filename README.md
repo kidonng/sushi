@@ -90,6 +90,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 
     "Portable version", which is different from `extras/windowsdesktop-runtime`. Copied from [`dorado/dotnet-desktop-runtime`](https://github.com/chawyehsu/dorado/blob/master/bucket/dotnet-desktop-runtime.json).
 
+-   [evernote](https://evernote.com/)
 -   [fluent-reader](https://github.com/yang991178/fluent-reader) ([Available in `extras`](https://github.com/lukesampson/scoop-extras/pull/4450))
 -   [fontloadersub](https://github.com/yzwduck/FontLoaderSub)
 -   [listary-beta](https://www.listary.com/beta) # \*
