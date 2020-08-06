@@ -133,5 +133,6 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 -   [fluent-reader](https://github.com/kidonng/sushi/commit/5c2c1adbfa27969bda530c2a3123da970320d702): Available in `extras`
 -   [naiveproxy](https://github.com/kidonng/sushi/commit/64a31947c2b5c7bfca9107af56cfc62078cbec61): Available in `main`
 -   [scoop-completion](https://github.com/kidonng/sushi/commit/dfa918bc25e7e168ecdc7817f5b0171042368e73): Available in [`Ash258`](https://github.com/Ash258/Scoop-Ash258)
+-   [qv2ray-plugin-command-beta / qv2ray-plugin-ssr-beta / qv2ray-plugin-trojan-beta](https://github.com/kidonng/sushi/commit/d1ddd4aa4161d314294226cfd4bf262cde492632): Beta version no longer exists
 
 </details>
