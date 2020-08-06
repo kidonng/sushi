@@ -1,14 +1,12 @@
 # 🍣 Sushi
 
-Sushi is a tasty [Scoop](https://scoop-docs.now.sh/) bucket.
-
-We strive to provide up-to-date and accurate manifests, even for nightly applications.
+Sushi is a tasty [Scoop](https://scoop-docs.now.sh/) bucket, striving to provide up-to-date and accurate manifests, even for nightly applications.
 
 ## Usage
 
 ```powershell
 scoop bucket add sushi https://github.com/kidonng/sushi
-# Recommended, but you can omit the bucket name most of the time
+# Recommended, but the bucket name can be omitted most of the time
 scoop install sushi/<app>
 ```
 
@@ -31,9 +29,10 @@ If you favorite applications aren't included, feel free to [submit an issue](htt
 
 \* Non portable (store data outside of Scoop directory)
 
-### Development
+<details>
+<summary><strong>Development</strong></summary>
 
--   [android-clt](https://developer.android.com/studio#command-tools) ([`extras` pending](https://github.com/lukesampson/scoop-extras/pull/4237))
+-   [android-clt](https://developer.android.com/studio#command-tools)
 
     Prefer this over `extras/android-sdk` as the latter is no longer updating.
 
@@ -43,7 +42,10 @@ If you favorite applications aren't included, feel free to [submit an issue](htt
 
     Can be updated via Scoop, unlike `extras/vscode-insiders` and `extras/vscode-insiders-portable`
 
-### Fonts
+</details>
+
+<details>
+<summary><strong>Fonts</strong></summary>
 
 Fonts do **not** need administrator rights to **install**, but they are **needed** to **uninstall**.
 
@@ -58,7 +60,10 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 -   [source-han-sans-truetype](https://github.com/be5invis/source-han-sans-ttf)
 -   [source-han-serif-truetype](https://github.com/Pal3love/Source-Han-TrueType)
 
-### [Qv2ray](https://qv2ray.github.io/)
+</details>
+
+<details>
+<summary><strong><a href="https://qv2ray.github.io/">Qv2ray</a></strong></summary>
 
 -   [qv2ray-beta](https://github.com/Qv2ray/Qv2ray)
 -   [qv2ray-plugin-command / qv2ray-plugin-command-beta](https://github.com/Qv2ray/QvPlugin-Command)
@@ -68,13 +73,19 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 -   [qv2ray-plugin-trojan / qv2ray-plugin-trojan-beta](https://github.com/Qv2ray/QvPlugin-Trojan)
 -   [qv2ray-plugin-trojan-go](https://github.com/Qv2ray/QvPlugin-Trojan-Go)
 
-### [V2Ray](https://www.v2fly.org/) Rulesets
+</details>
+
+<details>
+<summary><strong><a href="https://www.v2fly.org/">V2Ray</a> Rulesets</strong></summary>
 
 -   [v2ray-domain-list-community](https://github.com/v2ray/domain-list-community)
 -   [v2ray-geoip](https://github.com/v2ray/geoip)
 -   [v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)
 
-### Proxies
+</details>
+
+<details>
+<summary><strong>Proxies</strong></summary>
 
 -   [naivesharp](https://github.com/KevinZonda/NaiveSharp)
 -   [proxychains](https://github.com/shunf4/proxychains-windows)
@@ -84,16 +95,21 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 -   [v2ray-desktop](https://github.com/Dr-Incognito/V2Ray-Desktop) \*
 -   [v2ray-vless](https://github.com/rprx/v2ray-vless)
 
-### Miscellaneous
+</details>
+
+<details>
+<summary><strong>Miscellaneous</strong></summary>
 
 -   [dotnet-desktop-runtime](https://dotnet.microsoft.com/)
 
     "Portable version", which is different from `extras/windowsdesktop-runtime`. Copied from [`dorado/dotnet-desktop-runtime`](https://github.com/chawyehsu/dorado/blob/master/bucket/dotnet-desktop-runtime.json).
 
 -   [evernote](https://evernote.com/) \*
--   [fluent-reader](https://github.com/yang991178/fluent-reader) \* ([Available in `extras`](https://github.com/lukesampson/scoop-extras/pull/4450))
 -   [fontloadersub](https://github.com/yzwduck/FontLoaderSub)
 -   [listary-beta](https://www.listary.com/beta) # \*
+
+    Had been [renamed](https://github.com/kidonng/sushi/commit/fad0bfefc4fda844c43a66d15a2af60a539df14b) to `listary-beta-np` but was [reverted](https://github.com/kidonng/sushi/commit/0addc8aa2fd8b9f389a3a96f952d878148466d70).
+
 -   [microsoft-edge / microsoft-edge-beta / microsoft-edge-dev / microsoft-edge-canary](https://www.microsoft.com/edge) \*
 
     Can be updated via Scoop, unlike `nonportable/microsoft-edge-beta-np` and `nonportable/microsoft-edge-dev-np`
@@ -104,8 +120,18 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 -   [qtpass](https://github.com/IJHack/QtPass)
 -   [sandboxie-plus](https://github.com/sandboxie-plus/Sandboxie)
 -   [tencent-meeting](https://meeting.tencent.com/) \*
--   [~~naiveproxy~~](https://github.com/klzgrad/naiveproxy) ([Moved to `main`](https://github.com/ScoopInstaller/Main/pull/1172))
 -   [varpanel](http://implbits.com/products/varpanel/)
 -   [wechat](https://pc.weixin.qq.com/) \*
 -   [wnr](https://github.com/RoderickQiu/wnr) \*
 -   [youtube-dl-wpf](https://github.com/database64128/youtube-dl-wpf)
+
+</details>
+
+<details>
+<summary><strong>Deprecated</strong></summary>
+
+-   [fluent-reader](https://github.com/kidonng/sushi/commit/5c2c1adbfa27969bda530c2a3123da970320d702): Available in `extras`
+-   [naiveproxy](https://github.com/kidonng/sushi/commit/64a31947c2b5c7bfca9107af56cfc62078cbec61): Available in `main`
+-   [scoop-completion](https://github.com/kidonng/sushi/commit/dfa918bc25e7e168ecdc7817f5b0171042368e73): Available in [`Ash258`](https://github.com/Ash258/Scoop-Ash258)
+
+</details>
