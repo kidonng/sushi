@@ -1,5 +1,5 @@
 {
-    "version": "86.0.600.0",
+    "version": "86.0.601.0",
     "description": "The new Microsoft Edge browser (Canary Channel)",
     "homepage": "https://www.microsoftedgeinsider.com/",
     "license": {
@@ -10,11 +10,11 @@
     "architecture": {
         "64bit": {
             "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/canary/x64#/dl.7z",
-            "hash": "6a4373a4d0b8bc1d2a061882f045fecbde907dd006a37e81f309cf7cb8b7ed48"
+            "hash": "5d0969d4064743a201aafa941816aa4ca42864c81db297be8c2fd1840e45301c"
         },
         "32bit": {
             "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/canary/x86#/dl.7z",
-            "hash": "8b8b0a5dde3f16295cf5f29f4bee3b2eb8e8cc43c1c385154ae0e18abbe49a3f"
+            "hash": "35c8bd9c4c5bfac56c3dec94494d4345e14f2c4837b7a0ea440e8232d42958fd"
         }
     },
     "installer": {
