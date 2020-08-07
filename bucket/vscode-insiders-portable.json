@@ -36,19 +36,19 @@
     "persist": "data",
     "checkver": {
         "url": "https://scoop-sushi.vercel.app/api/vscode-insiders",
-        "regex": "([\\d.-]+)"
+        "regex": "(?<version>[\\d.-]+) (?<commit>\\w+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://update.code.visualstudio.com/latest/win32-x64-archive/insider#/dl.7z",
+                "url": "https://az764295.vo.msecnd.net/insider/$matchCommit/VSCode-win32-x64-$matchHead-insider.zip",
                 "hash": {
                     "url": "https://code.visualstudio.com/sha?build=insider",
                     "jsonpath": "$.products[5].sha256hash"
                 }
             },
             "32bit": {
-                "url": "https://update.code.visualstudio.com/latest/win32-archive/insider#/dl.7z",
+                "url": "https://az764295.vo.msecnd.net/insider/$matchCommit/VSCode-win32-ia32-$matchHead-insider.zip",
                 "hash": {
                     "url": "https://code.visualstudio.com/sha?build=insider",
                     "jsonpath": "$.products[2].sha256hash"

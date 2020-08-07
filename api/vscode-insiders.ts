@@ -18,6 +18,6 @@ export default ({ query: { x64 } }: NowRequest, { send }: NowResponse) => {
             `https://api.github.com/repos/microsoft/vscode/git/commits/${commit}`
         ).json()
 
-        send(`${version}-${dayjs(date).format('YYYYMMDDHHss')}`)
+        send(`${version}-${dayjs(date).format('YYYYMMDDHHss')} ${commit}`)
     })
 }
