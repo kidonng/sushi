@@ -1,12 +1,12 @@
 {
-    "version": "6.6.3",
+    "version": "6.6.4",
     "description": "The IDE for competitive programming (beta)",
     "homepage": "https://github.com/cpeditor/cpeditor",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cpeditor/cpeditor/releases/download/6.6.3/cpeditor-6.6.3-windows-x64-portable.zip",
-            "hash": "0b4d6970927ad0784e634f4147963819e14241737d9f82c29370beb9d82d3b2c"
+            "url": "https://github.com/cpeditor/cpeditor/releases/download/6.6.4/cpeditor-6.6.4-windows-x64-portable.zip",
+            "hash": "ff93eec39aeb5ed843158941489e57f103d431f6a863ab920a7d269df0a61c75"
         }
     },
     "installer": {
@@ -30,8 +30,16 @@
             "BackupFile 'cp_editor_settings.ini'"
         ]
     },
-    "shortcuts": [["cpeditor.exe", "CP Editor (beta)"]],
-    "persist": ["cp_editor_session.json", "cp_editor_settings.ini"],
+    "shortcuts": [
+        [
+            "cpeditor.exe",
+            "CP Editor (beta)"
+        ]
+    ],
+    "persist": [
+        "cp_editor_session.json",
+        "cp_editor_settings.ini"
+    ],
     "checkver": {
         "url": "https://github.com/cpeditor/cpeditor/releases",
         "regex": "/releases/tag/(?:v|V)?([\\d.]+)"
