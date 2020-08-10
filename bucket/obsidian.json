@@ -1,5 +1,5 @@
 {
-    "version": "0.8.1",
+    "version": "0.8.2",
     "description": "A second brain, for you, forever.",
     "homepage": "https://obsidian.md/",
     "license": {
@@ -9,8 +9,8 @@
     "notes": "Obsidian data is placed at \"$env:appdata\\obsidian\".",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v0.8.1/Obsidian.0.8.1.exe#/dl.7z",
-            "hash": "E9D96C41CDB54F146BCCA33BEE6D4421539906D34FEE247A19196A520994D84F"
+            "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v0.8.2/Obsidian.0.8.2.exe#/dl.7z",
+            "hash": "f41a0ec64072f5b033005e6520427e5a9073ef5e6c3e18ef513fc12348eaac97"
         }
     },
     "installer": {
@@ -20,7 +20,12 @@
             "Remove-Item \"$dir\\Uninstall Obsidian.exe\""
         ]
     },
-    "shortcuts": [["Obsidian.exe", "Obsidian"]],
+    "shortcuts": [
+        [
+            "Obsidian.exe",
+            "Obsidian"
+        ]
+    ],
     "checkver": {
         "github": "https://github.com/obsidianmd/obsidian-releases"
     },
