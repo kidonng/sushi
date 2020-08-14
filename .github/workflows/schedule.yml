@@ -11,8 +11,7 @@ jobs:
         steps:
             - uses: actions/checkout@v2
             - name: Excavate
-              uses: Ash258/Scoop-GithubActions@stable
+              uses: kidonng/Scoop-GithubActions@master
               env:
-                  GITH_EMAIL: kidonng@gmail.com
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
                   SKIP_UPDATED: '1'
