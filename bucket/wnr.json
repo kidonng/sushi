@@ -1,16 +1,16 @@
 {
-    "version": "1.18.0",
+    "version": "1.19.0",
     "description": "A timer app with strong expansibility for computers",
     "homepage": "https://github.com/RoderickQiu/wnr",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/RoderickQiu/wnr/releases/download/v1.18.0/wnr-1.18.0-Win-64.7z",
-            "hash": "9cbf9866a85f56d6453949fafcb17efae6187d5f25bdc132f94bbb5394c10436"
+            "url": "https://github.com/RoderickQiu/wnr/releases/download/v1.19.0/wnr-1.19.0-Win-64.7z",
+            "hash": "82017f06a3046c55a7e464bcc5d4fd20aae3f2d0cebe30de303bde839db69bd0"
         },
         "32bit": {
-            "url": "https://github.com/RoderickQiu/wnr/releases/download/v1.18.0/wnr-1.18.0-Win-32.7z",
-            "hash": "a80026bf1badd56f3d691856db3efd603bb7a2ffcea809e060fdb0110fe3cd1e"
+            "url": "https://github.com/RoderickQiu/wnr/releases/download/v1.19.0/wnr-1.19.0-Win-32.7z",
+            "hash": "eeb48330c479f25ade9c9550511bc9c999898326ca2c984c0cf987fa7a5b507b"
         }
     },
     "installer": {
