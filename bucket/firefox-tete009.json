@@ -1,0 +1,32 @@
+{
+    "version": "79.0",
+    "description": "Popular open source web browser. (tete009 private build)",
+    "homepage": "http://www1.plala.or.jp/tete009/en-US/software.html#FIREFOX",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/kidonng/sushi/releases/download/binaries/firefox-79.0-2020072019.en-US.win32-tete009-x64-pgo.7z",
+            "hash": "567f214dfae45417da815ae8f3aabb9a04ea2df0da29b7c9b029208b25dabf90",
+            "extract_dir": "firefox-79.0-2020072019.en-US.win32-tete009-x64-pgo"
+        },
+        "32bit": {
+            "url": "https://github.com/kidonng/sushi/releases/download/binaries/firefox-79.0-2020072019.en-US.win32-tete009-sse2-pgo.7z",
+            "hash": "a51af985ac64709aa089865823ca3c0b383785d628cd2a19b7ca9e30ac68bb1a",
+            "extract_dir": "firefox-79.0-2020072019.en-US.win32-tete009-sse2-pgo"
+        }
+    },
+    "installer": {
+        "script": [
+            "function CreateFile([String] $file, [String] $content = $null) {",
+            "    if (-not (Test-Path \"$persist_dir\\$file\")) {",
+            "        Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+            "        Set-Content \"$dir\\$file\" $content",
+            "    }",
+            "}",
+            "CreateFile 'tmemutil.ini' \"[General]`nPortable=1\""
+        ]
+    },
+    "bin": "firefox.exe",
+    "shortcuts": [["firefox.exe", "Firefox"]],
+    "persist": ["PortableData", "tmemutil.ini"]
+}
