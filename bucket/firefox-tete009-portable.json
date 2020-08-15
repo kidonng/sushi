@@ -15,6 +15,18 @@
             "extract_dir": "firefox-79.0-2020072019.en-US.win32-tete009-sse2-pgo"
         }
     },
+    "installer": {
+        "script": [
+            "function CreateFile([String] $file, [String] $content = $null) {",
+            "    if (-not (Test-Path \"$persist_dir\\$file\")) {",
+            "        Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+            "        Set-Content \"$dir\\$file\" $content",
+            "    }",
+            "}",
+            "CreateFile 'tmemutil.ini' \"[General]`nPortable=1\""
+        ]
+    },
     "bin": "firefox.exe",
-    "shortcuts": [["firefox.exe", "Firefox"]]
+    "shortcuts": [["firefox.exe", "Firefox"]],
+    "persist": ["PortableData", "tmemutil.ini"]
 }

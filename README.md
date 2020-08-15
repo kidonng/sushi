@@ -105,7 +105,10 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
     "Portable version", which is different from `extras/windowsdesktop-runtime`. Copied from [`dorado/dotnet-desktop-runtime`](https://github.com/chawyehsu/dorado/blob/master/bucket/dotnet-desktop-runtime.json).
 
 -   [evernote](https://evernote.com/) \*
--   [firefox-tete009](http://www1.plala.or.jp/tete009/en-US/software.html#FIREFOX)
+-   [firefox-tete009 * / firefox-tete009-portable](http://www1.plala.or.jp/tete009/en-US/software.html#FIREFOX)
+
+    Portable mode may interfere with other applications, such as MacType's font substitution feature.
+
 -   [fontloadersub](https://github.com/yzwduck/FontLoaderSub)
 -   [listary-beta](https://www.listary.com/beta) # \*
 
