@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Trojan-Go plugin for Qv2ray",
     "homepage": "https://github.com/Qv2ray/QvPlugin-Trojan-Go",
     "license": "GPL-3.0-or-later",
@@ -9,12 +9,12 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/download/v1.0.0/QvTrojanGoPlugin.v1.0.0.Windows-x64.dll",
-            "hash": "fa8777ebac1aa6e9edfb216a150c1c74a00dca9880d2d1d0a31b263d701c48d3"
+            "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/download/v1.0.1/QvTrojanGoPlugin.v1.0.1.Windows-x64.dll",
+            "hash": "fb926693b9902ef04a862926827606c01f54c051f9de9d39df2f444f21339540"
         },
         "32bit": {
-            "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/download/v1.0.0/QvTrojanGoPlugin.v1.0.0.Windows-x86.dll",
-            "hash": "355303a824c79b56249c2aa7145b5e99ff1847eaf5a3d299c83adeef09fdcefe"
+            "url": "https://github.com/Qv2ray/QvPlugin-Trojan-Go/releases/download/v1.0.1/QvTrojanGoPlugin.v1.0.1.Windows-x86.dll",
+            "hash": "f0e1c28cc72ca56bc71537225f00733a967c15b5e5559ea6328739118106c1da"
         }
     },
     "installer": {
