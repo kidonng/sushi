@@ -42,6 +42,10 @@ If you favorite applications aren't included, feel free to [submit an issue](htt
 
     Can be updated via Scoop, unlike `extras/vscode-insiders` and `extras/vscode-insiders-portable`
 
+-   [wechatdevtools-32bit \*](https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html)
+
+    For 64bit system in case the 64bit version fails to launch
+
 </details>
 
 <details>
