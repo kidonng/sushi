@@ -8,7 +8,7 @@
     },
     "notes": "We don't persist your WeChat data, they are still storaged in '%APPDATA%\\Tencent\\WeChat'.",
     "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl.7z",
-    "hash": "df512197a1d0e471a1d64d692ec0c0d101a84f02d1c6382d70677653a135a77b",
+    "hash": "1043ba2d049733becc4dcccab7c3ce460e8d418e6af9f47049b5418f6a60bb8b",
     "installer": {
         "script": [
             "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
@@ -16,7 +16,12 @@
             "Remove-Item \"$dir\\`$R5\" -Force -Recurse"
         ]
     },
-    "shortcuts": [["wechat.exe", "微信"]],
+    "shortcuts": [
+        [
+            "wechat.exe",
+            "微信"
+        ]
+    ],
     "checkver": {
         "url": "https://pc.weixin.qq.com/",
         "regex": "微信 PC 版 ([\\d.]+)"
