@@ -37,7 +37,7 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/JetBrains/JetBrainsMono/releases/download/v$version/JetBrains.Mono.$version.zip",
+        "url": "https://github.com/JetBrains/JetBrainsMono/releases/download/v$version/JetBrainsMono-$version.zip",
         "extract_dir": "JetBrains Mono $version/ttf/Variable"
     }
 }
