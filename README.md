@@ -38,6 +38,7 @@ If you favorite applications aren't included, feel free to [submit an issue](htt
 
 -   [cf-tool](https://github.com/xalanq/cf-tool) \*
 -   [cpeditor \* / cpeditor-beta](https://github.com/cpeditor/cpeditor)
+-   [dvm](https://github.com/justjavac/dvm)
 -   [vscode-insiders \* / vscode-insiders-portable](https://code.visualstudio.com/insiders/)
 
     Can be updated via Scoop, unlike `extras/vscode-insiders` and `extras/vscode-insiders-portable`
