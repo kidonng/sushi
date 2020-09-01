@@ -7,7 +7,7 @@
     "depends": "sudo",
     "url": "https://github.com/JetBrains/JetBrainsMono/releases/download/v2.002/JetBrainsMono-2.002.zip",
     "hash": "568ff44a4495773c5d204524e1a8442649b4b53b94e21e1a7d784289c2a19a51",
-    "extract_dir": "JetBrains Mono 2.002/ttf/Variable",
+    "extract_dir": "ttf/Variable",
     "installer": {
         "script": [
             "$path = \"$env:localappdata\\Microsoft\\Windows\\Fonts\"",
