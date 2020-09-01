@@ -115,6 +115,10 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
     Portable mode may interfere with other applications, such as MacType's font substitution feature.
 
 -   [fontloadersub](https://github.com/yzwduck/FontLoaderSub)
+-   [lavfilters](https://github.com/Nevcairiel/LAVFilters) #
+
+    Based on [`dorado/lavfilters`](https://github.com/chawyehsu/dorado/blob/master/experiment/lavfilters.json).
+
 -   [listary-beta](https://www.listary.com/beta) # \*
 
     Had been [renamed](https://github.com/kidonng/sushi/commit/fad0bfefc4fda844c43a66d15a2af60a539df14b) to `listary-beta-np` but was [reverted](https://github.com/kidonng/sushi/commit/0addc8aa2fd8b9f389a3a96f952d878148466d70).
