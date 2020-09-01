@@ -125,6 +125,10 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 -   [obsidian](https://obsidian.md/) \*
 -   [officetoolplus-beta](https://otp.landian.vip/)
 -   [openhashtab](https://github.com/namazso/OpenHashTab) #
+-   [pandownload](https://pandownload.com/)
+
+    Copied from [`dorado/pandownload`](https://github.com/chawyehsu/dorado/blob/master/bucket/pandownload.json).
+
 -   [qtpass](https://github.com/IJHack/QtPass)
 -   [sandboxie-plus](https://github.com/sandboxie-plus/Sandboxie)
 -   [tencent-meeting](https://meeting.tencent.com/) \*
