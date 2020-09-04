@@ -1,18 +1,20 @@
 # 🍣 Sushi
 
-Sushi is a tasty [Scoop](https://scoop-docs.now.sh/) bucket, striving to provide up-to-date and accurate manifests, even for nightly applications.
+A tasty and inclusive [Scoop](https://scoop-docs.now.sh/) bucket, providing various applications.
+
+Spot an error? Find a place which can be improved? Or your favorite application isn't included? Feel free to [submit an issue](https://github.com/kidonng/sushi/issues/new) or make a pull request! **Make sure to read the [contributing guide](CONTRIBUTING.md) first.**
 
 ## Usage
 
 ```powershell
 scoop bucket add sushi https://github.com/kidonng/sushi
-# Recommended, but the bucket name can be omitted most of the time
+# The bucket name can be omitted most of the time
 scoop install sushi/<app>
 ```
 
 ## Manifests
 
-If you favorite applications aren't included, feel free to [submit an issue](https://github.com/kidonng/sushi/issues/new) or make a pull request! Make sure to read the [contributing guide](CONTRIBUTING.md) first.
+The lists are sorted alphabetically.
 
 ### Featured
 
@@ -23,29 +25,29 @@ If you favorite applications aren't included, feel free to [submit an issue](htt
 -   **proxychains**: Windows and Cygwin port of proxychains, based on MinHook and DLL Injection
 -   **tencent-meeting**: Video conferencing app by Tencent
 
----
+### All manifests
 
-\# Require administrator rights (`scoop install sudo`)
+`#` Require administrator rights (`scoop install sudo`)
 
-\* Non portable (store data outside of Scoop directory)
+`*` Non portable (may store data outside of Scoop directory)
 
 <details>
 <summary><strong>Development</strong></summary>
 
 -   [android-clt](https://developer.android.com/studio#command-tools)
 
-    Prefer this over `extras/android-sdk` as the latter is no longer updating.
+    Prefer this over `extras/android-sdk` which is deprecated.
 
--   [cf-tool](https://github.com/xalanq/cf-tool) \*
--   [cpeditor \* / cpeditor-beta](https://github.com/cpeditor/cpeditor)
+-   [cf-tool](https://github.com/xalanq/cf-tool) `*`
+-   [cpeditor `*` / cpeditor-beta](https://github.com/cpeditor/cpeditor)
 -   [dvm](https://github.com/justjavac/dvm)
--   [vscode-insiders \* / vscode-insiders-portable](https://code.visualstudio.com/insiders/)
+-   [vscode-insiders `*` / vscode-insiders-portable](https://code.visualstudio.com/insiders/)
 
-    Can be updated via Scoop, unlike `extras/vscode-insiders` and `extras/vscode-insiders-portable`
+    Can be updated via Scoop, unlike `extras/vscode-insiders` and `extras/vscode-insiders-portable`.
 
--   [wechatdevtools-32bit \*](https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html)
+-   [wechatdevtools-32bit `*`](https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html)
 
-    For 64bit system in case the 64bit version fails to launch
+    For 64bit system, in case the 64bit version fails to launch.
 
 </details>
 
@@ -60,7 +62,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 
 -   [jetbrains-mono](https://github.com/JetBrains/JetBrainsMono)
 
-    Variable format only, which is different from `nerd-fonts/JetBrains-Mono`
+    Variable format only, which is different from `nerd-fonts/JetBrains-Mono`.
 
 -   [source-han-sans-truetype](https://github.com/be5invis/source-han-sans-ttf)
 -   [source-han-serif-truetype](https://github.com/Pal3love/Source-Han-TrueType)
@@ -97,7 +99,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 -   [trojan-client-slim](https://github.com/KevinZonda/trojan-client-slim)
 -   [trojan-go](https://p4gefau1t.github.io/trojan-go/)
 -   [trojan-qt5](https://github.com/Trojan-Qt5/Trojan-Qt5)
--   [v2ray-desktop](https://github.com/Dr-Incognito/V2Ray-Desktop) \*
+-   [v2ray-desktop](https://github.com/Dr-Incognito/V2Ray-Desktop) `*`
 -   [v2ray-vless](https://github.com/rprx/v2ray-vless)
 
 </details>
@@ -109,47 +111,47 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 
     "Portable version", which is different from `extras/windowsdesktop-runtime`. Copied from [`dorado/dotnet-desktop-runtime`](https://github.com/chawyehsu/dorado/blob/master/bucket/dotnet-desktop-runtime.json).
 
--   [evernote](https://evernote.com/) \*
+-   [evernote](https://evernote.com/) `*`
 -   [firefox-tete009 * / firefox-tete009-portable](http://www1.plala.or.jp/tete009/en-US/software.html#FIREFOX)
 
     Portable mode may interfere with other applications, such as MacType's font substitution feature.
 
 -   [fontloadersub](https://github.com/yzwduck/FontLoaderSub)
--   [lavfilters](https://github.com/Nevcairiel/LAVFilters) #
+-   [lavfilters](https://github.com/Nevcairiel/LAVFilters) `#`
 
     Based on [`dorado/lavfilters`](https://github.com/chawyehsu/dorado/blob/master/experiment/lavfilters.json).
 
--   [listary-beta](https://www.listary.com/beta) # \*
+-   [listary-beta](https://www.listary.com/beta) `#` `*`
 
     Had been [renamed](https://github.com/kidonng/sushi/commit/fad0bfefc4fda844c43a66d15a2af60a539df14b) to `listary-beta-np` but was [reverted](https://github.com/kidonng/sushi/commit/0addc8aa2fd8b9f389a3a96f952d878148466d70).
 
--   [microsoft-edge / microsoft-edge-beta / microsoft-edge-dev / microsoft-edge-canary](https://www.microsoft.com/edge) \*
+-   [microsoft-edge / microsoft-edge-beta / microsoft-edge-dev / microsoft-edge-canary](https://www.microsoft.com/edge) `*`
 
-    Can be updated via Scoop, unlike `nonportable/microsoft-edge-beta-np` and `nonportable/microsoft-edge-dev-np`
+    Can be updated via Scoop, unlike `nonportable/microsoft-edge-beta-np` and `nonportable/microsoft-edge-dev-np`.
 
--   [obsidian](https://obsidian.md/) \*
+-   [obsidian](https://obsidian.md/) `*`
 -   [officetoolplus-beta](https://otp.landian.vip/)
--   [openhashtab](https://github.com/namazso/OpenHashTab) #
+-   [openhashtab](https://github.com/namazso/OpenHashTab) `#`
 -   [pandownload](https://pandownload.com/)
 
     Copied from [`dorado/pandownload`](https://github.com/chawyehsu/dorado/blob/master/bucket/pandownload.json).
 
 -   [qtpass](https://github.com/IJHack/QtPass)
 -   [sandboxie-plus](https://github.com/sandboxie-plus/Sandboxie)
--   [tencent-meeting](https://meeting.tencent.com/) \*
+-   [tencent-meeting](https://meeting.tencent.com/) `*`
 -   [varpanel](http://implbits.com/products/varpanel/)
--   [wechat](https://pc.weixin.qq.com/) \*
--   [wnr](https://github.com/RoderickQiu/wnr) \*
+-   [wechat](https://pc.weixin.qq.com/) `*`
+-   [wnr](https://github.com/RoderickQiu/wnr) `*`
 -   [youtube-dl-wpf](https://github.com/database64128/youtube-dl-wpf)
 
 </details>
 
 <details>
-<summary><strong>Deprecated</strong></summary>
+<summary><strong>Deprecated (removed)</strong></summary>
 
--   [fluent-reader](https://github.com/kidonng/sushi/commit/5c2c1adbfa27969bda530c2a3123da970320d702): Available in `extras`
--   [naiveproxy](https://github.com/kidonng/sushi/commit/64a31947c2b5c7bfca9107af56cfc62078cbec61): Available in `main`
--   [scoop-completion](https://github.com/kidonng/sushi/commit/dfa918bc25e7e168ecdc7817f5b0171042368e73): Available in [`Ash258`](https://github.com/Ash258/Scoop-Ash258)
--   [qv2ray-plugin-command-beta / qv2ray-plugin-ssr-beta / qv2ray-plugin-trojan-beta](https://github.com/kidonng/sushi/commit/73f75a2ab0a2f0374e6478fa8f9a3ef86bb61598): Beta version no longer exists
+-   [fluent-reader](https://github.com/kidonng/sushi/commit/5c2c1adbfa27969bda530c2a3123da970320d702): available in `extras`
+-   [naiveproxy](https://github.com/kidonng/sushi/commit/64a31947c2b5c7bfca9107af56cfc62078cbec61): available in `main`
+-   [scoop-completion](https://github.com/kidonng/sushi/commit/dfa918bc25e7e168ecdc7817f5b0171042368e73): available in [`Ash258`](https://github.com/Ash258/Scoop-Ash258)
+-   [qv2ray-plugin-command-beta / qv2ray-plugin-ssr-beta / qv2ray-plugin-trojan-beta](https://github.com/kidonng/sushi/commit/73f75a2ab0a2f0374e6478fa8f9a3ef86bb61598): beta version no longer exists
 
 </details>
