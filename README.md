@@ -70,7 +70,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 </details>
 
 <details>
-<summary><strong><a href="https://qv2ray.github.io/">Qv2ray</a></strong></summary>
+<summary><strong><a href="https://qv2ray.net/">Qv2ray</a></strong></summary>
 
 -   [qv2ray-beta](https://github.com/Qv2ray/Qv2ray)
 -   [qv2ray-plugin-command](https://github.com/Qv2ray/QvPlugin-Command)
