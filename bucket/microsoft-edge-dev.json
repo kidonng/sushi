@@ -1,5 +1,5 @@
 {
-    "version": "86.0.622.10",
+    "version": "87.0.634.0",
     "description": "The new Microsoft Edge browser (Dev Channel)",
     "homepage": "https://www.microsoftedgeinsider.com/",
     "license": {
@@ -10,7 +10,7 @@
     "architecture": {
         "64bit": {
             "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/dev/x64#/dl.7z",
-            "hash": "69384145f85af66b2826b184af0f96f8390b9026e47e1dd96408a944ef78c929"
+            "hash": "3daf61541f1bb0084d1cc52a2a142a77e4bf5c4d6bced76ec4231dc8467751d8"
         },
         "32bit": {
             "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/dev/x86#/dl.7z",
