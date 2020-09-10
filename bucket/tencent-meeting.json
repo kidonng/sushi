@@ -1,5 +1,5 @@
 {
-    "version": "1.9.0.448",
+    "version": "2.0.0.447",
     "description": "Video conferencing app by Tencent",
     "homepage": "https://meeting.tencent.com/",
     "license": {
@@ -7,8 +7,8 @@
         "url": "https://meeting.tencent.com/declare.html"
     },
     "notes": "Your data is stored in $env:appdata\\Tencent\\WeMeet.",
-    "url": "https://updatecdn.meeting.qq.com/a6719ed4bfe172b80e4af07698e3a0a1/TencentMeeting_0300000000_1.9.0.448.publish.exe#/dl.7z",
-    "hash": "md5:a6719ed4bfe172b80e4af07698e3a0a1",
+    "url": "https://updatecdn.meeting.qq.com/e3da0e0f0bd6b9e09aea7622747d14f6/TencentMeeting_0300000000_2.0.0.447.publish.exe#/dl.7z",
+    "hash": "md5:e3da0e0f0bd6b9e09aea7622747d14f6",
     "installer": {
         "script": [
             "Expand-7zipArchive (Join-Path $dir '$_4_\\weMeet.*.zip') -DestinationPath $dir",
