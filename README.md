@@ -18,7 +18,7 @@ The lists are sorted alphabetically.
 
 ### Featured
 
--   **android-clt**: The official Android command line tools
+-   **evernote**: Note Taking App - Organize Your Notes with Evernote
 -   **listary-beta**: A revolutionary search utility
 -   **microsoft-edge**: The new Microsoft Edge browser
 -   **openhashtab**: A shell extension for conveniently calculating and checking file hashes from file properties
@@ -33,10 +33,6 @@ The lists are sorted alphabetically.
 
 <details>
 <summary><strong>Development</strong></summary>
-
--   [android-clt](https://developer.android.com/studio#command-tools)
-
-    Prefer this over `extras/android-sdk` which is deprecated.
 
 -   [cf-tool](https://github.com/xalanq/cf-tool) `*`
 -   [cpeditor `*` / cpeditor-beta](https://github.com/cpeditor/cpeditor)
@@ -149,6 +145,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 <details>
 <summary><strong>Deprecated (removed)</strong></summary>
 
+-   [android-clt](https://developer.android.com/studio#command-tools): available in `main`
 -   [fluent-reader](https://github.com/kidonng/sushi/commit/5c2c1adbfa27969bda530c2a3123da970320d702): available in `extras`
 -   [naiveproxy](https://github.com/kidonng/sushi/commit/64a31947c2b5c7bfca9107af56cfc62078cbec61): available in `main`
 -   [scoop-completion](https://github.com/kidonng/sushi/commit/dfa918bc25e7e168ecdc7817f5b0171042368e73): available in [`Ash258`](https://github.com/Ash258/Scoop-Ash258)
