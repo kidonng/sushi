@@ -1,12 +1,12 @@
 {
-    "version": "2008.25",
+    "version": "2009.14",
     "description": "Cascadia Code font by Microsoft (Powerline version)",
     "homepage": "https://github.com/microsoft/cascadia-code",
     "license": "OFL-1.1",
     "notes": "You may need to restart the system to use recently installed fonts.",
     "depends": "sudo",
-    "url": "https://github.com/microsoft/cascadia-code/releases/download/v2008.25/CascadiaCode-2008.25.zip",
-    "hash": "4602a0b8b986b18a1c3f460fd959ec1ce522aedcf11ab4c0d41a5fc5ed839be0",
+    "url": "https://github.com/microsoft/cascadia-code/releases/download/v2009.14/CascadiaCode-2009.14.zip",
+    "hash": "7a08523d2d68ef3c6efdd5336dd49aa2698dd348fa4734463a17719632bbc3c8",
     "extract_dir": "ttf",
     "installer": {
         "script": [
