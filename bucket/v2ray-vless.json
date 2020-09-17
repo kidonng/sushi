@@ -1,13 +1,13 @@
 {
-    "version": "xtls2",
+    "version": "xtls3",
     "description": "A platform for building proxies to bypass network restrictions. (VLESS version)",
     "homepage": "https://github.com/rprx/v2ray-vless",
     "license": "MIT",
     "persist": "config.json",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rprx/v2ray-vless/releases/download/xtls2/v2ray-windows-64.zip",
-            "hash": "eb7259c7aff2cd56f79ac686f5f11943a943b86de83417d8b085f87140b10647"
+            "url": "https://github.com/rprx/v2ray-vless/releases/download/xtls3/v2ray-windows-64.zip",
+            "hash": "f043655e99d346954fb930aba28a56a41c60c7cb63e9d47eafd0ea1652a39dd9"
         }
     },
     "bin": [
