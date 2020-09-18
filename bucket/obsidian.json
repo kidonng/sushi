@@ -1,6 +1,6 @@
 {
     "version": "0.8.14",
-    "description": "A second brain, for you, forever.",
+    "description": "Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files.",
     "homepage": "https://obsidian.md/",
     "license": {
         "identifier": "EULA",
