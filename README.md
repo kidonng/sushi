@@ -69,12 +69,12 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 <summary><strong><a href="https://qv2ray.net/">Qv2ray</a></strong></summary>
 
 -   [qv2ray-beta](https://github.com/Qv2ray/Qv2ray)
--   [qv2ray-plugin-command](https://github.com/Qv2ray/QvPlugin-Command)
--   [qv2ray-plugin-naiveproxy](https://github.com/Qv2ray/QvPlugin-NaiveProxy)
--   [qv2ray-plugin-ss](https://github.com/Qv2ray/QvPlugin-SS)
--   [qv2ray-plugin-ssr](https://github.com/Qv2ray/QvPlugin-SSR)
--   [qv2ray-plugin-trojan](https://github.com/Qv2ray/QvPlugin-Trojan)
--   [qv2ray-plugin-trojan-go](https://github.com/Qv2ray/QvPlugin-Trojan-Go)
+-   [qv2ray-plugin-command / qv2ray-plugin-command-beta](https://github.com/Qv2ray/QvPlugin-Command)
+-   [qv2ray-plugin-naiveproxy / qv2ray-plugin-naiveproxy-beta](https://github.com/Qv2ray/QvPlugin-NaiveProxy)
+-   [qv2ray-plugin-ss / qv2ray-plugin-ss-beta](https://github.com/Qv2ray/QvPlugin-SS)
+-   [qv2ray-plugin-ssr / qv2ray-plugin-ssr-beta](https://github.com/Qv2ray/QvPlugin-SSR)
+-   [qv2ray-plugin-trojan / qv2ray-plugin-trojan-beta](https://github.com/Qv2ray/QvPlugin-Trojan)
+-   [qv2ray-plugin-trojan-go / qv2ray-plugin-trojan-go-beta](https://github.com/Qv2ray/QvPlugin-Trojan-Go)
 
 </details>
 
@@ -150,6 +150,5 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 -   [fluent-reader](https://github.com/kidonng/sushi/commit/5c2c1adbfa27969bda530c2a3123da970320d702): available in `extras`
 -   [naiveproxy](https://github.com/kidonng/sushi/commit/64a31947c2b5c7bfca9107af56cfc62078cbec61): available in `main`
 -   [scoop-completion](https://github.com/kidonng/sushi/commit/dfa918bc25e7e168ecdc7817f5b0171042368e73): available in [`Ash258`](https://github.com/Ash258/Scoop-Ash258)
--   [qv2ray-plugin-command-beta / qv2ray-plugin-ssr-beta / qv2ray-plugin-trojan-beta](https://github.com/kidonng/sushi/commit/73f75a2ab0a2f0374e6478fa8f9a3ef86bb61598): beta version no longer exists
 
 </details>
