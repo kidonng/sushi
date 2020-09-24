@@ -10,7 +10,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Qv2ray/Qv2ray/releases/download/v2.7.0-alpha1/Qv2ray.v2.7.0-alpha1.Windows-x64.7z",
-            "hash": "f3e241b801b60a8761e30ed818f2b09975d8dd52054a5fd4e2d8032ac33357e5"
+            "hash": "4626c29e48c4b85fff35df03e753fb92889d6f4d82c09eb4709b07479ac792c9"
         },
         "32bit": {
             "url": "https://github.com/Qv2ray/Qv2ray/releases/download/v2.7.0-alpha1/Qv2ray.v2.7.0-alpha1.Windows-x86.7z",
