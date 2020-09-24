@@ -18,13 +18,13 @@
         "script": [
             "function LinkFile([String] $file, [String] $source = $file) {",
             "    Write-Host \"Creating hardlink for $file\"",
-            "    New-Item -Force -ItemType HardLink -Path \"$(appdir qv2ray $global)\\current\\config\\plugins\" -Name $file -Target \"$dir\\$source\" | Out-Null",
+            "    New-Item -Force -ItemType HardLink -Path \"$(appdir qv2ray-beta $global)\\current\\config\\plugins\" -Name $file -Target \"$dir\\$source\" | Out-Null",
             "}",
             "LinkFile 'trojan.dll' '*.dll'"
         ]
     },
     "uninstaller": {
-        "script": "Remove-Item \"$(appdir qv2ray $global)\\current\\config\\plugins\\trojan.dll\" -Force"
+        "script": "Remove-Item \"$(appdir qv2ray-beta $global)\\current\\config\\plugins\\trojan.dll\" -Force"
     },
     "checkver": {
         "url": "https://github.com/Qv2ray/QvPlugin-Trojan/releases",
