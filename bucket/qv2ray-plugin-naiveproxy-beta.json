@@ -1,17 +1,20 @@
 {
-    "version": "1.0.0",
+    "version": "3.0.0-pre1",
     "description": "NaiveProxy plugin for Qv2ray",
     "homepage": "https://github.com/Qv2ray/QvPlugin-NaiveProxy",
     "license": "GPL-3.0-or-later",
-    "depends": ["sushi/qv2ray-beta", "naiveproxy"],
+    "depends": [
+        "sushi/qv2ray-beta",
+        "naiveproxy"
+    ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/download/v1.0.0/QvPlugin-NaiveProxy.v1.0.0.Windows-x64.dll",
-            "hash": "ce0b5fc032442f2b9efb854c886c196a66429bf2d5fa639ee02fe35dcedfe243"
+            "url": "https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/download/v3.0.0-pre1/QvPlugin-NaiveProxy.v3.0.0-pre1.Windows-x64.dll",
+            "hash": "4be1f53f5862b9dd0667a6ae2fcc9ae77d23fd0b9d81804b2b5c5f76592841bf"
         },
         "32bit": {
-            "url": "https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/download/v1.0.0/QvPlugin-NaiveProxy.v1.0.0.Windows-x86.dll",
-            "hash": "b567e7b271fc438fe627a690acfb2fbe87877d5befad64eb89b00f8b7323ccff"
+            "url": "https://github.com/Qv2ray/QvPlugin-NaiveProxy/releases/download/v3.0.0-pre1/QvPlugin-NaiveProxy.v3.0.0-pre1.Windows-x86.dll",
+            "hash": "bbab19b8bc87e97a2b904b8a221adedc392d90b025a02a3c4659d235ad000b97"
         }
     },
     "installer": {
