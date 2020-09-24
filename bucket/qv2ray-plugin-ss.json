@@ -26,10 +26,7 @@
     "uninstaller": {
         "script": "Remove-Item \"$(appdir qv2ray $global)\\current\\config\\plugins\\ss.dll\" -Force"
     },
-    "checkver": {
-        "url": "https://github.com/Qv2ray/QvPlugin-SS/releases",
-        "regex": "/releases/tag/(?:v|V)?([\\w.-]+)"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
