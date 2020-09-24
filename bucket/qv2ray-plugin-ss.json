@@ -1,17 +1,17 @@
 {
-    "version": "1.2",
+    "version": "1.3",
     "description": "ShadowSocks SIP003 plugin for Qv2ray",
     "homepage": "https://github.com/Qv2ray/QvPlugin-SS",
     "license": "GPL-3.0-or-later",
     "depends": "extras/qv2ray",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Qv2ray/QvPlugin-SS/releases/download/v1.2/QvSSPlugin.v1.2.Windows-x64.dll",
-            "hash": "c2e5655a074d5da2efce0636c466fc7d4d533295770f525952888aae58d9b81f"
+            "url": "https://github.com/Qv2ray/QvPlugin-SS/releases/download/v1.3/QvPlugin-SS.v1.3.Windows-x64.dll",
+            "hash": "50dd51b45837cc25d5a52ffc7c0ab42903b8d64ad91a74ea2b1c29867fb88bb3"
         },
         "32bit": {
-            "url": "https://github.com/Qv2ray/QvPlugin-SS/releases/download/v1.2/QvSSPlugin.v1.2.Windows-x86.dll",
-            "hash": "b9fe56d00035ed277a7945d518ecd27501654f820d73427cc1ce69af184b3c2c"
+            "url": "https://github.com/Qv2ray/QvPlugin-SS/releases/download/v1.3/QvPlugin-SS.v1.3.Windows-x86.dll",
+            "hash": "4b2b9fb415f94aa529b84f8a6b4060126b240d768f75a8dc0164f3fb0589a2aa"
         }
     },
     "installer": {
