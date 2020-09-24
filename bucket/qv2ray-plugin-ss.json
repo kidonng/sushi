@@ -30,10 +30,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Qv2ray/QvPlugin-SS/releases/download/v$version/QvSSPlugin.v$version.Windows-x64.dll"
+                "url": "https://github.com/Qv2ray/QvPlugin-SS/releases/download/v$version/QvPlugin-SS.v$version.Windows-x64.dll"
             },
             "32bit": {
-                "url": "https://github.com/Qv2ray/QvPlugin-SS/releases/download/v$version/QvSSPlugin.v$version.Windows-x86.dll"
+                "url": "https://github.com/Qv2ray/QvPlugin-SS/releases/download/v$version/QvPlugin-SS.v$version.Windows-x86.dll"
             }
         },
         "hash": {
