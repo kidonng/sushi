@@ -1,5 +1,5 @@
 {
-    "version": "1.4",
+    "version": "1.5",
     "description": "A simple GUI wrapper for youtube-dl",
     "homepage": "https://github.com/database64128/youtube-dl-wpf",
     "license": "GPL-3.0-or-later",
@@ -15,8 +15,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/database64128/youtube-dl-wpf/releases/download/v1.4/youtube-dl-wpf-v1.4.7z",
-            "hash": "0f21c506b012e5337be4310a4c06563f0555ab84357b96097eb4b3c28c7f8262"
+            "url": "https://github.com/database64128/youtube-dl-wpf/releases/download/v1.5/youtube-dl-wpf-v1.5.7z",
+            "hash": "554646df19668f3c86356b5df34ba82748bf022a4f33c60516352ccbd9dd8b99"
         }
     },
     "installer": {
