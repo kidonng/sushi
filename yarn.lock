@@ -245,6 +245,11 @@ source-map@^0.6.0:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
 
+tiny-version-compare@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/tiny-version-compare/-/tiny-version-compare-3.0.1.tgz#b1d2da60595d905ac86eeedaab52f2157e5d91a0"
+  integrity sha512-xatSPA/CQtM2fPxuhhookcVlxoLPpb3q4VXYkI85owwvAnTGvD3ItKZp4wn4o5Apc8YxM1GjQ0QqjAXqE4ZJoQ==
+
 ts-node@8.9.1:
   version "8.9.1"
   resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-8.9.1.tgz#2f857f46c47e91dcd28a14e052482eb14cfd65a5"
