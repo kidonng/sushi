@@ -1,12 +1,12 @@
 {
-    "version": "6.5.5",
+    "version": "6.6.5",
     "description": "The IDE for competitive programming",
     "homepage": "https://github.com/cpeditor/cpeditor",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cpeditor/cpeditor/releases/download/6.5.5/cpeditor-6.5.5-x64-setup.exe",
-            "hash": "7875359fb7a8f382882b34f522744a79e5204e2e872eaf66543fb05562ef7347"
+            "url": "https://github.com/cpeditor/cpeditor/releases/download/6.6.5/cpeditor-6.6.5-windows-x64-portable.zip",
+            "hash": "fdd814b942d775fe41d98e17549e828bcd915fba643be74f9139fa56c03e199b"
         }
     },
     "installer": {
