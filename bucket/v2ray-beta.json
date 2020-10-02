@@ -20,7 +20,7 @@
     ],
     "persist": "config.json",
     "checkver": {
-        "url": "https://github.com/v2fly/v2ray-core",
+        "url": "https://github.com/v2fly/v2ray-core/releases",
         "regex": "/releases/tag/(?:v|V)?([\\w.]+)"
     },
     "autoupdate": {
