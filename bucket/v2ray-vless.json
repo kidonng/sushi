@@ -8,6 +8,10 @@
         "64bit": {
             "url": "https://github.com/rprx/v2ray-vless/releases/download/preview2/v2ray-windows-64.zip",
             "hash": "62d9d0ff2b27364cd189def828b48592f1024fe2476bbf6a66f64003f53bb021"
+        },
+        "32bit": {
+            "url": "",
+            "hash": ""
         }
     },
     "bin": [
@@ -16,13 +20,16 @@
         "wv2ray.exe"
     ],
     "checkver": {
-        "github": "https://github.com/rprx/v2ray-vless",
+        "github": "https://github.com/charlieethan/vless-build",
         "regex": "/releases/tag/(?:v|V)?([\\w.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/rprx/v2ray-vless/releases/download/$version/v2ray-windows-64.zip"
+                "url": "https://github.com/charlieethan/vless-build/releases/download/$version/v2ray-windows-64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/charlieethan/vless-build/releases/download/$version/v2ray-windows-32.zip"
             }
         }
     }
