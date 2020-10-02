@@ -1,6 +1,6 @@
 {
     "version": "3.0.0-pre1",
-    "description": "Trojan plugin for Qv2ray",
+    "description": "Trojan plugin for Qv2ray (beta)",
     "homepage": "https://github.com/Qv2ray/QvPlugin-Trojan",
     "license": "GPL-3.0-or-later",
     "depends": "sushi/qv2ray-beta",
