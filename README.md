@@ -79,11 +79,14 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 </details>
 
 <details>
-<summary><strong><a href="https://www.v2fly.org/">V2Ray</a> Rulesets</strong></summary>
+<summary><strong><a href="https://www.v2fly.org/">V2Ray</a></strong></summary>
 
+-   [v2ray-beta](https://github.com/v2fly/v2ray-core)
 -   [v2ray-domain-list-community](https://github.com/v2ray/domain-list-community)
 -   [v2ray-geoip](https://github.com/v2ray/geoip)
 -   [v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)
+-   [v2ray-unstable](https://github.com/v2fly/V2FlyBleedingEdgeBinary)
+-   [v2ray-vless](https://github.com/rprx/v2ray-vless)
 
 </details>
 
@@ -96,8 +99,6 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 -   [trojan-go](https://p4gefau1t.github.io/trojan-go/)
 -   [trojan-qt5](https://github.com/Trojan-Qt5/Trojan-Qt5)
 -   [v2ray-desktop](https://github.com/Dr-Incognito/V2Ray-Desktop) `*`
--   [v2ray-unstable](https://github.com/v2fly/V2FlyBleedingEdgeBinary)
--   [v2ray-vless](https://github.com/rprx/v2ray-vless)
 
 </details>
 
