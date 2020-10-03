@@ -1,17 +1,17 @@
 {
-    "version": "preview2.1",
+    "version": "preview2.2",
     "description": "A platform for building proxies to bypass network restrictions. (VLESS version)",
     "homepage": "https://github.com/rprx/v2ray-vless",
     "license": "MIT",
     "persist": "config.json",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/charlieethan/vless-build/releases/download/preview2.1/v2ray-windows-64.zip",
-            "hash": "9ea8dbcdb3504db8da27cea71979f0b1ba1b16d483fc73abbee5dd4417e318b2"
+            "url": "https://github.com/charlieethan/vless-build/releases/download/preview2.2/v2ray-windows-64.zip",
+            "hash": "69ff1d0cf1cc26eab2f73a8daf4c6b2dfb4f7d0406e8ea873eb3c840ed68f22c"
         },
         "32bit": {
-            "url": "https://github.com/charlieethan/vless-build/releases/download/preview2.1/v2ray-windows-32.zip",
-            "hash": "2e27f7744a8dd721f0d51693281296db02ad5daacb65caa44f4bc6675d861d2f"
+            "url": "https://github.com/charlieethan/vless-build/releases/download/preview2.2/v2ray-windows-32.zip",
+            "hash": "053a17532397b18c4737f1c0973b477d99030d0574c818289d946e8fda1787d7"
         }
     },
     "bin": [
