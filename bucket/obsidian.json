@@ -1,5 +1,5 @@
 {
-    "version": "0.9.1",
+    "version": "0.9.2",
     "description": "Obsidian is a powerful knowledge base that works on top of a local folder of plain text Markdown files.",
     "homepage": "https://obsidian.md/",
     "license": {
@@ -9,8 +9,8 @@
     "notes": "Obsidian data is placed at \"$env:appdata\\obsidian\".",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v0.9.1/Obsidian.0.9.1.exe#/dl.7z",
-            "hash": "5a6ee62b7d98a03f492f0042da4d9a065d816be690f474420b77fffae7b76738"
+            "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v0.9.2/Obsidian.0.9.2.exe#/dl.7z",
+            "hash": "3f2ab4524b6c5ac27f67da12685f3e73598acd15852c5ec32b222cf37bea999f"
         }
     },
     "installer": {
