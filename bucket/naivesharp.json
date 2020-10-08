@@ -12,6 +12,6 @@
         "regex": "/releases/tag/(?:v|V)?([\\w.-]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/KevinZonda/NaiveSharp/releases/download/$version/NaiveSharp.0.6.4.Preview.zip"
+        "url": "https://github.com/KevinZonda/NaiveSharp/releases/download/$version/NaiveSharp.$matchHead.Preview.zip"
     }
 }
