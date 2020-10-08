@@ -94,6 +94,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 <summary><strong>Proxies</strong></summary>
 
 -   [naivesharp](https://github.com/KevinZonda/NaiveSharp)
+-   [proxifier-beta](https://www.proxifier.com/beta/)
 -   [proxychains](https://github.com/shunf4/proxychains-windows)
 -   [trojan-client-slim](https://github.com/KevinZonda/trojan-client-slim)
 -   [trojan-go](https://p4gefau1t.github.io/trojan-go/)
