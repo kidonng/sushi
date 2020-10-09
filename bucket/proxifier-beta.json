@@ -16,7 +16,7 @@
     "shortcuts": [["Proxifier.exe", "Proxifier (beta)"]],
     "persist": ["Profiles", "Settings.ini"],
     "checkver": {
-        "regex": "([\\d.]+\\s)Beta(\\s[\\d]+)",
+        "regex": "([\\d.]+)\\sBeta\\s([\\d]+)",
         "replace": "${1}-beta${2}"
     },
     "autoupdate": {
