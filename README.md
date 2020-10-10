@@ -93,6 +93,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 <details>
 <summary><strong>Proxies</strong></summary>
 
+-   [mellow](https://github.com/mellow-io/mellow) `#` `*`
 -   [naivesharp](https://github.com/KevinZonda/NaiveSharp)
 -   [proxifier-beta](https://www.proxifier.com/beta/)
 -   [proxychains](https://github.com/shunf4/proxychains-windows)
