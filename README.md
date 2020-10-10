@@ -90,6 +90,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 <summary><strong>Proxies</strong></summary>
 
 -   [clash](https://github.com/Dreamacro/clash)
+-   [leaf](https://github.com/eycorsican/leaf)
 -   [mellow](https://github.com/mellow-io/mellow) `#` `*`
 -   [naivesharp](https://github.com/KevinZonda/NaiveSharp)
 -   [proxifier-beta](https://www.proxifier.com/beta/)
