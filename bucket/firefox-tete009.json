@@ -23,18 +23,18 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/kidonng/sushi/releases",
-        "regex": "/releases/tag/firefox-([\\w.-]+)"
+        "url": "https://github.com/kidonng/sushi/releases/tag/firefox-tete009",
+        "regex": "firefox-([\\d.]+)-(?<date>\\d+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kidonng/sushi/releases/download/firefox-$version/firefox-$version.en-US.win32-tete009-x64-pgo.7z",
-                "extract_dir": "firefox-$version.en-US.win32-tete009-x64-pgo"
+                "url": "https://github.com/kidonng/sushi/releases/download/firefox-tete009/firefox-$version-$matchDate.en-US.win32-tete009-x64-pgo.7z",
+                "extract_dir": "firefox-$version-$matchDate.en-US.win32-tete009-x64-pgo"
             },
             "32bit": {
-                "url": "https://github.com/kidonng/sushi/releases/download/firefox-$version/firefox-$version.en-US.win32-tete009-sse2-pgo.7z",
-                "extract_dir": "firefox-$version.en-US.win32-tete009-sse2-pgo"
+                "url": "https://github.com/kidonng/sushi/releases/download/firefox-tete009/firefox-$version-$matchDate.en-US.win32-tete009-sse2-pgo.7z",
+                "extract_dir": "firefox-$version-$matchDate.en-US.win32-tete009-sse2-pgo"
             }
         }
     }
