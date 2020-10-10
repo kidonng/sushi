@@ -1,5 +1,5 @@
 {
-    "version": "6.25.1.9091",
+    "version": "10.0.10",
     "description": "Note Taking App - Organize Your Notes with Evernote",
     "homepage": "https://evernote.com/",
     "license": {
@@ -7,8 +7,8 @@
         "url": "https://evernote.com/intl/en/legal/terms-of-service"
     },
     "notes": "We don't persist your Evernote data, they are still storaged in \"$env:APPDATA\\Evernote\".",
-    "url": "https://evernote.com/download/get.php?file=Win#/dl.exe",
-    "hash": "0CEDDB46FC74B0322681A225404AF75EC7F96C12AD112DDA6A3505606531BE20",
+    "url": "https://cdn1.evernote.com/boron/win/builds/Evernote-10.0.10-1838-setup.exe#/dl.7z",
+    "hash": "f4fbc624640f08e307c0276460b3e1da75e829790bffdaa41529f110319d8d43",
     "installer": {
         "script": [
             "if ([Environment]::Is64BitOperatingSystem) {",
@@ -21,7 +21,12 @@
             "Remove-Item \"$dir\\resources\" -Force -Recurse"
         ]
     },
-    "shortcuts": [["Evernote.exe", "Evernote"]],
+    "shortcuts": [
+        [
+            "Evernote.exe",
+            "Evernote"
+        ]
+    ],
     "checkver": {
         "url": "https://scoop-sushi.vercel.app/api/evernote",
         "regex": "([\\d.]+) (?<url>.+)"
