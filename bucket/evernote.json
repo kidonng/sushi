@@ -6,7 +6,7 @@
         "identifier": "EULA",
         "url": "https://evernote.com/intl/en/legal/terms-of-service"
     },
-    "notes": "We don't persist your Evernote data, they are still storaged in '%APPDATA%\\Evernote'.",
+    "notes": "We don't persist your Evernote data, they are still storaged in \"$env:APPDATA\\Evernote\".",
     "url": "https://evernote.com/download/get.php?file=Win#/dl.exe",
     "hash": "0CEDDB46FC74B0322681A225404AF75EC7F96C12AD112DDA6A3505606531BE20",
     "installer": {

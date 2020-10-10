@@ -9,7 +9,7 @@
             "hash": "96C95E6669CCB6AFFE6AF283E91222448A5DDF2B5898516EB7C85994B1A6D322"
         }
     },
-    "notes": "We don't persist your Mellow data, they are still storaged in '%APPDATA%\\Mellow'.",
+    "notes": "We don't persist your Mellow data, they are still storaged in \"$env:APPDATA\\Mellow\".",
     "installer": {
         "script": [
             "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" $dir -Removal",

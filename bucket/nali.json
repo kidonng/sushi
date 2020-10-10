@@ -3,7 +3,7 @@
     "description": "An offline tool for querying IP geographic information and CDN provider",
     "homepage": "https://github.com/zu1k/nali",
     "license": "MIT",
-    "notes": "IP data is stored in $env:userprofile/.nali.",
+    "notes": "We don't persist your Nali data, they are still storaged in \"$env:USERPROFILE\\.nali\".",
     "architecture": {
         "64bit": {
             "url": "https://github.com/zu1k/nali/releases/download/v0.2.2/nali-windows-amd64-v0.2.2.zip",

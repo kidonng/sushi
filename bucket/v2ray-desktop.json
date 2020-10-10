@@ -3,7 +3,7 @@
     "description": "A cross-platform proxy GUI client that supports Shadowsocks, V2Ray, and Trojan",
     "homepage": "https://github.com/Dr-Incognito/V2Ray-Desktop",
     "license": "GPL-3.0-or-later",
-    "notes": "Your data is stored in $env:localappdata\\V2Ray\\V2Ray-Desktop.",
+    "notes": "We don't persist your V2Ray Desktop data, they are still storaged in \"$env:LOCALAPPDATA\\V2Ray\\V2Ray-Desktop\".",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Dr-Incognito/V2Ray-Desktop/releases/download/2.1.6/V2Ray-Desktop-v2.1.6-win64.zip",

@@ -6,7 +6,7 @@
         "identifier": "EULA",
         "url": "https://meeting.tencent.com/declare.html"
     },
-    "notes": "Your data is stored in $env:appdata\\Tencent\\WeMeet.",
+    "notes": "We don't persist your Tencent Meeting data, they are still storaged in \"$env:APPDATA\\Tencent\\WeMeet\".",
     "url": "https://updatecdn.meeting.qq.com/ccb842bf4048a6665677c313f1a05c4a/TencentMeeting_0300000000_2.0.0.459.publish.exe#/dl.7z",
     "hash": "md5:ccb842bf4048a6665677c313f1a05c4a",
     "installer": {

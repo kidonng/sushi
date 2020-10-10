@@ -9,7 +9,7 @@
     "hash": "49aaff3732c6b76132e703488b29c190575599273607a276ceb4ba6c52321b0f",
     "installer": {
         "script": [
-            "$path = \"$env:localappdata\\Microsoft\\Windows\\Fonts\"",
+            "$path = \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\"",
             "function LinkFile([String] $file, [String] $source = $file) {",
             "    Write-Host \"Creating hardlink for $file\"",
             "    New-Item -Force -ItemType HardLink -Path $path -Name $file -Target \"$dir\\$source\" | Out-Null",
@@ -27,7 +27,7 @@
             "    exit 1",
             "}",
             "Stop-Service FontCache",
-            "$path = \"$env:localappdata\\Microsoft\\Windows\\Fonts\"",
+            "$path = \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\"",
             "Get-ChildItem $dir -Filter \"*.ttc\" | ForEach-Object {",
             "    Remove-ItemProperty -Path 'HKCU:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force | Out-Null",
             "    sudo Remove-Item \"$path\\$($_.Name)\"",

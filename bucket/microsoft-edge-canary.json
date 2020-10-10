@@ -6,7 +6,7 @@
         "identifier": "Freeware",
         "url": "https://go.microsoft.com/fwlink/?LinkID=206977"
     },
-    "notes": "Your data is stored $env:localappdata\\Microsoft\\Edge.",
+    "notes": "We don't persist your Microsoft Edge data, they are still storaged in \"$env:LOCALAPPDATA\\Microsoft\\Edge\".",
     "architecture": {
         "64bit": {
             "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/canary/x64#/dl.7z",
