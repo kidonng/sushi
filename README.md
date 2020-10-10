@@ -122,7 +122,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 
 -   [listary-beta](https://www.listary.com/beta) `#` `*`
 
-    Had been [renamed](https://github.com/kidonng/sushi/commit/fad0bfefc4fda844c43a66d15a2af60a539df14b) to `listary-beta-np` but was [reverted](https://github.com/kidonng/sushi/commit/0addc8aa2fd8b9f389a3a96f952d878148466d70).
+    Had been [renamed](https://github.com/kidonng/sushi/commit/986f8d81625e5a1a5a33ec8bf81cb7b25a543b48) to `listary-beta-np` but was [reverted](https://github.com/kidonng/sushi/commit/b33d21a6c83c44c765fcd6bc8dab9cba820038d4).
 
 -   [microsoft-edge / microsoft-edge-beta / microsoft-edge-dev / microsoft-edge-canary](https://www.microsoft.com/edge) `*`
 
@@ -130,7 +130,6 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 
 -   [nali](https://github.com/zu1k/nali) `*`
 -   [obsidian](https://obsidian.md/) `*`
--   [officetoolplus-beta](https://otp.landian.vip/)
 -   [openhashtab](https://github.com/namazso/OpenHashTab) `#`
 -   [pandownload](https://pandownload.com/)
 
@@ -147,11 +146,14 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 </details>
 
 <details>
-<summary><strong>Deprecated (removed)</strong></summary>
+<summary><strong>Deprecated</strong></summary>
 
--   [android-clt](https://developer.android.com/studio#command-tools): available in `main`
--   [fluent-reader](https://github.com/kidonng/sushi/commit/5c2c1adbfa27969bda530c2a3123da970320d702): available in `extras`
--   [naiveproxy](https://github.com/kidonng/sushi/commit/64a31947c2b5c7bfca9107af56cfc62078cbec61): available in `main`
--   [scoop-completion](https://github.com/kidonng/sushi/commit/dfa918bc25e7e168ecdc7817f5b0171042368e73): available in [`Ash258`](https://github.com/Ash258/Scoop-Ash258)
+These manifests have been removed from this bucket because there are better/maintained alternatives in other buckets.
+
+-   [android-clt](https://github.com/kidonng/sushi/commit/c90dba491d08ac4b088474513a79381ef33085cd): available in `main` bucket
+-   [fluent-reader](https://github.com/kidonng/sushi/commit/7d89dfbce165118692bc16e15aecea3cf8e19481): available in `extras` bucket
+-   [naiveproxy](https://github.com/kidonng/sushi/commit/45e3dfb98febf44c3fbd51461d7ba989e4102b7b): available in `main` bucket
+-   [scoop-completion](https://github.com/kidonng/sushi/commit/e80f84ed601b592d6508323716013457c9dad625): available in [@dodorz's bucket](https://github.com/dodorz/scoop-bucket)
+-   [officetoolplus-beta](https://github.com/kidonng/sushi/commit/bf3060c3a5c67678c41f0fa6ca7edeae46a53043): available in [@chawyehsu's bucket](https://github.com/chawyehsu/dorado)
 
 </details>
