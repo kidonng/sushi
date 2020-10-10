@@ -5,11 +5,10 @@ export default (req: NowRequest, { send }: NowResponse) => {
     got('https://evernote.com/download/get.php?file=Win').on(
         'response',
         (response) => {
-            const [, version] = response.redirectUrls[0].match(
-                /Evernote_([\d.]+).exe/
-            )
+            const [url] = response.redirectUrls
+            const version = url.match(/Evernote-([\d.]+)/)[1]
 
-            send(version)
+            send(`${version} ${url}`)
         }
     )
 }

@@ -6,29 +6,27 @@
         "identifier": "EULA",
         "url": "https://evernote.com/intl/en/legal/terms-of-service"
     },
-    "notes": "Evernote data is placed at \"$env:USERPROFILE\\Evernote\".",
+    "notes": "We don't persist your Evernote data, they are still storaged in '%APPDATA%\\Evernote'.",
     "url": "https://evernote.com/download/get.php?file=Win#/dl.exe",
     "hash": "0CEDDB46FC74B0322681A225404AF75EC7F96C12AD112DDA6A3505606531BE20",
     "installer": {
         "script": [
-            "$installer = \"$dir\\dl.exe\"",
-            "$msi = \"$env:TMP\\Evernote.msi\"",
-            "Start-Process $installer",
-            "while (!(Test-Path $msi)) {",
-            "    Start-Sleep 1",
+            "if ([Environment]::Is64BitOperatingSystem) {",
+            "    Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" $dir -Removal",
+            "} else {",
+            "    Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" $dir -Removal",
             "}",
-            "Stop-Process -Name dl",
-            "Expand-MsiArchive $msi $dir",
-            "Move-Item \"$dir\\PFiles\\Evernote\\*\\*\" $dir -Force",
-            "Remove-Item $installer"
+            "Remove-Item \"$dir\\Uninstall Evernote.exe\"",
+            "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+            "Remove-Item \"$dir\\resources\" -Force -Recurse"
         ]
     },
     "shortcuts": [["Evernote.exe", "Evernote"]],
     "checkver": {
         "url": "https://scoop-sushi.vercel.app/api/evernote",
-        "regex": "([\\d.]+)"
+        "regex": "([\\d.]+) (?<url>.+)"
     },
     "autoupdate": {
-        "url": "https://evernote.com/download/get.php?file=Win#/dl.exe"
+        "url": "$matchUrl#/dl.7z"
     }
 }
