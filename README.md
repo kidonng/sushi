@@ -41,10 +41,6 @@ The lists are sorted alphabetically.
 
     Can be updated via Scoop, unlike `extras/vscode-insiders` and `extras/vscode-insiders-portable`.
 
--   [wechatdevtools-32bit `*`](https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html)
-
-    For 64bit system, in case the 64bit version fails to launch.
-
 </details>
 
 <details>
@@ -155,7 +151,8 @@ These manifests have been removed from this bucket because there are better/main
 -   [android-clt](https://github.com/kidonng/sushi/commit/c90dba491d08ac4b088474513a79381ef33085cd): available in `main` bucket
 -   [fluent-reader](https://github.com/kidonng/sushi/commit/7d89dfbce165118692bc16e15aecea3cf8e19481): available in `extras` bucket
 -   [naiveproxy](https://github.com/kidonng/sushi/commit/45e3dfb98febf44c3fbd51461d7ba989e4102b7b): available in `main` bucket
--   [scoop-completion](https://github.com/kidonng/sushi/commit/e80f84ed601b592d6508323716013457c9dad625): available in [@dodorz's bucket](https://github.com/dodorz/scoop-bucket)
 -   [officetoolplus-beta](https://github.com/kidonng/sushi/commit/bf3060c3a5c67678c41f0fa6ca7edeae46a53043): available in [@chawyehsu's bucket](https://github.com/chawyehsu/dorado)
+-   [scoop-completion](https://github.com/kidonng/sushi/commit/e80f84ed601b592d6508323716013457c9dad625): available in [@dodorz's bucket](https://github.com/dodorz/scoop-bucket)
+-   [wechatdevtools-32bit](https://github.com/kidonng/sushi/commit/84a1b116472bfb224f4e960696500957b10c44d1): available in [@chawyehsu's bucket](https://github.com/chawyehsu/dorado) as `wechatdevtools`
 
 </details>
