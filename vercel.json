@@ -5,10 +5,6 @@
       "source": "/api",
       "headers": [
         {
-          "key": "access-control-allow-origin",
-          "value": "*"
-        },
-        {
           "key": "cache-control",
           "value": "s-maxage=28800"
         }
