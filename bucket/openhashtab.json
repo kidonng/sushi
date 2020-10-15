@@ -1,12 +1,12 @@
 {
-    "version": "2.2.0",
+    "version": "2.3.0",
     "description": "A shell extension for conveniently calculating and checking file hashes from file properties",
     "homepage": "https://github.com/namazso/OpenHashTab",
     "license": "GPL-3.0-or-later",
     "notes": "Due to Scoop's limitations, innounp is listed as a dependency though it is only required for installation.",
     "depends": "innounp",
-    "url": "https://github.com/namazso/OpenHashTab/releases/download/v2.2.0/OpenHashTab_setup.exe",
-    "hash": "ab2a232a3b2833ef92cae9053d39af90ced0ea19f653a9e09fe1389457adedee",
+    "url": "https://github.com/namazso/OpenHashTab/releases/download/v2.3.0/OpenHashTab_setup.exe",
+    "hash": "1ea29379f25647f98470a1301e81fa4895333df6bd13c4cfd6fc6c30292cac7c",
     "installer": {
         "script": [
             "if (!(is_admin)) {",
