@@ -1,16 +1,16 @@
 {
-    "version": "4.31.0-202010130627",
+    "version": "4.31.0-202010150638",
     "description": "A platform for building proxies to bypass network restrictions. (Unstable version)",
     "homepage": "https://github.com/v2fly/V2FlyBleedingEdgeBinary",
     "license": "MIT",
     "persist": "config.json",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/v2fly/V2FlyBleedingEdgeBinary/releases/download/unstable-f7ed96f5d4ebad65527bdb264cdf451c4c62f589/v2ray-windows-64.zip",
+            "url": "https://github.com/v2fly/V2FlyBleedingEdgeBinary/releases/download/unstable-956c07bb7dcf0d76d6d5289faacc09c23c5324af/v2ray-windows-64.zip",
             "hash": "sha512:b5da307fcde790d9a88b6b5408a8cc2eecbf5804198f2f2a907e6bda9867c918a34c7f5b81a666febfd6e0f0059facab5b07f6c5840738184f06d39bb9f6a667"
         },
         "32bit": {
-            "url": "https://github.com/v2fly/V2FlyBleedingEdgeBinary/releases/download/unstable-f7ed96f5d4ebad65527bdb264cdf451c4c62f589/v2ray-windows-32.zip",
+            "url": "https://github.com/v2fly/V2FlyBleedingEdgeBinary/releases/download/unstable-956c07bb7dcf0d76d6d5289faacc09c23c5324af/v2ray-windows-32.zip",
             "hash": "sha512:b41303ab1205d9fa2c3e0be177a7767689fe3f00fb53e13dc107c156cc24c4ca54957a1b942ca93b9706211faf45225f2860b75a2fc04b802bd7d9287af100a2"
         }
     },
