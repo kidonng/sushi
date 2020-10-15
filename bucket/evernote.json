@@ -1,5 +1,5 @@
 {
-    "version": "10.0.10",
+    "version": "10.1.4",
     "description": "Note Taking App - Organize Your Notes with Evernote",
     "homepage": "https://evernote.com/",
     "license": {
@@ -7,8 +7,8 @@
         "url": "https://evernote.com/intl/en/legal/terms-of-service"
     },
     "notes": "We don't persist your Evernote data, they are still storaged in \"$env:APPDATA\\Evernote\".",
-    "url": "https://cdn1.evernote.com/boron/win/builds/Evernote-10.0.10-1838-setup.exe#/dl.7z",
-    "hash": "f4fbc624640f08e307c0276460b3e1da75e829790bffdaa41529f110319d8d43",
+    "url": "https://cdn1.evernote.com/boron/win/builds/Evernote-10.1.4-1880-setup.exe#/dl.7z",
+    "hash": "630e9e0ad55aa8712309ccd3f2845948d82a60a277b18603a5bf1f190d9ad2a1",
     "installer": {
         "script": [
             "if ([Environment]::Is64BitOperatingSystem) {",
