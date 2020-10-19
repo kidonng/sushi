@@ -64,6 +64,8 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 <details>
 <summary><strong><a href="https://qv2ray.net/">Qv2ray</a></strong></summary>
 
+> Also checkout [`mochi`](https://github.com/Qv2ray/mochi), Qv2ray's official Scoop bucket optimized for Mainland China users.
+
 -   [qv2ray-beta](https://github.com/Qv2ray/Qv2ray)
 -   [qv2ray-plugin-command / qv2ray-plugin-command-beta](https://github.com/Qv2ray/QvPlugin-Command)
 -   [qv2ray-plugin-naiveproxy / qv2ray-plugin-naiveproxy-beta](https://github.com/Qv2ray/QvPlugin-NaiveProxy)
