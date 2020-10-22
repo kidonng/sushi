@@ -13,9 +13,11 @@ export default ({ query: { x64 } }: NowRequest, { send }: NowResponse) => {
         const [, version] = filename.match(/([\d.]+)-insider/)
 
         const {
-            author: { date },
+            commit: {
+                author: { date },
+            },
         } = await got(
-            `https://api.github.com/repos/microsoft/vscode/git/commits/${commit}`
+            `https://api.github.com/repos/microsoft/vscode/commits/${commit}`
         ).json()
 
         send(`${version}-${dayjs(date).format('YYYYMMDDHHss')} ${commit}`)
