@@ -8,12 +8,15 @@ export default async (req: NowRequest, { send }: NowResponse) => {
     ).text()
     const [, version] = source.match(/"([\d.]+)"/)
 
-    const [
-        { tag_name, published_at },
-    ] = await got(
-        'https://api.github.com/repos/v2fly/V2FlyBleedingEdgeBinary/releases',
+    const {
+        sha,
+        commit: {
+            author: { date },
+        },
+    } = await got(
+        'https://api.github.com/repos/v2fly/v2ray-core/commits/master',
         { searchParams: { per_page: 1 } }
     ).json()
 
-    send(`${tag_name} ${version}-${dayjs(published_at).format('YYYYMMDDHHss')}`)
+    send(`${sha} ${version}-${dayjs(date).format('YYYYMMDDHHss')}`)
 }
