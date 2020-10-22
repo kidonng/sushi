@@ -95,8 +95,10 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 -   [leaf](https://github.com/eycorsican/leaf)
 -   [mellow](https://github.com/mellow-io/mellow) `#` `*`
 -   [naivesharp](https://github.com/KevinZonda/NaiveSharp)
+-   [outline-server / outline-server-nightly](https://github.com/Jigsaw-Code/outline-server)
 -   [proxifier-beta](https://www.proxifier.com/beta/)
 -   [proxychains](https://github.com/shunf4/proxychains-windows)
+-   [shadowsocks-go](https://github.com/shadowsocks/go-shadowsocks2)
 -   [trojan-client-slim](https://github.com/KevinZonda/trojan-client-slim)
 -   [trojan-go](https://p4gefau1t.github.io/trojan-go/)
 -   [trojan-qt5](https://github.com/Trojan-Qt5/Trojan-Qt5)
