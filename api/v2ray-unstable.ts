@@ -1,22 +1,23 @@
-import got from 'got'
-import { NowRequest, NowResponse } from '@vercel/node'
-import dayjs from 'dayjs'
+import { ky, dayjs, ServerRequest } from '../deps.ts'
 
-export default async (req: NowRequest, { send }: NowResponse) => {
-    const source = await got(
-        'https://github.com/v2fly/v2ray-core/raw/master/core.go'
-    ).text()
-    const [, version] = source.match(/"([\d.]+)"/)
+export default async (req: ServerRequest) => {
+    const source = await ky
+        .get('https://github.com/v2fly/v2ray-core/raw/master/core.go')
+        .text()
+    const [, version] = source.match(/"([\d.]+)"/)!
 
     const {
         sha,
         commit: {
             author: { date },
         },
-    } = await got(
-        'https://api.github.com/repos/v2fly/v2ray-core/commits/master',
-        { searchParams: { per_page: 1 } }
-    ).json()
+    } = await ky
+        .get('https://api.github.com/repos/v2fly/v2ray-core/commits/master', {
+            searchParams: { per_page: 1 },
+        })
+        .json()
 
-    send(`${sha} ${version}-${dayjs(date).format('YYYYMMDDHHss')}`)
+    req.respond({
+        body: `${sha} ${version}-${dayjs(date).format('YYYYMMDDHHss')}`,
+    })
 }

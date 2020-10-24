@@ -1,17 +1,22 @@
 {
-  "version": 2,
-  "headers": [
-    {
-      "source": "/api",
-      "headers": [
+    "version": 2,
+    "headers": [
         {
-          "key": "cache-control",
-          "value": "s-maxage=28800"
+            "source": "/api",
+            "headers": [
+                {
+                    "key": "cache-control",
+                    "value": "s-maxage=28800"
+                }
+            ]
         }
-      ]
+    ],
+    "functions": {
+        "api/**/*.[jt]s": {
+            "runtime": "vercel-deno@0.7.3"
+        }
+    },
+    "github": {
+        "enabled": false
     }
-  ],
-  "github": {
-    "enabled": false
-  }
 }

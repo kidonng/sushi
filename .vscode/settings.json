@@ -1,4 +1,8 @@
 {
+  "deno.enable": true,
+  "deno.import_intellisense_origins": {
+    "https://deno.land": true
+  },
   "json.schemas": [
     {
       "url": "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",

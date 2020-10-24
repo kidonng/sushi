@@ -1,18 +1,24 @@
-import got from 'got'
-import { NowRequest, NowResponse } from '@vercel/node'
+import { ky, ServerRequest } from '../deps.ts'
 
-export default async (
-    { query: { hash } }: NowRequest,
-    { send }: NowResponse
-) => {
+export default async (req: ServerRequest) => {
+    const { url, headers } = req
+    const { searchParams } = new URL(
+        url,
+        `${headers.get('x-forwarded-proto')}://${headers.get(
+            'x-forwarded-host'
+        )}`
+    )
+
     const {
-        data: [{ md5, url, version }],
-    } = await got
+        data: [{ md5, url: _url, version }],
+    } = await ky
         .post(
             'https://meeting.tencent.com/wemeet-webapi/v2/config/query-download-info',
             { json: [{ instance: 'windows', type: '0300000000' }] }
         )
         .json()
 
-    send(hash ? md5 : `${version} ${url}#/dl.7z`)
+    req.respond({
+        body: searchParams.has('hash') ? md5 : `${version} ${_url}#/dl.7z`,
+    })
 }

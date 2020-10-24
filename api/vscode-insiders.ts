@@ -1,25 +1,35 @@
-import got from 'got'
-import { NowRequest, NowResponse } from '@vercel/node'
-import dayjs from 'dayjs'
+import { ky, dayjs, ServerRequest } from '../deps.ts'
 
-export default ({ query: { x64 } }: NowRequest, { send }: NowResponse) => {
-    got(
+export default (req: ServerRequest) => {
+    const { url, headers } = req
+    const { searchParams } = new URL(
+        url,
+        `${headers.get('x-forwarded-proto')}://${headers.get(
+            'x-forwarded-host'
+        )}`
+    )
+
+    ky.get(
         `https://update.code.visualstudio.com/latest/win32-${
-            x64 ? 'x64-' : ''
+            searchParams.has('x64') ? 'x64-' : ''
         }archive/insider`
-    ).on('response', async (response) => {
-        const { pathname } = new URL(response.redirectUrls[0])
+    ).then(async (res) => {
+        const { pathname } = new URL(res.url)
         const [, , commit, filename] = pathname.split('/')
-        const [, version] = filename.match(/([\d.]+)-insider/)
+        const [, version] = filename.match(/([\d.]+)-insider/)!
 
         const {
             commit: {
                 author: { date },
             },
-        } = await got(
-            `https://api.github.com/repos/microsoft/vscode/commits/${commit}`
-        ).json()
+        } = await ky
+            .get(
+                `https://api.github.com/repos/microsoft/vscode/commits/${commit}`
+            )
+            .json()
 
-        send(`${version}-${dayjs(date).format('YYYYMMDDHHss')} ${commit}`)
+        req.respond({
+            body: `${version}-${dayjs(date).format('YYYYMMDDHHss')} ${commit}`,
+        })
     })
 }
