@@ -1,12 +1,8 @@
 import { ky, dayjs, ServerRequest } from '../deps.ts'
 
 export default (req: ServerRequest) => {
-    const { url, headers } = req
-    const { searchParams } = new URL(
-        url,
-        `${headers.get('x-forwarded-proto')}://${headers.get(
-            'x-forwarded-host'
-        )}`
+    const searchParams = new URLSearchParams(
+        req.url.substring(req.url.indexOf('?'))
     )
 
     ky.get(
