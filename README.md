@@ -29,14 +29,27 @@ The lists are sorted alphabetically.
 
 `#` Require administrator rights (`scoop install sudo`)
 
-`*` Non portable (may store data outside of Scoop directory)
+`*` May store data outside of Scoop directory
+
+<details>
+<summary><strong>Browsers</strong></summary>
+
+-   [firefox-tete009 \* / firefox-tete009-portable](http://www1.plala.or.jp/tete009/en-US/software.html#FIREFOX)
+
+    Portable mode may interfere with other applications, such as MacType's font substitution feature.
+
+-   [microsoft-edge / microsoft-edge-beta / microsoft-edge-dev / microsoft-edge-canary](https://www.microsoft.com/edge) `*`
+
+    Can be updated via Scoop, unlike `nonportable/microsoft-edge-beta-np` and `nonportable/microsoft-edge-dev-np`.
+
+</details>
 
 <details>
 <summary><strong>Development</strong></summary>
 
 -   [cf-tool](https://github.com/xalanq/cf-tool) `*`
--   [cpeditor `*` / cpeditor-beta](https://github.com/cpeditor/cpeditor)
--   [dvm](https://github.com/justjavac/dvm)
+-   [cpeditor / cpeditor-beta](https://github.com/cpeditor/cpeditor)
+-   [dvm](https://github.com/justjavac/dvm) `*`
 -   [vscode-insiders `*` / vscode-insiders-portable](https://code.visualstudio.com/insiders/)
 
     Can be updated via Scoop, unlike `extras/vscode-insiders` and `extras/vscode-insiders-portable`.
@@ -62,9 +75,42 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 </details>
 
 <details>
+<summary><strong>Note-taking</strong></summary>
+
+-   [evernote](https://evernote.com/) `*`
+-   [obsidian](https://obsidian.md/) `*`
+-   [siyuan](https://github.com/siyuan-note/siyuan) `*`
+
+</details>
+
+<details>
+<summary><strong>Proxies</strong></summary>
+
+-   [clash](https://github.com/Dreamacro/clash)
+-   [leaf](https://github.com/eycorsican/leaf)
+-   [proxychains](https://github.com/shunf4/proxychains-windows)
+-   [shadowsocks-go](https://github.com/shadowsocks/go-shadowsocks2)
+-   [trojan-go](https://p4gefau1t.github.io/trojan-go/)
+
+</details>
+
+<details>
+<summary><strong>Proxies GUI</strong></summary>
+
+-   [mellow](https://github.com/mellow-io/mellow) `#` `*`
+-   [naivesharp](https://github.com/KevinZonda/NaiveSharp)
+-   [outline-server / outline-server-nightly](https://github.com/Jigsaw-Code/outline-server)
+-   [proxifier-beta](https://www.proxifier.com/beta/)
+-   [trojan-client-slim](https://github.com/KevinZonda/trojan-client-slim)
+-   [trojan-qt5](https://github.com/Trojan-Qt5/Trojan-Qt5)
+-   [v2ray-desktop](https://github.com/Dr-Incognito/V2Ray-Desktop) `*`
+
+</details>
+
+<details>
 <summary><strong><a href="https://qv2ray.net/">Qv2ray</a></strong></summary>
 
-> Also checkout [`mochi`](https://github.com/Qv2ray/mochi), Qv2ray's official Scoop bucket optimized for Mainland China users.
+> Also checkout [`mochi`](https://github.com/Qv2ray/mochi), Qv2ray's official Scoop bucket which is optimized for Mainland China users.
 
 -   [qv2ray-beta](https://github.com/Qv2ray/Qv2ray)
 -   [qv2ray-plugin-command / qv2ray-plugin-command-beta](https://github.com/Qv2ray/QvPlugin-Command)
@@ -89,34 +135,11 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 </details>
 
 <details>
-<summary><strong>Proxies</strong></summary>
-
--   [clash](https://github.com/Dreamacro/clash)
--   [leaf](https://github.com/eycorsican/leaf)
--   [mellow](https://github.com/mellow-io/mellow) `#` `*`
--   [naivesharp](https://github.com/KevinZonda/NaiveSharp)
--   [outline-server / outline-server-nightly](https://github.com/Jigsaw-Code/outline-server)
--   [proxifier-beta](https://www.proxifier.com/beta/)
--   [proxychains](https://github.com/shunf4/proxychains-windows)
--   [shadowsocks-go](https://github.com/shadowsocks/go-shadowsocks2)
--   [trojan-client-slim](https://github.com/KevinZonda/trojan-client-slim)
--   [trojan-go](https://p4gefau1t.github.io/trojan-go/)
--   [trojan-qt5](https://github.com/Trojan-Qt5/Trojan-Qt5)
--   [v2ray-desktop](https://github.com/Dr-Incognito/V2Ray-Desktop) `*`
-
-</details>
-
-<details>
 <summary><strong>Miscellaneous</strong></summary>
 
 -   [dotnet-desktop-runtime](https://dotnet.microsoft.com/)
 
     "Portable version", which is different from `extras/windowsdesktop-runtime`. Copied from [`dorado/dotnet-desktop-runtime`](https://github.com/chawyehsu/dorado/blob/master/bucket/dotnet-desktop-runtime.json).
-
--   [evernote](https://evernote.com/) `*`
--   [firefox-tete009 * / firefox-tete009-portable](http://www1.plala.or.jp/tete009/en-US/software.html#FIREFOX)
-
-    Portable mode may interfere with other applications, such as MacType's font substitution feature.
 
 -   [fontloadersub](https://github.com/yzwduck/FontLoaderSub)
 -   [lavfilters](https://github.com/Nevcairiel/LAVFilters) `#`
@@ -127,12 +150,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 
     Had been [renamed](https://github.com/kidonng/sushi/commit/986f8d81625e5a1a5a33ec8bf81cb7b25a543b48) to `listary-beta-np` but was [reverted](https://github.com/kidonng/sushi/commit/b33d21a6c83c44c765fcd6bc8dab9cba820038d4).
 
--   [microsoft-edge / microsoft-edge-beta / microsoft-edge-dev / microsoft-edge-canary](https://www.microsoft.com/edge) `*`
-
-    Can be updated via Scoop, unlike `nonportable/microsoft-edge-beta-np` and `nonportable/microsoft-edge-dev-np`.
-
 -   [nali](https://github.com/zu1k/nali) `*`
--   [obsidian](https://obsidian.md/) `*`
 -   [openhashtab](https://github.com/namazso/OpenHashTab) `#`
 -   [pandownload](https://pandownload.com/)
 
