@@ -156,6 +156,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 
     Copied from [`dorado/pandownload`](https://github.com/chawyehsu/dorado/blob/master/bucket/pandownload.json).
 
+-   [psfzf](https://github.com/kelleyma49/PSFzf)
 -   [qtpass](https://github.com/IJHack/QtPass)
 -   [sandboxie-plus](https://github.com/sandboxie-plus/Sandboxie)
 -   [tencent-meeting](https://meeting.tencent.com/) `*`
