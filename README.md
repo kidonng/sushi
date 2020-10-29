@@ -95,12 +95,13 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 </details>
 
 <details>
-<summary><strong>Proxies GUI</strong></summary>
+<summary><strong>Proxies Tools</strong></summary>
 
 -   [mellow](https://github.com/mellow-io/mellow) `#` `*`
 -   [naivesharp](https://github.com/KevinZonda/NaiveSharp)
 -   [outline-server / outline-server-nightly](https://github.com/Jigsaw-Code/outline-server)
 -   [proxifier-beta](https://www.proxifier.com/beta/)
+-   [ss-uri-gen](https://github.com/database64128/shadowsocks-uri-generator)
 -   [trojan-client-slim](https://github.com/KevinZonda/trojan-client-slim)
 -   [trojan-qt5](https://github.com/Trojan-Qt5/Trojan-Qt5)
 -   [v2ray-desktop](https://github.com/Dr-Incognito/V2Ray-Desktop) `*`
