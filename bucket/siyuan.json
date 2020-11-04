@@ -1,12 +1,12 @@
 {
-    "version": "0.4.0",
+    "version": "0.4.1",
     "description": "A desktop Markdown Block-Reference and Bidirectional-Link note-taking application",
     "homepage": "https://github.com/siyuan-note/siyuan",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/siyuan-note/siyuan/releases/download/v0.4.0/siyuan-0.4.0-win.zip",
-            "hash": "14d4f9c5c28f3a13ec40e43eea649f0bfe3087dc5f67538c0ca53c6db3759bf3"
+            "url": "https://github.com/siyuan-note/siyuan/releases/download/v0.4.1/siyuan-0.4.1-win.zip",
+            "hash": "abee8fe7d5979dedc8693ac312817fbb39c607b375c9cfb982168a4d9588c2d5"
         }
     },
     "shortcuts": [
