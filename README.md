@@ -143,6 +143,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
     "Portable version", which is different from `extras/windowsdesktop-runtime`. Copied from [`dorado/dotnet-desktop-runtime`](https://github.com/chawyehsu/dorado/blob/master/bucket/dotnet-desktop-runtime.json).
 
 -   [fontloadersub](https://github.com/yzwduck/FontLoaderSub)
+-   [gping](https://github.com/orf/gping)
 -   [lavfilters](https://github.com/Nevcairiel/LAVFilters) `#`
 
     Based on [`dorado/lavfilters`](https://github.com/chawyehsu/dorado/blob/master/experiment/lavfilters.json).
