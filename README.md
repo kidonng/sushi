@@ -136,6 +136,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 -   [v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)
 -   [v2ray-unstable](https://github.com/v2fly/V2FlyBleedingEdgeBinary)
 -   [v2ray-vless](https://github.com/rprx/v2ray-vless)
+-   [xray](https://github.com/XTLS/Xray-core)
 
 </details>
 
