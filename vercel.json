@@ -11,9 +11,14 @@
             ]
         }
     ],
+    "build": {
+        "env": {
+            "DENO_UNSTABLE": "true"
+        }
+    },
     "functions": {
         "api/**/*.[jt]s": {
-            "runtime": "vercel-deno@0.7.3"
+            "runtime": "vercel-deno@0.7.6"
         }
     },
     "github": {

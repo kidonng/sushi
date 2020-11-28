@@ -1,4 +1,4 @@
-import { ky, dayjs, ServerRequest } from '../deps.ts'
+import { ky, ServerRequest } from '../deps.ts'
 
 export default async (req: ServerRequest) => {
     const source = await ky
@@ -7,17 +7,15 @@ export default async (req: ServerRequest) => {
     const [, version] = source.match(/"([\d.]+)"/)!
 
     const {
-        sha,
-        commit: {
-            author: { date },
-        },
+        tag_name,
     } = await ky
-        .get('https://api.github.com/repos/v2fly/v2ray-core/commits/master', {
-            searchParams: { per_page: 1 },
-        })
+        .get(
+            'https://api.github.com/repos/v2fly/V2FlyBleedingEdgeBinary/releases',
+            { searchParams: { per_page: 1 } }
+        )
         .json()
 
     req.respond({
-        body: `${sha} ${version}-${dayjs(date).format('YYYYMMDDHHss')}`,
+        body: `${version}-${tag_name}`,
     })
 }
