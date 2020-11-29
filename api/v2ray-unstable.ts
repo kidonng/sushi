@@ -6,9 +6,9 @@ export default async (req: ServerRequest) => {
         .text()
     const [, version] = source.match(/"([\d.]+)"/)!
 
-    const {
+    const [{
         tag_name,
-    } = await ky
+    }] = await ky
         .get(
             'https://api.github.com/repos/v2fly/V2FlyBleedingEdgeBinary/releases',
             { searchParams: { per_page: 1 } }
