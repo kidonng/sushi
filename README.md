@@ -148,7 +148,6 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
     "Portable version", which is different from `extras/windowsdesktop-runtime`. Copied from [`dorado/dotnet-desktop-runtime`](https://github.com/chawyehsu/dorado/blob/master/bucket/dotnet-desktop-runtime.json).
 
 -   [fontloadersub](https://github.com/yzwduck/FontLoaderSub)
--   [gping](https://github.com/orf/gping)
 -   [lavfilters](https://github.com/Nevcairiel/LAVFilters) `#`
 
     Based on [`dorado/lavfilters`](https://github.com/chawyehsu/dorado/blob/master/experiment/lavfilters.json).
@@ -181,6 +180,7 @@ These manifests have been removed from this bucket because there are better/main
 
 -   [android-clt](https://github.com/kidonng/sushi/commit/c90dba491d08ac4b088474513a79381ef33085cd): available in `main` bucket
 -   [fluent-reader](https://github.com/kidonng/sushi/commit/7d89dfbce165118692bc16e15aecea3cf8e19481): available in `extras` bucket
+-   [gping](https://github.com/kidonng/sushi/commit/e3897e1e00479bf15181b1934f91d300c08a2f2f): available in `main` bucket
 -   [naiveproxy](https://github.com/kidonng/sushi/commit/45e3dfb98febf44c3fbd51461d7ba989e4102b7b): available in `main` bucket
 -   [officetoolplus-beta](https://github.com/kidonng/sushi/commit/bf3060c3a5c67678c41f0fa6ca7edeae46a53043): available in [@chawyehsu's bucket](https://github.com/chawyehsu/dorado)
 -   [scoop-completion](https://github.com/kidonng/sushi/commit/e80f84ed601b592d6508323716013457c9dad625): available in [@dodorz's bucket](https://github.com/dodorz/scoop-bucket)
