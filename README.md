@@ -179,6 +179,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 These manifests have been removed from this bucket because there are better/maintained alternatives in other buckets.
 
 -   [android-clt](https://github.com/kidonng/sushi/commit/c90dba491d08ac4b088474513a79381ef33085cd): available in `main` bucket
+-   [clash](https://github.com/kidonng/sushi/commit/36e97cad86f126b2cd62143950eeef08243b5a2e): available in `main` bucket
 -   [fluent-reader](https://github.com/kidonng/sushi/commit/7d89dfbce165118692bc16e15aecea3cf8e19481): available in `extras` bucket
 -   [gping](https://github.com/kidonng/sushi/commit/e3897e1e00479bf15181b1934f91d300c08a2f2f): available in `main` bucket
 -   [naiveproxy](https://github.com/kidonng/sushi/commit/45e3dfb98febf44c3fbd51461d7ba989e4102b7b): available in `main` bucket
