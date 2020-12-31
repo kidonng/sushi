@@ -156,7 +156,6 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 
     Had been [renamed](https://github.com/kidonng/sushi/commit/986f8d81625e5a1a5a33ec8bf81cb7b25a543b48) to `listary-beta-np` but was [reverted](https://github.com/kidonng/sushi/commit/b33d21a6c83c44c765fcd6bc8dab9cba820038d4).
 
--   [nali](https://github.com/zu1k/nali) `*`
 -   [openhashtab](https://github.com/namazso/OpenHashTab) `#`
 -   [pandownload](https://pandownload.com/)
 
@@ -183,6 +182,7 @@ These manifests have been removed from this bucket because there are better/main
 -   [fluent-reader](https://github.com/kidonng/sushi/commit/7d89dfbce165118692bc16e15aecea3cf8e19481): available in `extras` bucket
 -   [gping](https://github.com/kidonng/sushi/commit/e3897e1e00479bf15181b1934f91d300c08a2f2f): available in `main` bucket
 -   [naiveproxy](https://github.com/kidonng/sushi/commit/45e3dfb98febf44c3fbd51461d7ba989e4102b7b): available in `main` bucket
+-   nali: available in `main` bucket`
 -   [officetoolplus-beta](https://github.com/kidonng/sushi/commit/bf3060c3a5c67678c41f0fa6ca7edeae46a53043): available in [@chawyehsu's bucket](https://github.com/chawyehsu/dorado) as `officetoolplus`
 -   [scoop-completion](https://github.com/kidonng/sushi/commit/e80f84ed601b592d6508323716013457c9dad625): available in [@dodorz's bucket](https://github.com/dodorz/scoop-bucket)
 -   [wechatdevtools-32bit](https://github.com/kidonng/sushi/commit/84a1b116472bfb224f4e960696500957b10c44d1): available in [@chawyehsu's bucket](https://github.com/chawyehsu/dorado) as `wechatdevtools`
