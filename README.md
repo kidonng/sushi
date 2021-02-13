@@ -25,7 +25,6 @@ The lists are sorted alphabetically.
 -   **evernote**: Note Taking App - Organize Your Notes with Evernote
 -   **listary-beta**: A revolutionary search utility
 -   **microsoft-edge**: The new Microsoft Edge browser
--   **openhashtab**: A shell extension for conveniently calculating and checking file hashes from file properties
 -   **proxychains**: Windows and Cygwin port of proxychains, based on MinHook and DLL Injection
 -   **tencent-meeting**: Video conferencing app by Tencent
 
@@ -155,7 +154,6 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 
     Had been [renamed](https://github.com/kidonng/sushi/commit/986f8d81625e5a1a5a33ec8bf81cb7b25a543b48) to `listary-beta-np` but was [reverted](https://github.com/kidonng/sushi/commit/b33d21a6c83c44c765fcd6bc8dab9cba820038d4).
 
--   [openhashtab](https://github.com/namazso/OpenHashTab) `#`
 -   [pandownload](https://pandownload.com/)
 
     Copied from [`dorado/pandownload`](https://github.com/chawyehsu/dorado/blob/master/bucket/pandownload.json).
@@ -174,7 +172,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 <details>
 <summary><strong>Deprecated</strong></summary>
 
-These manifests have been removed from this bucket because there are better/maintained alternatives in other buckets.
+These manifests have been removed from this bucket because there are better/maintained alternatives in other buckets, or no longer installable via Scoop.
 
 -   [android-clt](https://github.com/kidonng/sushi/commit/c90dba491d08ac4b088474513a79381ef33085cd): available in `main` bucket
 -   [clash](https://github.com/kidonng/sushi/commit/36e97cad86f126b2cd62143950eeef08243b5a2e): available in `main` bucket
@@ -183,6 +181,7 @@ These manifests have been removed from this bucket because there are better/main
 -   [naiveproxy](https://github.com/kidonng/sushi/commit/45e3dfb98febf44c3fbd51461d7ba989e4102b7b): available in `main` bucket
 -   nali: available in `main` bucket
 -   [officetoolplus-beta](https://github.com/kidonng/sushi/commit/bf3060c3a5c67678c41f0fa6ca7edeae46a53043): available in [@chawyehsu's bucket](https://github.com/chawyehsu/dorado) as `officetoolplus`
+-   [openhashtab](https://github.com/namazso/OpenHashTab): no longer installable by Scoop
 -   [scoop-completion](https://github.com/kidonng/sushi/commit/e80f84ed601b592d6508323716013457c9dad625): available in [@dodorz's bucket](https://github.com/dodorz/scoop-bucket)
 -   v2ray-vless: use `xray` instead
 -   [wechatdevtools-32bit](https://github.com/kidonng/sushi/commit/84a1b116472bfb224f4e960696500957b10c44d1): available in [@chawyehsu's bucket](https://github.com/chawyehsu/dorado) as `wechatdevtools`
