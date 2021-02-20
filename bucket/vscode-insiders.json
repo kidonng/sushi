@@ -29,7 +29,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://scoop-sushi.vercel.app/api/vscode-insiders",
+        "url": "https://api.xuann.wang/api/vscode-insiders",
         "regex": "([\\d.-]+) (?<commit>\\w+)"
     },
     "autoupdate": {
