@@ -1,12 +1,12 @@
 {
-    "version": "2.2.3",
+    "version": "2.2.5",
     "description": "A PowerShell wrapper around the fuzzy finder fzf",
     "homepage": "https://github.com/kelleyma49/PSFzf",
     "license": "MIT",
     "notes": "See usage: https://github.com/kelleyma49/PSFzf#usage",
     "depends": "fzf",
-    "url": "https://psg-prod-eastus.azureedge.net/packages/psfzf.2.2.3.nupkg#/dl.zip",
-    "hash": "dae904cda7a269e1303072f00048d5f8311197b26da9bc6c1fceb7d2ef9ec478",
+    "url": "https://psg-prod-eastus.azureedge.net/packages/psfzf.2.2.5.nupkg#/dl.zip",
+    "hash": "b60af5f785caa28d11ab4b06731ffdca2359b366cf27a8ab91d67c651bb51c72",
     "psmodule": {
         "name": "PSFzf"
     },
