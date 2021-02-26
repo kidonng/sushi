@@ -26,7 +26,7 @@
     },
     "uninstaller": {
         "script": [
-            "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop install $app'\"; exit 1 }",
+            "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop uninstall $app'\"; exit 1 }",
             "$path = \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\"",
             "Get-ChildItem $dir -Filter \"*.ttf\" | ForEach-Object {",
             "    Remove-ItemProperty -Path 'HKCU:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force | Out-Null",

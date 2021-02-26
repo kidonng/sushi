@@ -90,6 +90,7 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 <summary><strong>Proxies</strong></summary>
 
 -   [clash](https://github.com/Dreamacro/clash)
+-   [gun](https://github.com/Qv2ray/gun)
 -   [leaf](https://github.com/eycorsican/leaf)
 -   [proxychains](https://github.com/shunf4/proxychains-windows)
 -   [shadowsocks-go](https://github.com/shadowsocks/go-shadowsocks2)
