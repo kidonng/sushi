@@ -1,16 +1,16 @@
 {
-    "version": "0.74.1",
+    "version": "0.75",
     "description": "Open-Source DirectShow Media Splitter and Decoders",
     "homepage": "https://github.com/Nevcairiel/LAVFilters",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Nevcairiel/LAVFilters/releases/download/0.74.1/LAVFilters-0.74.1-x64.zip",
-            "hash": "af87187386028aae1606604a062d63c8af7eeef5fe5b9c85e50ed675efebeeb9"
+            "url": "https://github.com/Nevcairiel/LAVFilters/releases/download/0.75/LAVFilters-0.75-x64.zip",
+            "hash": "076780a98d2a47e4b9135799dfd9d04aa15b113223eb4a74a9e304f7d65e44f7"
         },
         "32bit": {
-            "url": "https://github.com/Nevcairiel/LAVFilters/releases/download/0.74.1/LAVFilters-0.74.1-x86.zip",
-            "hash": "c0bb047cca8687b5a501af09f7a8a91048d1c0ea6673b67be8be50b361ba9c46"
+            "url": "https://github.com/Nevcairiel/LAVFilters/releases/download/0.75/LAVFilters-0.75-x86.zip",
+            "hash": "0abab799020aca842abd128f30d30ca1984231d4b09060366300aa59af049ee2"
         }
     },
     "installer": {
@@ -43,9 +43,18 @@
         ]
     },
     "shortcuts": [
-        ["LAVAudio.lnk", "LAV Audio Configuration"],
-        ["LAVSplitter.lnk", "LAV Splitter Configuration"],
-        ["LAVVideo.lnk", "LAV Video Configuration"]
+        [
+            "LAVAudio.lnk",
+            "LAV Audio Configuration"
+        ],
+        [
+            "LAVSplitter.lnk",
+            "LAV Splitter Configuration"
+        ],
+        [
+            "LAVVideo.lnk",
+            "LAV Video Configuration"
+        ]
     ],
     "checkver": "github",
     "autoupdate": {
