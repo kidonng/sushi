@@ -1,16 +1,16 @@
 {
-    "version": "0.9.0",
+    "version": "0.9.1",
     "description": "A Trojan proxy written in Go. An unidentifiable mechanism that helps you bypass GFW.",
     "homepage": "https://p4gefau1t.github.io/trojan-go/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/p4gefau1t/trojan-go/releases/download/v0.9.0/trojan-go-windows-amd64.zip",
-            "hash": "ea9b999da8d34b6a74c4cb690688747777f27eef5aba2338138d540f238ab452"
+            "url": "https://github.com/p4gefau1t/trojan-go/releases/download/v0.9.1/trojan-go-windows-amd64.zip",
+            "hash": "fa8e2f221870d9dd3a6dbaa26a2fad268e0526ac5478ba080a74950edf6aa2ec"
         },
         "32bit": {
-            "url": "https://github.com/p4gefau1t/trojan-go/releases/download/v0.9.0/trojan-go-windows-386.zip",
-            "hash": "265fafdc6b7236eb31f66be271d4a6404180a2d0bbc03a9fc359d3bd3cd5a9d2"
+            "url": "https://github.com/p4gefau1t/trojan-go/releases/download/v0.9.1/trojan-go-windows-386.zip",
+            "hash": "d8ba2cf2289a925b5963bd606625613af09c74fba21c10dee5ad9e7da853bde7"
         }
     },
     "bin": "trojan-go.exe",
