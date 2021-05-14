@@ -53,6 +53,7 @@ The lists are sorted alphabetically.
 -   [cf-tool](https://github.com/xalanq/cf-tool) `*`
 -   [cpeditor / cpeditor-beta](https://github.com/cpeditor/cpeditor)
 -   [dvm](https://github.com/justjavac/dvm) `*`
+-   [salt](https://github.com/Milo123459/salt)
 -   [vscode-insiders `*` / vscode-insiders-portable](https://code.visualstudio.com/insiders/)
 
     Can be updated via Scoop, unlike `extras/vscode-insiders` and `extras/vscode-insiders-portable`.
