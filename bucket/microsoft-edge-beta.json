@@ -1,5 +1,5 @@
 {
-    "version": "92.0.902.15",
+    "version": "92.0.902.22",
     "description": "The new Microsoft Edge browser (Beta Channel)",
     "homepage": "https://www.microsoftedgeinsider.com/",
     "license": {
@@ -10,11 +10,11 @@
     "architecture": {
         "64bit": {
             "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/beta/x64#/dl.7z",
-            "hash": "0dac423148204eede3019dc81a3944870423657f04ed611f43c919a88b9ac45d"
+            "hash": "15f6fe09ff578460de81674c1f6d2ab65be5af27c1810f45e2bfe1285cf5c05a"
         },
         "32bit": {
             "url": "https://edge-dl.kidonng.workers.dev/https://api.shuax.com/v2/download/edge/beta/x86#/dl.7z",
-            "hash": "4e1da986ae5966faffc79e33b42ec9d00b79a943f9b2f5a4391cd51fc8bf4373"
+            "hash": "5e9c8c53e7e1b9e05576ec4260380bd7b7d009a2818408a8d3c0f4c5ee6a2384"
         }
     },
     "installer": {
