@@ -11,7 +11,7 @@
     "hash": "md5:549786277cbabc0fdf31190287e91855",
     "installer": {
         "script": [
-            "Move-Item (Join-Path $dir '\\$_*_\\*') $dir",
+            "Move-Item (Join-Path $dir '\\$_*_\\*') (Join-Path $dir $version)",
             "New-Item HKCU:\\SOFTWARE\\Tencent\\WeMeet | Out-Null",
             "New-ItemProperty HKCU:\\SOFTWARE\\Tencent\\WeMeet -Name 'Dependence' -Value $dir | Out-Null",
             "Get-ChildItem $dir |? {$_.Name -Match '\\$.*'} | Remove-Item -Recurse"
