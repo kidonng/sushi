@@ -118,12 +118,12 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 
 > Also checkout [`mochi`](https://github.com/Qv2ray/mochi), Qv2ray's official Scoop bucket which is optimized for Mainland China users.
 
--   [qv2ray-plugin-command / qv2ray-plugin-command-beta](https://github.com/Qv2ray/QvPlugin-Command)
--   [qv2ray-plugin-naiveproxy / qv2ray-plugin-naiveproxy-beta](https://github.com/Qv2ray/QvPlugin-NaiveProxy)
--   [qv2ray-plugin-ss / qv2ray-plugin-ss-beta](https://github.com/Qv2ray/QvPlugin-SS)
--   [qv2ray-plugin-ssr / qv2ray-plugin-ssr-beta](https://github.com/Qv2ray/QvPlugin-SSR)
--   [qv2ray-plugin-trojan / qv2ray-plugin-trojan-beta](https://github.com/Qv2ray/QvPlugin-Trojan)
--   [qv2ray-plugin-trojan-go / qv2ray-plugin-trojan-go-beta](https://github.com/Qv2ray/QvPlugin-Trojan-Go)
+-   [qv2ray-plugin-command](https://github.com/Qv2ray/QvPlugin-Command)
+-   [qv2ray-plugin-naiveproxy](https://github.com/Qv2ray/QvPlugin-NaiveProxy)
+-   [qv2ray-plugin-ss](https://github.com/Qv2ray/QvPlugin-SS)
+-   [qv2ray-plugin-ssr](https://github.com/Qv2ray/QvPlugin-SSR)
+-   [qv2ray-plugin-trojan](https://github.com/Qv2ray/QvPlugin-Trojan)
+-   [qv2ray-plugin-trojan-go](https://github.com/Qv2ray/QvPlugin-Trojan-Go)
 
 </details>
 
@@ -183,6 +183,7 @@ These manifests have been removed from this bucket because there are better/main
 -   [officetoolplus-beta](https://github.com/kidonng/sushi/commit/bf3060c3a5c67678c41f0fa6ca7edeae46a53043): use <code>[dorado](https://github.com/chawyehsu/dorado)/officetoolplus</code>
 -   [openhashtab](https://github.com/namazso/OpenHashTab): no longer available via Scoop
 -   qv2ray-beta: use `extras/qv2ray`
+-   qv2ray-plugin-*-beta: use `sushi/qv2ray-plugin-*` (without `-beta` suffix)
 -   [scoop-completion](https://github.com/kidonng/sushi/commit/e80f84ed601b592d6508323716013457c9dad625): use <code>[dodorz](https://github.com/dodorz/scoop)/scoop-completion</code>
 -   v2ray-vless: use `main/xray`
 -   [wechatdevtools-32bit](https://github.com/kidonng/sushi/commit/84a1b116472bfb224f4e960696500957b10c44d1): use <code>[dorado](https://github.com/chawyehsu/dorado)/wechatdevtools</code>
