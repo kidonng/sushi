@@ -33,5 +33,9 @@
             "    sudo Remove-Item \"$path\\$($_.Name)\"",
             "}"
         ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/be5invis/source-han-sans-ttf/releases/download/v$version/source-han-sans-ttc-$version.7z"
     }
 }
