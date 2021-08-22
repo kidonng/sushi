@@ -6,7 +6,7 @@ A tasty and inclusive [Scoop](https://scoop-docs.now.sh/) bucket, providing vari
 
 Spot an error? Find a place which can be improved? Or your favorite application isn't included? Feel free to [submit an issue](https://github.com/kidonng/sushi/issues/new) or make a pull request! **Make sure to read the [contributing guide](CONTRIBUTING.md) first.**
 
-**NOTE**: Some manifests are updated automatically via GitHub Actions to reduce maintenance burden, which *may* cause installation issues.
+**NOTE**: Some manifests are updated automatically via GitHub Actions to reduce maintenance burden, which _may_ cause installation issues.
 
 ## Usage
 
@@ -24,7 +24,6 @@ The lists are sorted alphabetically.
 
 -   **evernote**: Note Taking App - Organize Your Notes with Evernote
 -   **listary-beta**: A revolutionary search utility
--   **microsoft-edge**: The new Microsoft Edge browser
 -   **proxychains**: Windows and Cygwin port of proxychains, based on MinHook and DLL Injection
 -   **tencent-meeting**: Video conferencing app by Tencent
 
@@ -40,10 +39,6 @@ The lists are sorted alphabetically.
 -   [firefox-tete009 \* / firefox-tete009-portable](http://www1.plala.or.jp/tete009/en-US/software.html#FIREFOX)
 
     Portable mode may interfere with other applications, such as MacType's font substitution feature.
-
--   [microsoft-edge / microsoft-edge-beta / microsoft-edge-dev / microsoft-edge-canary](https://www.microsoft.com/edge) `*`
-
-    Can be updated via Scoop, unlike `nonportable/microsoft-edge-beta-np` and `nonportable/microsoft-edge-dev-np`.
 
 </details>
 
@@ -184,12 +179,13 @@ These manifests have been removed from this bucket because there are better/main
 -   [clash](https://github.com/kidonng/sushi/commit/36e97cad86f126b2cd62143950eeef08243b5a2e): use `main/clash`
 -   [fluent-reader](https://github.com/kidonng/sushi/commit/7d89dfbce165118692bc16e15aecea3cf8e19481): use `extras/fluent-reader`
 -   [gping](https://github.com/kidonng/sushi/commit/e3897e1e00479bf15181b1934f91d300c08a2f2f): use `main/gping`
+-   microsoft-edge-\*: use <code>[dorado](https://github.com/chawyehsu/dorado)/microsoftedge-\*</code>
 -   [naiveproxy](https://github.com/kidonng/sushi/commit/45e3dfb98febf44c3fbd51461d7ba989e4102b7b): use `main/naiveproxy`
 -   nali: use `main/nali`
 -   [officetoolplus-beta](https://github.com/kidonng/sushi/commit/bf3060c3a5c67678c41f0fa6ca7edeae46a53043): use <code>[dorado](https://github.com/chawyehsu/dorado)/officetoolplus</code>
 -   [openhashtab](https://github.com/namazso/OpenHashTab): no longer available via Scoop
 -   qv2ray-beta: use `extras/qv2ray`
--   qv2ray-plugin-*-beta: use `sushi/qv2ray-plugin-*` (without `-beta` suffix)
+-   qv2ray-plugin-\*-beta: use `sushi/qv2ray-plugin-*` (without `-beta` suffix)
 -   [scoop-completion](https://github.com/kidonng/sushi/commit/e80f84ed601b592d6508323716013457c9dad625): use <code>[dodorz](https://github.com/dodorz/scoop)/scoop-completion</code>
 -   v2ray-vless: use `main/xray`
 -   [wechatdevtools-32bit](https://github.com/kidonng/sushi/commit/84a1b116472bfb224f4e960696500957b10c44d1): use <code>[dorado](https://github.com/chawyehsu/dorado)/wechatdevtools</code>
