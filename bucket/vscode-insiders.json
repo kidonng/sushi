@@ -1,5 +1,5 @@
 {
-    "version": "1.60.0-202108311414",
+    "version": "1.60.0-202109010100",
     "description": "Visual Studio Code is a lightweight but powerful source code editor (Insiders).",
     "homepage": "https://code.visualstudio.com/insiders/",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://az764295.vo.msecnd.net/insider/efaa9c304bba61bdce8b0d39db5df94ce3a53fb6/VSCode-win32-x64-1.60.0-insider.zip",
-            "hash": "b8c7462e8d4b19c6844b66f0a9a05644c3d1fb501e3bae2ad1a5b537d402f270"
+            "url": "https://az764295.vo.msecnd.net/insider/b6a7847b1d6be302f579ef39d2b9ab891d92eed6/VSCode-win32-x64-1.60.0-insider.zip",
+            "hash": "8cbf05e4c157da9434ec73ec5d6e02e44beecf47078db6f8982fc0e5b708d2bb"
         },
         "32bit": {
-            "url": "https://az764295.vo.msecnd.net/insider/efaa9c304bba61bdce8b0d39db5df94ce3a53fb6/VSCode-win32-ia32-1.60.0-insider.zip",
-            "hash": "81d2bf64a79b4afc868e6f8f00d0b8661e353238d2540f15f46d059dc53901b7"
+            "url": "https://az764295.vo.msecnd.net/insider/b6a7847b1d6be302f579ef39d2b9ab891d92eed6/VSCode-win32-ia32-1.60.0-insider.zip",
+            "hash": "23af63e08bf13e436108a41f164d65b3ab109a947b884048fdcabb3c7cd9eb00"
         }
     },
     "bin": [
