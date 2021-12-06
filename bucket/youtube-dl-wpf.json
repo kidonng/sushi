@@ -30,7 +30,7 @@
             "@{",
             "    'Version' = 1",
             "    'Backend' = 2",
-            "    'BackendPath' = \"$(appdir 'youtube-dl' $global)\\current\\yt-dlp.exe\"",
+            "    'BackendPath' = \"$(appdir 'yt-dlp' $global)\\current\\yt-dlp.exe\"",
             "    'BackendAutoUpdate' = $false",
             "    'FfmpegPath' = $ffmpeg",
             "} | ConvertTo-Json | Out-File \"$dir\\Settings.json\""
