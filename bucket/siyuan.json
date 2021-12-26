@@ -16,9 +16,9 @@
     "installer": {
         "script": [
             "if ([Environment]::Is64BitOperatingSystem) {",
-            "    Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
+            "    Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
             "} else {",
-            "    Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\""
+            "    Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\"",
             "}",
             "Remove-Item \"$dir\\`$*\" -Recurse"
         ]
