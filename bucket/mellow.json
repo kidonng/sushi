@@ -1,12 +1,12 @@
 {
-    "version": "0.1.22",
+    "version": "0.1.21",
     "description": "Mellow is a rule-based global transparent proxy client and also a Proxifier alternative",
     "homepage": "https://github.com/mellow-io/mellow",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mellow-io/mellow/releases/download/v0.1.22/Mellow.Setup.0.1.22.exe#/dl.7z",
-            "hash": "96C95E6669CCB6AFFE6AF283E91222448A5DDF2B5898516EB7C85994B1A6D322"
+            "url": "https://github.com/mellow-io/mellow/releases/download/v0.1.21/Mellow.Setup.0.1.21.exe#/dl.7z",
+            "hash": "f9d36e53fcdd8053e06fbe5cd9cd76df56c95b1c05bcfa7c8f084fffd2e85c78"
         }
     },
     "notes": "We don't persist your Mellow data, they are still storaged in \"$env:APPDATA\\Mellow\".",
@@ -17,7 +17,12 @@
             "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
         ]
     },
-    "shortcuts": [["Mellow.exe", "Mellow"]],
+    "shortcuts": [
+        [
+            "Mellow.exe",
+            "Mellow"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/mellow-io/mellow/releases/download/v$version/Mellow.Setup.$version.exe#/dl.7z"
