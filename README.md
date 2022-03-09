@@ -136,7 +136,6 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 -   [v2ray-domain-list-community](https://github.com/v2ray/domain-list-community)
 -   [v2ray-geoip](https://github.com/v2ray/geoip)
 -   [v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)
--   [v2ray-unstable](https://github.com/v2fly/V2FlyBleedingEdgeBinary)
 
 </details>
 
@@ -187,6 +186,7 @@ These manifests have been removed from this bucket because there are better/main
 -   qv2ray-beta: use `extras/qv2ray`
 -   qv2ray-plugin-\*-beta: use `sushi/qv2ray-plugin-*` (without `-beta` suffix)
 -   [scoop-completion](https://github.com/kidonng/sushi/commit/e80f84ed601b592d6508323716013457c9dad625): use <code>[dodorz](https://github.com/dodorz/scoop)/scoop-completion</code>
+-   [v2ray-unstable](https://github.com/v2fly/V2FlyBleedingEdgeBinary): the repository has been archived
 -   v2ray-vless: use `main/xray`
 -   [wechatdevtools-32bit](https://github.com/kidonng/sushi/commit/84a1b116472bfb224f4e960696500957b10c44d1): use <code>[dorado](https://github.com/chawyehsu/dorado)/wechatdevtools</code>
 -   [xray](https://github.com/XTLS/Xray-core): use `main/xray`
