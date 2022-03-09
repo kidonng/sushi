@@ -107,7 +107,6 @@ Fonts do **not** need administrator rights to **install**, but they are **needed
 -   [mellow](https://github.com/mellow-io/mellow) `#` `*`
 -   [naivesharp](https://github.com/KevinZonda/NaiveSharp)
 -   [outline-server / outline-server-nightly](https://github.com/Jigsaw-Code/outline-server)
--   [proxifier-4](https://www.proxifier.com/)
 -   [shadowsocks-uri-generator](https://github.com/database64128/shadowsocks-uri-generator)
 -   [trojan-client-slim](https://github.com/KevinZonda/trojan-client-slim)
 -   [trojan-qt5](https://github.com/Trojan-Qt5/Trojan-Qt5)
@@ -183,6 +182,7 @@ These manifests have been removed from this bucket because there are better/main
 -   nali: use `main/nali`
 -   [officetoolplus-beta](https://github.com/kidonng/sushi/commit/bf3060c3a5c67678c41f0fa6ca7edeae46a53043): use <code>[dorado](https://github.com/chawyehsu/dorado)/officetoolplus</code>
 -   [openhashtab](https://github.com/namazso/OpenHashTab): no longer available via Scoop
+-   [proxifier-4](https://www.proxifier.com/): use `extras/proxifier`
 -   qv2ray-beta: use `extras/qv2ray`
 -   qv2ray-plugin-\*-beta: use `sushi/qv2ray-plugin-*` (without `-beta` suffix)
 -   [scoop-completion](https://github.com/kidonng/sushi/commit/e80f84ed601b592d6508323716013457c9dad625): use <code>[dodorz](https://github.com/dodorz/scoop)/scoop-completion</code>
