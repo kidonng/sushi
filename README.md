@@ -1,12 +1,24 @@
 # 🍣 Sushi
 
-> Are you a macOS user? Check out my [Homebrew](https://brew.sh/) tap [**Malt**](https://github.com/kidonng/homebrew-malt).
+> **Note**: Are you a macOS user? Check out my [Homebrew](https://brew.sh/) tap [**Malt**](https://github.com/kidonng/homebrew-malt).
+
+## Unmaintained
+
+I've switched to macOS in November 2020, and thus lost motivation and environment to maintain this bucket.
+
+Most stuff should still be functional, and I have no plan to turn off automatic updates until the near future. However, there is **no ETA for any new manifests or bug fixes**.
+
+If something doesn't work quite right, I suggest you find an alternative. Meanwhile, I may submit apps in this bucket to the official buckets when I got the time.
+
+Thank you 🤞
+
+---
 
 A tasty and inclusive [Scoop](https://scoop-docs.now.sh/) bucket, providing various kinds of applications.
 
 Spot an error? Find a place which can be improved? Or your favorite application isn't included? Feel free to [submit an issue](https://github.com/kidonng/sushi/issues/new) or make a pull request! **Make sure to read the [contributing guide](CONTRIBUTING.md) first.**
 
-**NOTE**: Some manifests are updated automatically via GitHub Actions to reduce maintenance burden, which _may_ cause installation issues.
+> **Warning**: Some manifests are updated automatically via GitHub Actions to reduce maintenance burden, which _may_ cause installation issues.
 
 ## Usage
 
