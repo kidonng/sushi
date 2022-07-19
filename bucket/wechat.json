@@ -1,12 +1,12 @@
 {
     "version": "3.7.5.23",
-    "description": "Instant messaging app by Tencent",
-    "homepage": "https://pc.weixin.qq.com/",
+    "description": "Free messaging and calling app by Tencent",
+    "homepage": "https://www.wechat.com/",
     "license": {
-        "identifier": "EULA",
-        "url": "https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_agreement&s=default"
+        "identifier": "Proprietary",
+        "url": "https://www.wechat.com/en/service_terms.html"
     },
-    "notes": "We don't persist your WeChat data, they are still storaged in \"$env:APPDATA\\Tencent\\WeChat\".",
+    "notes": "We don't persist your WeChat data storaged in \"$env:APPDATA\\Tencent\\WeChat\".",
     "url": "https://webcdn.m.qq.com/spcmgr/download/WeChatSetup_3.7.5.23.exe#/dl.7z",
     "hash": "c91856d0721b09a10c7b37013ca93cabb5e618ea768e66a70141052930c0c351",
     "installer": {
@@ -19,7 +19,7 @@
     "shortcuts": [
         [
             "wechat.exe",
-            "微信"
+            "WeChat 微信"
         ]
     ],
     "checkver": {
